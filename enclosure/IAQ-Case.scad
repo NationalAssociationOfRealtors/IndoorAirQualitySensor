@@ -64,7 +64,23 @@ module bottom_cover() {
   }
 }
 
+module pin_outs() {
+  pin_outs_x = .7;
+  pin_outs_y = 1.25; 
+  translate([case_shell, case_shell, case_shell])
+    translate([.7, 1.25, top_cover_height]) {
+      color("green") cube([12, 5.6, case_shell], false);
+  }
+}
 
+module pin_outs_border() {
+  pin_outs_x = 0;
+  pin_outs_y = 0; 
+  translate([case_shell, case_shell, case_shell])
+    translate([0, 0, top_cover_height]) {
+      color("green") cube([14, 8, case_shell], false);
+  }
+}
 module cutouts(){
         microphone(); 
         reset_button();
@@ -87,15 +103,26 @@ module add_text(){
 }
 
 module main(){
-    translate ([0,0,top_cover_height + 2 * case_shell])
-       rotate([180,0,0]){
-            top_cover();
-            translate([1,1, top_cover_height +1])
-            bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
-       }
+    difference(){
+        //translate ([0,0,top_cover_height + 2 * case_shell]){
+        //    rotate([180,0,0]){
+         union(){
+               top_cover();
+                translate([1,1, top_cover_height +1])
+                bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
+                pin_outs_border();
+            }
+ 
+         
+       
+       pin_outs();
+     }
+     
+     
     
      
     
+
 }
 
 main();
