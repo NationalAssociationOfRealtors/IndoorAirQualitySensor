@@ -4,16 +4,51 @@
 // CRT Labs / National Association of REALTORS
 // https://crtlabs.org
 
+
+
+
+
+
 ////////////////////////////////////////////////
 // Includes and Definitions
 ////////////////////////////////////////////////
 use <Write.scad>
-top_cover_height = 1;
+use <honeycomb.scad>
+use <sensorlocations.scad>
+top_cover_height = 3;
 base_width = 47.5;
 base_length = 40.5;
 case_shell = 2;
 spacer = 10;
 font = "orbitron.dxf";
+
+
+////////////////////////////////////////////////
+// Honeycomb Settings
+////////////////////////////////////////////////
+// number of rows and columns, beware that some hexagonal cells are clipped
+// at rectangular box boundaries, so the total number of cells will be
+// smaller than rows * columns
+rows          = 12;
+columns       = 9;
+
+// cell step is hole size between opposite hexagon walls plus inner wall thickness
+cell_step     = 5;
+
+// inner depth of the hexagonal boxes
+hex_height        = 3;
+
+// walls thickness
+inner_walls   = .51;
+outer_walls   = 2.3;
+
+// this clearance should allow fitting of the lid over the bottom box
+lid_clearance = 0.6;
+
+// how far does the lid protrube inside the bottom box
+lid_depth     = 5;
+
+
 ////////////////////////////////////////////////
 // Modules 
 /////////////////////////////////////////////////
@@ -21,7 +56,7 @@ module top_cover() {
   difference() {
       cube([base_length + 2 * case_shell, base_width + 2 * case_shell, top_cover_height + 2 * case_shell]);
       translate([case_shell, case_shell, 0])
-        cube([base_length, base_width, top_cover_height + case_shell]);
+        cube([base_length, base_width, top_cover_height + 2 *case_shell]);
    }
 }
 
@@ -35,70 +70,6 @@ module bottom_cover() {
   }
 }
 
-
-module microphone() {
-  microphone_x = 5.5;
-  microphone_y = 40;
-  translate([case_shell, case_shell, case_shell])
-    translate([microphone_x, microphone_y, top_cover_height]) {
-      color("red") cylinder(h = case_shell, d1 = 7, d2 = 7);
-  }
-}
-
-module reset_button() {
-  reset_button_x = 29.7;
-  reset_button_y = 2.34;
-  translate([case_shell, case_shell, case_shell])
-    translate([reset_button_x, reset_button_y, 0]) {
-      color("blue") cylinder(h = case_shell * 2, d1 = 4, d2 = 4, center = false);
-  }
-}
-
-module pin_outs() {
-  pin_outs_x = .7;
-  pin_outs_y = 1.25; 
-  translate([case_shell, case_shell, case_shell])
-    translate([.7, 1.25, top_cover_height]) {
-      color("green") cube([12, 5.6, case_shell], false);
-  }
-}
-
-module co_no2() {    
-  co_no2_x = 16.9;
-  co_no2_y = 20.5;
-  translate([case_shell, case_shell, case_shell])
-    translate([co_no2_x,  co_no2_y, top_cover_height]) {
-      color("orange") cube([8, 5.5, case_shell], false);
-  }
-}
-
-module pressure() {
-  pressure_x = .5;
-  pressure_y = 31;
-  translate([case_shell, case_shell, case_shell])
-    translate([pressure_x, pressure_y, top_cover_height]) {
-      color("green") cube([3, 5, case_shell], false);
-  }
-}
-
-module temp_humid() {  
-  temp_humid_x = 17;
-  temp_humid_y = 38;
-  translate([case_shell, case_shell, case_shell])
-    translate([temp_humid_x, temp_humid_y, top_cover_height]) {
-      color("green") cube([2, 2, case_shell], false);
-  }
-}
-
-module light_intensity() {
-    
-  light_intensity_x = 17;
-  light_intensity_y = 35;
-  translate([case_shell, case_shell, case_shell])
-    translate([light_intensity_x, light_intensity_y, top_cover_height]) {
-      color("green") cube([2, 2, case_shell], false);
-  }
-}
 
 module cutouts(){
         microphone(); //subtract the rest of the cutouts
@@ -123,14 +94,17 @@ module add_text(){
 
 module main(){
    
-    //for easier print: translate ([0,0,top_cover_height + 2* case_shell]),  rotate([180,0,0])
-    difference(){
-        top_cover();
-        cutouts();
-    }
-    bottom_cover();
-    add_text();
     
+    translate ([0,0,top_cover_height + 2* case_shell])
+       rotate([180,0,0]){
+            top_cover();
+            translate([0,0, top_cover_height + case_shell])
+            bottom_part(rows, columns, cell_step, inner_walls, outer_walls, hex_height);
+       }
+      
+       translate([0,spacer,0]){
+           bottom_part(rows, columns, cell_step, inner_walls, outer_walls, hex_height);
+       }
 }
 
 main();
