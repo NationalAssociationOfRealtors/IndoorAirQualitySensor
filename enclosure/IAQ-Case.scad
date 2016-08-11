@@ -7,9 +7,10 @@
 ////////////////////////////////////////////////
 // Includes and Definitions
 ////////////////////////////////////////////////
-use <Write.scad>
-use <honeycomb.scad>
-use <sensorlocations.scad>
+use <includes/writetext.scad>
+use <includes/honeycomb.scad>
+use <includes/sensorlocations.scad>
+use <includes/roundedcube.scad>
 top_cover_height = 3;
 base_width = 47.5;
 base_length = 40.5;
@@ -27,14 +28,14 @@ rows          = 12;
 columns       = 9;
 
 // cell step is hole size between opposite hexagon walls plus inner wall thickness
-cell_step     = 4.87;
+cell_step     = 5;
 
 // inner depth of the hexagonal boxes
-hex_height        = 3;
+height        = 3;
 
 // walls thickness
-inner_walls   = .51;
-outer_walls   = 2.65;
+inner_walls   = .75;
+outer_walls   = 1;
 
 // this clearance should allow fitting of the lid over the bottom box
 lid_clearance = 0.6;
@@ -47,7 +48,7 @@ lid_depth     = 5;
 /////////////////////////////////////////////////
 module top_cover() {
   difference() {
-      cube([base_length + 2 * case_shell, base_width + 2 * case_shell, top_cover_height + 2 * case_shell]);
+    roundedcube([base_length + 2 * case_shell, base_width + 2 * case_shell, top_cover_height + 2 * case_shell],false,.7);
       translate([case_shell, case_shell, 0])
         cube([base_length, base_width, top_cover_height + 2 *case_shell]);
    }
@@ -86,16 +87,15 @@ module add_text(){
 }
 
 module main(){
-    translate ([0,0,top_cover_height + 2* case_shell])
+    translate ([0,0,top_cover_height + 2 * case_shell])
        rotate([180,0,0]){
             top_cover();
-            translate([0,0, top_cover_height + case_shell])
-            bottom_part(rows, columns, cell_step, inner_walls, outer_walls, hex_height);
+            translate([1,1, top_cover_height +1])
+            bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
        }
-      
-       translate([0,spacer,0]){
-           bottom_part(rows, columns, cell_step, inner_walls, outer_walls, hex_height);
-       }
+    
+     
+    
 }
 
 main();

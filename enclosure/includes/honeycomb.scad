@@ -1,3 +1,4 @@
+use <roundedcube.scad>
 module top_part(rows, columns, cell_step, inner_walls, outer_walls, height, lid_clearance) {
     translate([-(cell_step + outer_walls), 0, height + 2 * outer_walls])
     rotate([0,180,0])
@@ -13,7 +14,7 @@ module top_part(rows, columns, cell_step, inner_walls, outer_walls, height, lid_
 }
 
 
-module honeycomb_row(cells, cell_step, inner_walls, hex_height) {
+module honeycomb_row(cells, cell_step, inner_walls, height) {
     translate([0, 0, -height/2])
     linear_extrude(height=height) {
         for (j = [0 : cells - 1]) {
@@ -43,7 +44,7 @@ module bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height) {
     difference(){
     difference() {
         translate([-outer_walls, -outer_walls, -outer_walls])
-        cube([(columns - 1) * cell_step + 2 * outer_walls,
+        roundedcube([(columns - 1) * cell_step + 2 * outer_walls,
               (rows - 1) * cell_step * sqrt(3) / 2 + 2 * outer_walls,
               height + outer_walls]);
         clipped_honeycomb(rows, columns, cell_step, inner_walls, 2 * height);
