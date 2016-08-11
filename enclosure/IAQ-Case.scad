@@ -28,7 +28,7 @@ rows          = 12;
 columns       = 9;
 
 // cell step is hole size between opposite hexagon walls plus inner wall thickness
-cell_step     = 5;
+cell_step     = 5.07;
 
 // inner depth of the hexagonal boxes
 height        = 3;
