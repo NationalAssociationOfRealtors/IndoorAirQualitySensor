@@ -4,11 +4,6 @@
 // CRT Labs / National Association of REALTORS
 // https://crtlabs.org
 
-
-
-
-
-
 ////////////////////////////////////////////////
 // Includes and Definitions
 ////////////////////////////////////////////////
@@ -22,7 +17,6 @@ case_shell = 2;
 spacer = 10;
 font = "orbitron.dxf";
 
-
 ////////////////////////////////////////////////
 // Honeycomb Settings
 ////////////////////////////////////////////////
@@ -33,21 +27,20 @@ rows          = 12;
 columns       = 9;
 
 // cell step is hole size between opposite hexagon walls plus inner wall thickness
-cell_step     = 5;
+cell_step     = 4.87;
 
 // inner depth of the hexagonal boxes
 hex_height        = 3;
 
 // walls thickness
 inner_walls   = .51;
-outer_walls   = 2.3;
+outer_walls   = 2.65;
 
 // this clearance should allow fitting of the lid over the bottom box
 lid_clearance = 0.6;
 
 // how far does the lid protrube inside the bottom box
 lid_depth     = 5;
-
 
 ////////////////////////////////////////////////
 // Modules 
@@ -72,7 +65,7 @@ module bottom_cover() {
 
 
 module cutouts(){
-        microphone(); //subtract the rest of the cutouts
+        microphone(); 
         reset_button();
         pin_outs();
         co_no2();
@@ -93,8 +86,6 @@ module add_text(){
 }
 
 module main(){
-   
-    
     translate ([0,0,top_cover_height + 2* case_shell])
        rotate([180,0,0]){
             top_cover();
