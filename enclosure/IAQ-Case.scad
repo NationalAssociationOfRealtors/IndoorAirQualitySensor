@@ -11,7 +11,7 @@ use <includes/writetext.scad>
 use <includes/honeycomb.scad>
 use <includes/sensorlocations.scad>
 use <includes/roundedcube.scad>
-top_cover_height = 3;
+top_cover_height = 5;
 base_width = 47.5;
 base_length = 40.5;
 case_shell = 2;
@@ -78,7 +78,7 @@ module pin_outs_border() {
   pin_outs_y = 0; 
   translate([case_shell, case_shell, case_shell])
     translate([0, 0, top_cover_height]) {
-      color("green") cube([14, 8, case_shell], false);
+      color("green") cube([15, 9, case_shell], false);
   }
 }
 module cutouts(){
@@ -91,38 +91,40 @@ module cutouts(){
         temp_humid();
 }
 module add_text(){
-  translate ([base_width +case_shell-7, case_shell, top_cover_height+2*case_shell])
-    rotate([0,0,90])
-      write("CRT Labs IAQ", font = font , h = 2);
+  translate ([base_length + case_shell + 2, base_length/2 - 8, top_cover_height])
+    rotate([90,0,90])
+      write("CRT Labs IAQ Monitor ", font = font , h = 2);
 
 
-  translate ([base_width +case_shell-7, base_length-10, top_cover_height + 2*case_shell])
-   rotate([0,0,90])
+  translate ([base_length + case_shell + 2, base_length-25, top_cover_height-2.75])
+   rotate([90,0,90])
      write("https://crtlabs.org", font = font, h = 1.5);
      
 }
 
+module side_vent(){
+    translate([0,10,0])
+        cube([2,2,4]);
+}
 module main(){
-    difference(){
-        //translate ([0,0,top_cover_height + 2 * case_shell]){
-        //    rotate([180,0,0]){
-         union(){
+    
+translate ([0,0,top_cover_height + 2 * case_shell])
+   rotate([180,0,0]){
+        difference(){
+           union(){
                top_cover();
                 translate([1,1, top_cover_height +1])
                 bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
                 pin_outs_border();
-            }
- 
-         
-       
-       pin_outs();
-     }
-     
-     
+           }       
+        pin_outs();
+         //side_vent();
+        }
+  
+        add_text();
+             
+        }
     
-     
-    
-
 }
 
 main();
