@@ -11,6 +11,7 @@ use <includes/writetext.scad>
 use <includes/honeycomb.scad>
 use <includes/sensorlocations.scad>
 use <includes/roundedcube.scad>
+use <includes/triangles.scad>
 top_cover_height = 5;
 base_width = 47.5;
 base_length = 40.5;
@@ -18,24 +19,25 @@ case_shell = 2;
 spacer = 10;
 font = "orbitron.dxf";
 
+
 ////////////////////////////////////////////////
 // Honeycomb Settings
 ////////////////////////////////////////////////
 // number of rows and columns, beware that some hexagonal cells are clipped
 // at rectangular box boundaries, so the total number of cells will be
 // smaller than rows * columns
-rows          = 12;
-columns       = 9;
+rows          = 8;
+columns       = 6;
 
 // cell step is hole size between opposite hexagon walls plus inner wall thickness
-cell_step     = 5.07;
+cell_step     = 8;
 
 // inner depth of the hexagonal boxes
 height        = 3;
 
 // walls thickness
-inner_walls   = .75;
-outer_walls   = 1;
+inner_walls   = 2;
+outer_walls   = .95;
 
 // this clearance should allow fitting of the lid over the bottom box
 lid_clearance = 0.6;
@@ -46,30 +48,50 @@ lid_depth     = 5;
 ////////////////////////////////////////////////
 // Modules 
 /////////////////////////////////////////////////
+
+module top_slides(){
+  translate([-1,0,0])  
+  cube([1 , base_width+2*case_shell,1]);  
+   
+  translate([base_length+2*case_shell,0,0])  
+  cube([1 , base_width+2*case_shell,1]);  
+   
+   
+}
+
+module build_bottom(){
+  color("pink")translate([-1.20,0,1.25])  
+  cube([1 , base_width+2*case_shell,1]);  
+  
+  translate([-2.2,0,-1])  
+  color("gray")cube([1 , base_width+2*case_shell,3.25]);  
+    
+   translate([-2.2,0,-1.5])  
+  cube([base_length+2*case_shell+4.3, base_width+2*case_shell,1.25]);  
+     
+   translate([base_length+2*case_shell+.2,0,1.25])  
+   color("blue") cube([1 , base_width+2*case_shell,1]); 
+    
+    translate([base_length+2*case_shell+1.1,0,-1])  
+  color("orange")cube([1 , base_width+2*case_shell,3.25]);   
+    
+}
+
 module top_cover() {
   difference() {
-    roundedcube([base_length + 2 * case_shell, base_width + 2 * case_shell, top_cover_height + 2 * case_shell],false,.7);
+    cube([base_length + 2 * case_shell, base_width + 2 * case_shell, top_cover_height + 2 * case_shell]);
       translate([case_shell, case_shell, 0])
         cube([base_length, base_width, top_cover_height + 2 *case_shell]);
    }
-}
-
-module bottom_cover() {
-  translate([0, base_width + spacer, 0]) {
-    difference() {
-      cube([base_length + 2 * case_shell, base_width + 2 * case_shell, top_cover_height + 2 * case_shell]);
-      translate([case_shell, case_shell, case_shell])
-        cube([base_length, base_width, top_cover_height + case_shell]);
-    }
-  }
+  
 }
 
 module pin_outs() {
   pin_outs_x = .7;
-  pin_outs_y = 1.25; 
+  pin_outs_y = 1; 
   translate([case_shell, case_shell, case_shell])
-    translate([.7, 1.25, top_cover_height]) {
-      color("green") cube([12, 5.6, case_shell], false);
+    translate([.7, 1, top_cover_height]) {
+      color("green") cube([14, 6, case_shell], false);
   }
 }
 
@@ -78,7 +100,7 @@ module pin_outs_border() {
   pin_outs_y = 0; 
   translate([case_shell, case_shell, case_shell])
     translate([0, 0, top_cover_height]) {
-      color("green") cube([15, 9, case_shell], false);
+      color("green") cube([16, 8, case_shell], false);
   }
 }
 module cutouts(){
@@ -91,40 +113,37 @@ module cutouts(){
         temp_humid();
 }
 module add_text(){
-  translate ([base_length + case_shell + 2, base_length/2 - 8, top_cover_height])
+  translate ([base_length + case_shell + 1.5, base_length/2 -10, top_cover_height-3.5])
     rotate([90,0,90])
-      write("CRT Labs IAQ Monitor ", font = font , h = 2);
+      write("CRT Labs", font = font , h = 6, bold=2);
 
-
-  translate ([base_length + case_shell + 2, base_length-25, top_cover_height-2.75])
-   rotate([90,0,90])
-     write("https://crtlabs.org", font = font, h = 1.5);
-     
 }
 
 module side_vent(){
     translate([0,10,0])
         cube([2,2,4]);
 }
-module main(){
-    
-translate ([0,0,top_cover_height + 2 * case_shell])
-   rotate([180,0,0]){
-        difference(){
-           union(){
+
+
+module build_top(){  
+  translate ([0,0,top_cover_height + 2 * case_shell])
+    rotate([180,0,0]){
+      difference(){
+        union(){
                top_cover();
-                translate([1,1, top_cover_height +1])
-                bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
-                pin_outs_border();
-           }       
-        pin_outs();
-         //side_vent();
-        }
+               translate([1,1, top_cover_height +1])
+               bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
+               top_slides();
+        }     
+    }
+  }
+}
+
+module main(){
+    build_top();
+    translate([0,spacer,1.5])
+        build_bottom();
   
-        add_text();
-             
-        }
-    
 }
 
 main();
