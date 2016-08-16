@@ -113,11 +113,16 @@ module cutouts(){
         temp_humid();
 }
 module add_text(){
-  translate ([base_length + case_shell + 1.5, base_length/2 -10, top_cover_height-3.5])
-    rotate([90,0,90])
-      write("CRT Labs", font = font , h = 6, bold=2);
+  translate ([base_length /2 , base_width/2 -14 + spacer, case_shell])
+
+      rotate([0,0,90])write("CRT Labs", font = font , h = 6, bold=2);
+   
+  translate ([base_length *2 /3, base_length/2 -2 , top_cover_height-3.5])
+    rotate([0,0,90])
+      write("crtlabs.org", font = font , h = 5);
 
 }
+
 
 module side_vent(){
     translate([0,10,0])
@@ -143,7 +148,7 @@ module main(){
     build_top();
     translate([0,spacer,1.5])
         build_bottom();
-  
+    add_text();
 }
 
 main();
