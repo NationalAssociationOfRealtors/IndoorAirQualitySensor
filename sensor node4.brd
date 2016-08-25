@@ -16,7 +16,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -706,8 +706,8 @@ Board</text>
 <text x="16.1036" y="36.068" size="0.4064" layer="25" rot="SR0" align="bottom-center">MCP1703
 5V Reg</text>
 <text x="6.5024" y="43.6372" size="0.4064" layer="121" rot="R90">MISO</text>
-<text x="6.5024" y="40.9956" size="0.4064" layer="121" rot="R90">MISO</text>
-<text x="6.5024" y="38.4556" size="0.4064" layer="121" rot="R90">MISO</text>
+<text x="6.5024" y="40.9956" size="0.4064" layer="121" rot="R90">SCK</text>
+<text x="6.5024" y="38.4556" size="0.4064" layer="121" rot="R90">RESET</text>
 <text x="6.5024" y="36.1696" size="0.4064" layer="121" rot="R90">RX</text>
 <text x="12.0904" y="43.5864" size="0.4064" layer="121" rot="SR270" align="bottom-right">PWR</text>
 <text x="12.0904" y="40.9448" size="0.4064" layer="121" rot="SR270" align="bottom-right">MOSI</text>
