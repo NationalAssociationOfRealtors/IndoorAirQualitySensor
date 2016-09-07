@@ -6473,7 +6473,7 @@ by exp-lbrs.ulp</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP">
+<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="ATMEGA328PB-AU"/>
 <attribute name="OC_NEWARK" value="58Y6083"/>
@@ -6731,7 +6731,7 @@ by exp-lbrs.ulp</description>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$4" library="RFM69 USB Gateway" deviceset="LOWPOWERLAB_RFM69" device=""/>
+<part name="U$4" library="RFM69 USB Gateway" deviceset="LOWPOWERLAB_RFM69" device="" value="RFM69HW"/>
 </parts>
 <sheets>
 <sheet>
