@@ -1,3 +1,13 @@
+use <../IAQ-Case.scad>
+
+
+
+top_cover_height = 2;
+base_width = 47.5;
+base_length = 40.5;
+case_shell = 2;
+spacer = 10;
+font = "orbitron.dxf";
 
 module microphone() {
   microphone_x = 5.5;

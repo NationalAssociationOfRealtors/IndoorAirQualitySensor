@@ -1,5 +1,5 @@
-// IAQ Cover and Base v.0.01
-// August 2016
+// IAQ Cover and Base v0.3
+// Sept 2016
 // Initial Design to Protect Sensor Board IAQ Circuit Board Designed by Akram Ali
 // CRT Labs / National Association of REALTORS
 // https://crtlabs.org
@@ -7,12 +7,14 @@
 ////////////////////////////////////////////////
 // Includes and Definitions
 ////////////////////////////////////////////////
+
 use <includes/writetext.scad>
 use <includes/honeycomb.scad>
 use <includes/sensorlocations.scad>
-use <includes/roundedcube.scad>
 use <includes/triangles.scad>
-top_cover_height = 12;
+
+
+top_cover_height = 2;
 base_width = 47.5;
 base_length = 40.5;
 case_shell = 2;
@@ -20,12 +22,7 @@ spacer = 10;
 font = "orbitron.dxf";
 
 
-////////////////////////////////////////////////
-// Honeycomb Settings
-////////////////////////////////////////////////
-// number of rows and columns, beware that some hexagonal cells are clipped
-// at rectangular box boundaries, so the total number of cells will be
-// smaller than rows * columns
+
 rows          = 8;
 columns       = 6;
 
@@ -44,7 +41,6 @@ lid_clearance = 0.6;
 
 // how far does the lid protrube inside the bottom box
 lid_depth     = 5;
-
 ////////////////////////////////////////////////
 // Modules 
 /////////////////////////////////////////////////
@@ -153,8 +149,8 @@ module side_vent(){
 
 
 module build_top(){  
-  translate ([0,0,top_cover_height + 2 * case_shell])
-    rotate([180,0,0]){
+  //translate ([0,0,top_cover_height + 2 * case_shell])
+   // rotate([180,0,0]){
       difference(){
         union(){
                top_cover();
@@ -164,14 +160,16 @@ module build_top(){
                inner_channel();
         }     
     }
-  }
-}
+  //}
+//}
 
 module main(){
-  
+  //difference(){
     build_top();
-    translate([1,spacer,0])
-    build_bottom();
+    cutouts();
+  //}
+  //  translate([1,spacer,0])
+ //   build_bottom();
     //add_text();
 }
 

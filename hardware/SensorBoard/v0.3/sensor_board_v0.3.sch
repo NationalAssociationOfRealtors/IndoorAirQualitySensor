@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6751,7 +6751,7 @@ by exp-lbrs.ulp</description>
 <text x="160.02" y="-167.64" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.3
 (September 2016)</text>
 <text x="160.02" y="-175.26" size="1.27" layer="94" font="vector" ratio="10" align="bottom-center">Designed by
-Akram Ali and Dave Conrod</text>
+Akram Ali and Dave Conroy</text>
 <text x="162.56" y="-83.82" size="3.81" layer="94">5V voltage regulator</text>
 <text x="68.58" y="58.42" size="3.81" layer="94">RFM69HW</text>
 <text x="60.96" y="-17.78" size="3.81" layer="94">USB + FTDI</text>
