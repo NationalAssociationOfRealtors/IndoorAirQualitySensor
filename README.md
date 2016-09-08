@@ -3,6 +3,9 @@ An open hardware and software indoor air quality sensor provided by the [Nationa
 
 ![CRT Sensor Board](https://github.com/NationalAssociationOfRealtors/Sensor-Board-v0.01/raw/master/media/sensor_board_v0.2a_cropped.jpg)
 
+<p align="center">
+  <img src="https://github.com/NationalAssociationOfRealtors/SensorBoard/blob/master/media/CRT-Labs-Sensor-Board-v0.03.jpg" alt="CRT Sensor Board OSH Park render"/>
+</p>
 
 Measurement Points:
 
