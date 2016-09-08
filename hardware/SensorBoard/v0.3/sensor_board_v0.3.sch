@@ -7785,8 +7785,8 @@ Akram Ali and Dave Conroy</text>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="9"/>
-<wire x1="-40.64" y1="106.68" x2="-40.64" y2="99.06" width="0.1524" layer="91"/>
-<label x="-40.64" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="-40.64" y1="106.68" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
+<label x="-40.64" y="88.9" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="SEL"/>
