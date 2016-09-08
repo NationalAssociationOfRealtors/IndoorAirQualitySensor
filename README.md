@@ -22,3 +22,6 @@ Connectivity:
 * WiFi (Particle Photon)
 * Cellular (Particle Electron Coming Soon)
 * LoRa (Coming Soon)
+
+License:
+Apache License Version 2.0
