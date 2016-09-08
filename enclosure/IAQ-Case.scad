@@ -12,7 +12,7 @@ use <includes/honeycomb.scad>
 use <includes/sensorlocations.scad>
 use <includes/roundedcube.scad>
 use <includes/triangles.scad>
-top_cover_height = 5;
+top_cover_height = 12;
 base_width = 47.5;
 base_length = 40.5;
 case_shell = 2;
@@ -50,30 +50,52 @@ lid_depth     = 5;
 /////////////////////////////////////////////////
 
 module top_slides(){
-  translate([-1,0,0])  
-  cube([1 , base_width+2*case_shell,1]);  
+  translate([-1,1,0])  
+  cube([1 , base_width+2*case_shell-2,1]);  
    
-  translate([base_length+2*case_shell,0,0])  
-  cube([1 , base_width+2*case_shell,1]);  
+  translate([base_length+2*case_shell,1,0])  
+  cube([1 , base_width+2*case_shell-2,1]);  
+   
+   
+}
+
+
+module inner_channel(){
+  translate([2,1,top_cover_height-3])  
+  color("red") cube([1 , base_width+2*case_shell-2,1]);  
+   
+  translate([base_length+2*case_shell-3,1,top_cover_height-3])  
+  color ("blue")cube([1 , base_width+2*case_shell-2,1]);  
    
    
 }
 
 module build_bottom(){
-  color("pink")translate([-1.20,0,1.25])  
-  cube([1 , base_width+2*case_shell,1]);  
+  color("pink")translate([-2.5,0,1.25])  
+  cube([2,base_width+2*case_shell,1]);  
   
-  translate([-2.2,0,-1])  
+  translate([base_length+2*case_shell+.5,0,1.25])  
+  color("blue") cube([2 , base_width+2*case_shell,1]); 
+    
+  translate([-2.5,0,-1.5])  
   color("gray")cube([1 , base_width+2*case_shell,3.25]);  
     
-   translate([-2.2,0,-1.5])  
+  translate([base_length+2*case_shell+1.5,0,-1.5])  
+  color("orange")cube([1 , base_width+2*case_shell,3.25]);    
+    
+  translate([base_length+2*case_shell+.5,base_width+2*case_shell-1,-1.5])  
+  color("red")cube([1 , 1,3.25]);       
+    
+    
+  translate([-1.5,base_width+2*case_shell-1,-1.5])  
+  color("blue")cube([1 , 1,3.25]);       
+    
+  translate([-2.5,0,-1.5])  
   cube([base_length+2*case_shell+4.3, base_width+2*case_shell,1.25]);  
      
-   translate([base_length+2*case_shell+.2,0,1.25])  
-   color("blue") cube([1 , base_width+2*case_shell,1]); 
+   
     
-    translate([base_length+2*case_shell+1.1,0,-1])  
-  color("orange")cube([1 , base_width+2*case_shell,3.25]);   
+     
     
 }
 
@@ -131,24 +153,28 @@ module side_vent(){
 
 
 module build_top(){  
-  translate ([0,0,top_cover_height + 2 * case_shell])
-    rotate([180,0,0]){
-      difference(){
-        union(){
-               top_cover();
+//  translate ([0,0,top_cover_height + 2 * case_shell])
+  //  rotate([180,0,0]){
+    //  difference(){
+      //  union(){
+             //  top_cover();
                translate([1,1, top_cover_height +1])
                bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
-               top_slides();
-        }     
-    }
-  }
+             //  top_slides();
+             //  inner_channel();
+//        }     
+  //  }
+  //}
 }
 
 module main(){
+    //difference(){
     build_top();
-    translate([0,spacer,1.5])
-        build_bottom();
-    add_text();
+    //cutouts();
+    //}
+    //translate([1,spacer,0])
+    //build_bottom();
+    //add_text();
 }
 
 main();
