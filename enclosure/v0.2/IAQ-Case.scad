@@ -168,10 +168,8 @@ module build_top(){
 }
 
 module main(){
-    difference(){
+  
     build_top();
-    cutouts();
-    }
     translate([1,spacer,0])
     build_bottom();
     //add_text();
