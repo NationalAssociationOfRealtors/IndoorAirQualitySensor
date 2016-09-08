@@ -1,5 +1,5 @@
 /*
-  Sensor Board v0.2
+  Sensor Board v0.3
   Measures Temperature, Relative Humidity, Light intensity,
   Air pressure (and derived altitude), Sound intensity,
   concentrations of CO, NO2, VOC (derived) and CO2 (derived)
