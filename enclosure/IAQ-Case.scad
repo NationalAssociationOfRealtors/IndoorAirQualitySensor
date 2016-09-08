@@ -153,27 +153,27 @@ module side_vent(){
 
 
 module build_top(){  
-//  translate ([0,0,top_cover_height + 2 * case_shell])
-  //  rotate([180,0,0]){
-    //  difference(){
-      //  union(){
-             //  top_cover();
+  translate ([0,0,top_cover_height + 2 * case_shell])
+    rotate([180,0,0]){
+      difference(){
+        union(){
+               top_cover();
                translate([1,1, top_cover_height +1])
                bottom_part(rows, columns, cell_step, inner_walls, outer_walls, height);
-             //  top_slides();
-             //  inner_channel();
-//        }     
-  //  }
-  //}
+               top_slides();
+               inner_channel();
+        }     
+    }
+  }
 }
 
 module main(){
-    //difference(){
+    difference(){
     build_top();
-    //cutouts();
-    //}
-    //translate([1,spacer,0])
-    //build_bottom();
+    cutouts();
+    }
+    translate([1,spacer,0])
+    build_bottom();
     //add_text();
 }
 
