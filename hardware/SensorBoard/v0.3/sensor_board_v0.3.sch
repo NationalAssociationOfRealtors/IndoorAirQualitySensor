@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6688,12 +6688,12 @@ by exp-lbrs.ulp</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
 <part name="U5" library="SparkFun-DigitalIC" deviceset="FT231X" device="S" value="FT231XS"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<part name="RX" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<part name="TX" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -6972,12 +6972,12 @@ Akram Ali and Dave Conroy</text>
 <instance part="GND3" gate="1" x="81.28" y="7.62"/>
 <instance part="J3" gate="G$1" x="78.74" y="-30.48" rot="R180"/>
 <instance part="U5" gate="U$1" x="139.7" y="-48.26"/>
-<instance part="LED1" gate="G$1" x="172.72" y="-58.42" rot="R270">
+<instance part="RX" gate="G$1" x="172.72" y="-58.42" rot="R270">
 <attribute name="OC_NEWARK" x="172.72" y="-58.42" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="172.72" y="-58.42" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="172.72" y="-58.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="LED3" gate="G$1" x="165.1" y="-60.96" rot="R270">
+<instance part="TX" gate="G$1" x="165.1" y="-60.96" rot="R270">
 <attribute name="OC_NEWARK" x="165.1" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="165.1" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="165.1" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
@@ -7876,27 +7876,27 @@ Akram Ali and Dave Conroy</text>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U5" gate="U$1" pin="CBUS1"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="RX" gate="G$1" pin="C"/>
 <wire x1="152.4" y1="-58.42" x2="167.64" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U5" gate="U$1" pin="CBUS2"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="TX" gate="G$1" pin="C"/>
 <wire x1="152.4" y1="-60.96" x2="160.02" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="RX" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="-58.42" x2="180.34" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="TX" gate="G$1" pin="A"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="167.64" y1="-60.96" x2="172.72" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
