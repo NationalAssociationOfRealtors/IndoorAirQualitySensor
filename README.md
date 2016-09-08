@@ -1,7 +1,8 @@
 # Open Air Quality Sensor
 An open hardware and software indoor air quality sensor provided by the National Association of REALTORS.
 
-![CRT Sensor Board](https://github.com/NationalAssociationOfRealtors/Sensor-Board-v0.01/raw/master/media/sensor_board_v0.2a.jpg)
+![CRT Sensor Board](https://github.com/NationalAssociationOfRealtors/Sensor-Board-v0.01/raw/master/media/sensor_board_v0.2a_cropped.jpg)
+
 
 Measurement Points:
 
