@@ -8278,14 +8278,14 @@ Akram Ali and Dave Conroy</text>
 <net name="ANT" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="ANT"/>
-<wire x1="93.98" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="30.48" x2="99.06" y2="30.48" width="0.1524" layer="91"/>
 <label x="101.6" y="30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="99.06" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="30.48" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
+<junction x="99.06" y="30.48"/>
 <pinref part="X1" gate="G$1" pin="ANT"/>
-<wire x1="116.84" y1="30.48" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="33.02" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="38.1" x2="101.6" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="38.1" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<junction x="93.98" y="30.48"/>
+<wire x1="116.84" y1="38.1" x2="116.84" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
