@@ -1098,7 +1098,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <smd name="GND@4" x="2.032" y="-2.54" dx="1.524" dy="4.064" layer="16" rot="R90" cream="no"/>
 <text x="5.08" y="6.985" size="1.016" layer="25" ratio="18" rot="R180">&gt;NAME</text>
 <text x="5.08" y="-7.62" size="0.8128" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<text x="5.08" y="-6.35" size="1.016" layer="25" ratio="18" rot="R180">&gt;LABEL</text>
 <rectangle x1="0" y1="-0.3175" x2="3.175" y2="0.3175" layer="51"/>
 <polygon width="0.127" layer="51">
 <vertex x="-1.524" y="3.048"/>
@@ -2165,7 +2164,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="29.6926" y="14.9606" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="30.4546" y="16.4084" size="0.508" layer="121" font="vector" rot="R180"/>
 </element>
-<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT5088-NPN" x="29.718" y="18.8722" smashed="yes">
+<element name="Q1" library="SparkFun-DiscreteSemi" package="SOT23-3" value="MMBT5088" x="29.718" y="18.8722" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-11160" x="29.718" y="18.8722" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="29.718" y="18.8722" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="29.718" y="18.8722" size="1.778" layer="27" display="off"/>

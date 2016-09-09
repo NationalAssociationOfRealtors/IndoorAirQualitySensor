@@ -2299,7 +2299,6 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <smd name="GND@4" x="2.032" y="-2.54" dx="1.524" dy="4.064" layer="16" rot="R90" cream="no"/>
 <text x="5.08" y="6.985" size="1.016" layer="25" ratio="18" rot="R180">&gt;NAME</text>
 <text x="5.08" y="-7.62" size="0.8128" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<text x="5.08" y="-6.35" size="1.016" layer="25" ratio="18" rot="R180">&gt;LABEL</text>
 <rectangle x1="0" y1="-0.3175" x2="3.175" y2="0.3175" layer="51"/>
 <polygon width="0.127" layer="51">
 <vertex x="-1.524" y="3.048"/>
@@ -4359,7 +4358,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbols>
 <devicesets>
 <deviceset name="TRANSISTOR_NPN" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;Generic NPN BJT&lt;/b&gt;
+<description>&lt;b&gt;Generic NPN BJT&lt;/b&gt; 
 &lt;p&gt;
 MMBT2222A - TRANS-08049 (SOT-23, 1A 40V)&lt;br&gt;
 MPSA42 - TRANS-09116 (SOT-23, 500mA 300V)&lt;br&gt;
@@ -4367,17 +4366,17 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;
-    BC547 -
+    BC547 - 
     &lt;a href="http://www.sparkfun.com/products/8928"&gt;COM-08928&lt;/a&gt;
     (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)
   &lt;/li&gt;
   &lt;li&gt;
-    2N3904 -
+    2N3904 - 
     &lt;a href="http://www.sparkfun.com/products/521"&gt;COM-00521&lt;/a&gt;
     (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)
   &lt;/li&gt;
   &lt;li&gt;
-    P2N2222A -
+    P2N2222A - 
     &lt;a href="http://www.sparkfun.com/products/12852"&gt;COM-12852&lt;/a&gt;
     (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)
   &lt;/li&gt;
@@ -6790,7 +6789,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT5088" value="MMBT5088-NPN">
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT5088" value="MMBT5088">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
