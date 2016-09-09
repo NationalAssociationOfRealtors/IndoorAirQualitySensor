@@ -9,21 +9,21 @@ An open hardware and software indoor air quality sensor provided by the [Nationa
 
 Measurement Points:
 
-* Temperature
-* Relative Humidity
-* VOC (Volatile Organic Compounds)
-* Derived CO2
-* Barometric Pressure
-* Light Intensity
-* CO Concentration
-* NO2 Concentration
-* Sound Intensity
+* Temperature (SHT31)
+* Relative Humidity (SHT31)
+* VOC (Volatile Organic Compounds) (IAQ Core)
+* Derived CO2 (IAQ Core)
+* Barometric Pressure (MPL3115A2)
+* Light Intensity (TSL2561)
+* CO Concentration (MiCS-4154)
+* NO2 Concentration (MiCS-4154)
+* Sound Intensity (ADMP401)
 
 Connectivity:
 
-* FSK (RFM69 433mhz and 915mhz)
+* FSK (RFM69HW 433/915MHz)
 * WiFi (Particle Photon)
-* Cellular (Particle Electron Coming Soon)
+* Cellular (Particle Electron) (Coming soon)
 * LoRa (Coming Soon)
 
 License:
