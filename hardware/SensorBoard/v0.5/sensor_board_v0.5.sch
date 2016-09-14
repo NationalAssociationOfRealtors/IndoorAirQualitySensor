@@ -6705,6 +6705,7 @@ by exp-lbrs.ulp</description>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$4" library="RFM69 USB Gateway" deviceset="LOWPOWERLAB_RFM69" device="" value="RFM69HW"/>
 <part name="X1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE"/>
+<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -6982,6 +6983,7 @@ Akram Ali and Dave Conroy</text>
 <instance part="GND10" gate="1" x="124.46" y="-73.66"/>
 <instance part="U$4" gate="G$1" x="81.28" y="27.94"/>
 <instance part="X1" gate="G$1" x="124.46" y="30.48"/>
+<instance part="C15" gate="G$1" x="236.22" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -7003,6 +7005,9 @@ Akram Ali and Dave Conroy</text>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="68.58" x2="251.46" y2="60.96" width="0.1524" layer="91"/>
 <junction x="251.46" y="60.96"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="73.66" x2="236.22" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="60.96" x2="251.46" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -7258,6 +7263,10 @@ Akram Ali and Dave Conroy</text>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <wire x1="251.46" y1="106.68" x2="251.46" y2="127" width="0.1524" layer="91"/>
 <junction x="251.46" y="106.68"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="101.6" x2="236.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="101.6" x2="236.22" y2="81.28" width="0.1524" layer="91"/>
+<junction x="251.46" y="101.6"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -7494,22 +7503,23 @@ Akram Ali and Dave Conroy</text>
 <pinref part="U1" gate="U$1" pin="PC6(/RESET)"/>
 <wire x1="256.54" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="114.3" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <junction x="243.84" y="111.76"/>
-<wire x1="236.22" y1="106.68" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="S" pin="4"/>
 <wire x1="223.52" y1="111.76" x2="228.6" y2="111.76" width="0.1524" layer="91"/>
-<junction x="236.22" y="111.76"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="116.84" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
 <junction x="228.6" y="111.76"/>
 <pinref part="RESET" gate="S" pin="3"/>
 <wire x1="228.6" y1="114.3" x2="228.6" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <junction x="228.6" y="114.3"/>
-<label x="236.22" y="106.68" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="228.6" y="101.6" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="228.6" y1="101.6" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="104.14" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
+<junction x="236.22" y="111.76"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
