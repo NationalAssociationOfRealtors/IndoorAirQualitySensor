@@ -7859,7 +7859,7 @@ Akram Ali and Dave Conroy</text>
 <wire x1="167.64" y1="-60.96" x2="172.72" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="VBUS" class="0">
 <segment>
 <pinref part="U5" gate="U$1" pin="VCC"/>
 <pinref part="C11" gate="G$1" pin="1"/>
