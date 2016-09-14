@@ -6461,7 +6461,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="ATMEGA328PB-AU"/>
 <attribute name="OC_NEWARK" value="58Y6083"/>
 </part>
-<part name="U$1" library="thomasb9511" deviceset="SHT31-DIS" device="">
+<part name="U7" library="thomasb9511" deviceset="SHT31-DIS" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="SHT31-DIS-B"/>
 <attribute name="OC_NEWARK" value="47Y1304"/>
@@ -6527,7 +6527,7 @@ by exp-lbrs.ulp</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC1" library="linear" deviceset="MCP1703" device="CB">
+<part name="U8" library="linear" deviceset="MCP1703" device="CB">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCP1703T-2502E/CB"/>
 <attribute name="OC_NEWARK" value="18T9177"/>
@@ -6597,7 +6597,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="IC2" library="linear" deviceset="MCP1703" device="CB">
+<part name="U9" library="linear" deviceset="MCP1703" device="CB">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value="MCP1703T-2502E/CB"/>
 <attribute name="OC_NEWARK" value="18T9177"/>
@@ -6612,7 +6612,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="U$2" library="SparkFun-Sensors" deviceset="ADMP401" device=""/>
+<part name="U6" library="SparkFun-Sensors" deviceset="ADMP401" device=""/>
 <part name="U$3" library="SparkFun-AnalogIC" deviceset="OPA344" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100pF">
 <attribute name="MF" value=""/>
@@ -6727,6 +6727,10 @@ Akram Ali and Dave Conroy</text>
 <text x="-53.34" y="-20.32" size="3.81" layer="94">5V voltage regulator</text>
 <text x="68.58" y="58.42" size="3.81" layer="94">RFM69HW</text>
 <text x="60.96" y="-17.78" size="3.81" layer="94">USB + FTDI</text>
+<text x="68.58" y="86.36" size="1.778" layer="97">0x39</text>
+<text x="165.1" y="91.44" size="1.778" layer="97">0x60</text>
+<text x="187.96" y="5.08" size="1.778" layer="97">0x5A</text>
+<text x="309.88" y="-30.48" size="1.778" layer="97">0x44</text>
 </plain>
 <instances>
 <instance part="U1" gate="U$1" x="281.94" y="81.28">
@@ -6734,7 +6738,7 @@ Akram Ali and Dave Conroy</text>
 <attribute name="MF" x="281.94" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="281.94" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="304.8" y="-17.78">
+<instance part="U7" gate="G$1" x="304.8" y="-17.78">
 <attribute name="OC_NEWARK" x="304.8" y="-17.78" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="304.8" y="-17.78" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="304.8" y="-17.78" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6800,7 +6804,7 @@ Akram Ali and Dave Conroy</text>
 <attribute name="MPN" x="340.36" y="71.12" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="347.98" y="60.96"/>
-<instance part="IC1" gate="G$1" x="-30.48" y="35.56">
+<instance part="U8" gate="G$1" x="-30.48" y="35.56">
 <attribute name="OC_NEWARK" x="-30.48" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="-30.48" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="-30.48" y="35.56" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6870,7 +6874,7 @@ Akram Ali and Dave Conroy</text>
 <attribute name="MF" x="81.28" y="-119.38" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="81.28" y="-119.38" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="IC2" gate="G$1" x="-30.48" y="-38.1">
+<instance part="U9" gate="G$1" x="-30.48" y="-38.1">
 <attribute name="OC_NEWARK" x="-30.48" y="-38.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="-30.48" y="-38.1" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="-30.48" y="-38.1" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6885,7 +6889,7 @@ Akram Ali and Dave Conroy</text>
 <attribute name="MF" x="2.54" y="-48.26" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="2.54" y="-48.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="U$2" gate="G$1" x="274.32" y="-119.38"/>
+<instance part="U6" gate="G$1" x="274.32" y="-119.38"/>
 <instance part="U$3" gate="G$1" x="327.66" y="-121.92"/>
 <instance part="C2" gate="G$1" x="330.2" y="-91.44" rot="R90">
 <attribute name="OC_NEWARK" x="330.2" y="-91.44" size="1.778" layer="96" display="off"/>
@@ -7004,7 +7008,7 @@ Akram Ali and Dave Conroy</text>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-60.96" y1="22.86" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="20.32" x2="-30.48" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="U8" gate="G$1" pin="GND"/>
 <wire x1="-30.48" y1="20.32" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-30.48" y="20.32"/>
@@ -7161,7 +7165,7 @@ Akram Ali and Dave Conroy</text>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="-60.96" y1="-50.8" x2="-60.96" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-53.34" x2="-30.48" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
 <wire x1="-30.48" y1="-53.34" x2="-30.48" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="-53.34" x2="2.54" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="-30.48" y="-53.34"/>
@@ -7172,12 +7176,12 @@ Akram Ali and Dave Conroy</text>
 <label x="2.54" y="-60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND@2"/>
+<pinref part="U6" gate="G$1" pin="GND@2"/>
 <wire x1="264.16" y1="-121.92" x2="261.62" y2="-121.92" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="-121.92" x2="261.62" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND@4"/>
+<pinref part="U6" gate="G$1" pin="GND@4"/>
 <wire x1="261.62" y1="-124.46" x2="264.16" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND@6"/>
+<pinref part="U6" gate="G$1" pin="GND@6"/>
 <wire x1="264.16" y1="-127" x2="261.62" y2="-127" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="-127" x2="261.62" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="261.62" y="-124.46"/>
@@ -7209,17 +7213,17 @@ Akram Ali and Dave Conroy</text>
 <label x="327.66" y="-35.56" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
 <wire x1="320.04" y1="-10.16" x2="325.12" y2="-10.16" width="0.1524" layer="91"/>
 <label x="332.74" y="-10.16" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="NC"/>
+<pinref part="U7" gate="G$1" pin="NC"/>
 <wire x1="325.12" y1="-10.16" x2="332.74" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="-15.24" x2="325.12" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="-15.24" x2="325.12" y2="-10.16" width="0.1524" layer="91"/>
 <junction x="325.12" y="-10.16"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="ADDR"/>
+<pinref part="U7" gate="G$1" pin="ADDR"/>
 <wire x1="289.56" y1="-15.24" x2="284.48" y2="-15.24" width="0.1524" layer="91"/>
 <label x="284.48" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7267,7 +7271,7 @@ Akram Ali and Dave Conroy</text>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U7" gate="G$1" pin="VCC"/>
 <wire x1="320.04" y1="-25.4" x2="327.66" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
@@ -7276,7 +7280,7 @@ Akram Ali and Dave Conroy</text>
 <junction x="327.66" y="-25.4"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VO"/>
+<pinref part="U8" gate="G$1" pin="VO"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="35.56" x2="2.54" y2="30.48" width="0.1524" layer="91"/>
@@ -7314,7 +7318,7 @@ Akram Ali and Dave Conroy</text>
 <wire x1="327.66" y1="-114.3" x2="327.66" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
+<pinref part="U6" gate="G$1" pin="VDD"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="-111.76" x2="254" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="254" y1="-111.76" x2="254" y2="-114.3" width="0.1524" layer="91"/>
@@ -7346,7 +7350,7 @@ Akram Ali and Dave Conroy</text>
 <label x="154.94" y="24.13" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCL"/>
+<pinref part="U7" gate="G$1" pin="SCL"/>
 <wire x1="289.56" y1="-25.4" x2="280.67" y2="-25.4" width="0.1524" layer="91"/>
 <label x="280.67" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7373,7 +7377,7 @@ Akram Ali and Dave Conroy</text>
 <junction x="317.5" y="101.6"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDA"/>
+<pinref part="U7" gate="G$1" pin="SDA"/>
 <wire x1="289.56" y1="-10.16" x2="280.67" y2="-10.16" width="0.1524" layer="91"/>
 <label x="280.67" y="-10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -7422,7 +7426,7 @@ Akram Ali and Dave Conroy</text>
 </net>
 <net name="PWR" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="VI"/>
+<pinref part="U8" gate="G$1" pin="VI"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="35.56" x2="-60.96" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="35.56" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
@@ -7435,7 +7439,7 @@ Akram Ali and Dave Conroy</text>
 <label x="-20.32" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VI"/>
+<pinref part="U9" gate="G$1" pin="VI"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="-40.64" y1="-38.1" x2="-60.96" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="-38.1" x2="-60.96" y2="-43.18" width="0.1524" layer="91"/>
@@ -7690,7 +7694,7 @@ Akram Ali and Dave Conroy</text>
 <wire x1="73.66" y1="-114.3" x2="81.28" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VO"/>
+<pinref part="U9" gate="G$1" pin="VO"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="-38.1" x2="2.54" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-38.1" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
@@ -7771,7 +7775,7 @@ Akram Ali and Dave Conroy</text>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
+<pinref part="U6" gate="G$1" pin="OUT"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="-119.38" x2="287.02" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
