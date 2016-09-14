@@ -6466,7 +6466,7 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="SHT31-DIS-B"/>
 <attribute name="OC_NEWARK" value="47Y1304"/>
 </part>
-<part name="U2" library="SparkFun-DigitalIC" deviceset="TSL2561" device="FN">
+<part name="U2" library="SparkFun-DigitalIC" deviceset="TSL2561" device="FN" value="TSL2561">
 <attribute name="DIGIKEY#" value="TSL2561-FNCT-ND"/>
 <attribute name="MANF" value="AMS-TAOS-USA-Inc."/>
 <attribute name="MANF#" value="TSL2561FN"/>
