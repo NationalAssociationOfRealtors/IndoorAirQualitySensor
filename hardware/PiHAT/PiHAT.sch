@@ -6871,20 +6871,6 @@ Akram Ali</text>
 <label x="464.82" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TXD" class="0">
-<segment>
-<pinref part="RPI1" gate="G$1" pin="TXD"/>
-<wire x1="190.5" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
-<label x="193.04" y="124.46" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RXD" class="0">
-<segment>
-<pinref part="RPI1" gate="G$1" pin="RXD"/>
-<wire x1="205.74" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
-<label x="193.04" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GPIO18" class="0">
 <segment>
 <pinref part="RPI1" gate="G$1" pin="GPIO18"/>
@@ -7072,6 +7058,12 @@ Akram Ali</text>
 <junction x="149.86" y="132.08"/>
 <label x="139.7" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="50.8" x2="340.36" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="50.8" x2="342.9" y2="53.34" width="0.1524" layer="91"/>
+<label x="342.9" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="D5" class="0">
 <segment>
@@ -7094,14 +7086,6 @@ Akram Ali</text>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="436.88" y1="106.68" x2="429.26" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="429.26" y1="106.68" x2="429.26" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PWR" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="50.8" x2="340.36" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="50.8" x2="342.9" y2="53.34" width="0.1524" layer="91"/>
-<label x="342.9" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -7233,6 +7217,11 @@ Akram Ali</text>
 <wire x1="485.14" y1="109.22" x2="492.76" y2="109.22" width="0.1524" layer="91"/>
 <label x="492.76" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RPI1" gate="G$1" pin="TXD"/>
+<wire x1="190.5" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
+<label x="193.04" y="124.46" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TX" class="0">
 <segment>
@@ -7244,6 +7233,11 @@ Akram Ali</text>
 <pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
 <wire x1="485.14" y1="106.68" x2="492.76" y2="106.68" width="0.1524" layer="91"/>
 <label x="492.76" y="106.68" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RPI1" gate="G$1" pin="RXD"/>
+<wire x1="205.74" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<label x="193.04" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
