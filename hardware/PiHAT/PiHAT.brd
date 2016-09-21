@@ -3631,7 +3631,7 @@ einem neuen Namen ab.</description>
 <via x="22.2758" y="4.1402" extent="1-16" drill="0.6"/>
 <via x="27.3812" y="10.795" extent="1-16" drill="0.6"/>
 <via x="39.243" y="6.3246" extent="1-16" drill="0.6"/>
-<wire x1="26.6256" y1="21.0058" x2="28.2256" y2="21.0058" width="0" layer="19" extent="1-1"/>
+<via x="26.162" y="30.5308" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="GPIO18">
 <contactref element="RPI1" pad="12"/>
