@@ -11,8 +11,8 @@
 #include <avr/wdt.h>
 
 // define node parameters
-char node[] = "2";
-#define NODEID        2 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
+char node[] = "3";
+#define NODEID        3 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
 #define GATEWAYID     1
 #define NETWORKID     101
 #define FREQUENCY     RF69_915MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
@@ -94,7 +94,7 @@ void sleep()
   cli();          // stop interrupts
   MCUSR = 0;
   WDTCSR  = (1<<WDCE | 1<<WDE);     // watchdog change enable
-  WDTCSR  = 1<<WDIE | (1<<WDP3) | (0<<WDP2) | (0<<WDP1) | (1<<WDP0); // set  prescaler to 8 second
+  WDTCSR  = 1<<WDIE | (1<<WDP3) | (0<<WDP2) | (0<<WDP1) | (0<<WDP0); // set  prescaler to 4 second
   sei();  // enable global interrupts
 
   byte _ADCSRA = ADCSRA;  // save ADC state
@@ -124,7 +124,8 @@ void sleep()
 void loop() 
 {
   sleep();
-  
+
+  long t1 = millis();
   readSensors();
   
   Serial.println(dataPacket);
@@ -135,6 +136,8 @@ void loop()
   radio.sendWithRetry(GATEWAYID, dataPacket, strlen(dataPacket), 5, 100);  // send data, retry 5 times with delay of 100ms between each retry
   dataPacket[0] = (char)0; // clearing first byte of char array clears the array
 
+  long t2 = millis();
+  Serial.println(t2-t1);
   /*
   // blink LED after sending to give visual indication on the board
   digitalWrite(9, HIGH);
@@ -142,6 +145,8 @@ void loop()
   digitalWrite(9, LOW);
   */
   fadeLED();
+  long t3 = millis();
+  Serial.println(t3-t2);
 }
 
 
@@ -347,7 +352,7 @@ void fadeLED()
       fadeAmount = -fadeAmount;
     }
     // wait for 20-30 milliseconds to see the dimming effect
-    delay(20);
+    delay(10);
   }
   digitalWrite(9, LOW); // switch LED off at the end of fade
 }
