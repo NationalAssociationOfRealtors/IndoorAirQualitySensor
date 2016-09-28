@@ -32,10 +32,10 @@
 <layer number="22" name="bPlace" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -95,7 +95,7 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="sName" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -113,7 +113,7 @@
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
@@ -138,13 +138,13 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
@@ -152,7 +152,7 @@
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -3042,10 +3042,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <designrules name="adafruit *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
+Die Standard-Design-Rules sind so gewählt, dass sie für
+die meisten Anwendungen passen. Sollte ihre Platine
 besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
+Einstellungen hier und speichern die Design Rules unter
 einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;Adafruit board design rules&lt;/b&gt;
 &lt;p&gt;
@@ -3452,8 +3452,7 @@ einem neuen Namen ab.</description>
 <via x="27.559" y="5.9944" extent="1-16" drill="0.6"/>
 <wire x1="27.559" y1="5.9944" x2="27.559" y2="3.584" width="0.3048" layer="1"/>
 <wire x1="27.559" y1="3.584" x2="27.572" y2="3.571" width="0.3048" layer="1"/>
-<wire x1="15.9766" y1="0.0508" x2="15.4178" y2="0.6096" width="0.3048" layer="1"/>
-<wire x1="15.4178" y1="0.6096" x2="15.4178" y2="2.2792" width="0.3048" layer="1"/>
+<wire x1="15.4178" y1="0.3302" x2="15.4178" y2="2.2792" width="0.3048" layer="1"/>
 <wire x1="15.4178" y1="2.2792" x2="15.399" y2="2.298" width="0.3048" layer="1"/>
 <wire x1="35.1934" y1="14.351" x2="33.8074" y2="14.351" width="0.3048" layer="1"/>
 <wire x1="33.8074" y1="14.351" x2="32.639" y2="15.5194" width="0.3048" layer="1"/>
@@ -3477,11 +3476,12 @@ einem neuen Namen ab.</description>
 <via x="34.2392" y="34.2646" extent="1-16" drill="0.6"/>
 <wire x1="34.2392" y1="34.2646" x2="34.2392" y2="30.0342" width="0.3048" layer="1"/>
 <wire x1="34.2392" y1="30.0342" x2="34.217" y2="30.012" width="0.3048" layer="1"/>
-<wire x1="15.9766" y1="0.0508" x2="29.972" y2="0.0508" width="0.3048" layer="1"/>
-<wire x1="29.972" y1="0.0508" x2="30.6578" y2="0.7366" width="0.3048" layer="1"/>
 <via x="30.6578" y="0.7366" extent="1-16" drill="0.6"/>
 <wire x1="30.6578" y1="0.7366" x2="30.6578" y2="2.8956" width="0.3048" layer="16"/>
 <wire x1="30.6578" y1="2.8956" x2="27.559" y2="5.9944" width="0.3048" layer="16"/>
+<wire x1="30.6578" y1="0.7366" x2="29.7688" y2="-0.1524" width="0.3048" layer="1"/>
+<wire x1="15.4178" y1="0.3302" x2="15.9004" y2="-0.1524" width="0.3048" layer="1"/>
+<wire x1="15.9004" y1="-0.1524" x2="29.7688" y2="-0.1524" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="28"/>
@@ -3496,10 +3496,6 @@ einem neuen Namen ab.</description>
 <wire x1="15.399" y1="3.798" x2="16.1932" y2="3.798" width="0.3048" layer="1"/>
 <wire x1="16.1932" y1="3.798" x2="16.9926" y2="4.5974" width="0.3048" layer="1"/>
 <via x="16.9926" y="4.5974" extent="1-16" drill="0.6"/>
-<wire x1="16.9926" y1="4.5974" x2="16.9926" y2="1.016" width="0.3048" layer="16"/>
-<wire x1="16.9926" y1="1.016" x2="17.6022" y2="0.4064" width="0.3048" layer="16"/>
-<wire x1="17.6022" y1="0.4064" x2="21.4884" y2="0.4064" width="0.3048" layer="16"/>
-<wire x1="21.4884" y1="0.4064" x2="22.2758" y2="1.1938" width="0.3048" layer="16"/>
 <via x="22.2758" y="1.1938" extent="1-16" drill="0.6"/>
 <wire x1="22.2758" y1="1.1938" x2="27.2034" y2="1.1938" width="0.3048" layer="1"/>
 <wire x1="27.2034" y1="1.1938" x2="27.559" y2="1.5494" width="0.3048" layer="1"/>
@@ -3531,6 +3527,11 @@ einem neuen Namen ab.</description>
 <wire x1="36.7538" y1="39.2684" x2="35.7886" y2="38.3032" width="0.3048" layer="1"/>
 <wire x1="35.7886" y1="38.3032" x2="30.861" y2="38.3032" width="0.3048" layer="1"/>
 <wire x1="30.861" y1="38.3032" x2="30.8356" y2="38.2778" width="0.3048" layer="1"/>
+<wire x1="16.9926" y1="4.5974" x2="16.9926" y2="1.143" width="0.3048" layer="16"/>
+<wire x1="16.9926" y1="1.143" x2="17.0434" y2="1.143" width="0.3048" layer="16"/>
+<wire x1="17.0434" y1="1.143" x2="18.3388" y2="-0.1524" width="0.3048" layer="16"/>
+<wire x1="18.3388" y1="-0.1524" x2="20.9296" y2="-0.1524" width="0.3048" layer="16"/>
+<wire x1="20.9296" y1="-0.1524" x2="22.2758" y2="1.1938" width="0.3048" layer="16"/>
 </signal>
 <signal name="GPIO4">
 <contactref element="RPI1" pad="7"/>
@@ -3631,7 +3632,7 @@ einem neuen Namen ab.</description>
 <via x="22.2758" y="4.1402" extent="1-16" drill="0.6"/>
 <via x="27.3812" y="10.795" extent="1-16" drill="0.6"/>
 <via x="39.243" y="6.3246" extent="1-16" drill="0.6"/>
-<via x="26.162" y="30.5308" extent="1-16" drill="0.6"/>
+<via x="25.4508" y="31.5976" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="GPIO18">
 <contactref element="RPI1" pad="12"/>

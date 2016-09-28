@@ -6551,7 +6551,11 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M05X2" device="PTH"/>
 <part name="U4" library="SparkFun-Sensors" deviceset="MPL115A" device=""/>
-<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -6829,7 +6833,11 @@ Akram Ali and Dave Conroy</text>
 <instance part="SUPPLY11" gate="G$1" x="243.84" y="127"/>
 <instance part="J2" gate="G$1" x="-33.02" y="111.76"/>
 <instance part="U4" gate="G$1" x="160.02" y="101.6"/>
-<instance part="C13" gate="G$1" x="132.08" y="96.52"/>
+<instance part="C13" gate="G$1" x="132.08" y="96.52">
+<attribute name="MF" x="132.08" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="132.08" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="OC_NEWARK" x="132.08" y="96.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C14" gate="G$1" x="124.46" y="96.52"/>
 <instance part="SUPPLY12" gate="G$1" x="124.46" y="111.76"/>
 <instance part="GND5" gate="1" x="-7.62" y="101.6"/>
