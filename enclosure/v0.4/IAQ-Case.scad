@@ -173,7 +173,7 @@ translate([4,(base_width + case_shell) *55/100, ceiling])
 }
 
 module antenna() {
-  antenna_x = 3.85;
+  antenna_x = 3.95;
   antenna_y = base_width;
   translate([case_shell, case_shell*2, 0])
     translate([antenna_x, antenna_y, 4.5]) {
@@ -226,7 +226,7 @@ module main() {
     //}
     // translate([1,spacer,0])
 
-    build_bottom();
+    //build_bottom();
 
 }
 
