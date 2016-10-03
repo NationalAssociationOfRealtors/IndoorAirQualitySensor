@@ -11,8 +11,8 @@
 #include <avr/wdt.h>
 
 // define node parameters
-char node[] = "3";
-#define NODEID        3 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
+char node[] = "2";
+#define NODEID        2 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
 #define GATEWAYID     1
 #define NETWORKID     101
 #define FREQUENCY     RF69_915MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
