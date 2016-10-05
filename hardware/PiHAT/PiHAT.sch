@@ -6239,10 +6239,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="82">
-<attribute name="DIGIKEY#" value="541-82.0CCT-NDE"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
 </part>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22K">
-<attribute name="DIGIKEY#" value="311-22KARCT-NDE"/>
+<attribute name="DIGIKEY#" value="311-22KARCT-ND"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
@@ -6251,13 +6251,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY#" value="RHM51KCT-ND"/>
 </part>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="82">
-<attribute name="DIGIKEY#" value="541-82.0CCT-NDE"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
 </part>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="DIGIKEY#" value="311-100KCRCT-NDE"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-ND"/>
 </part>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100">
-<attribute name="DIGIKEY#" value="311-100CRCT-NDE"/>
+<attribute name="DIGIKEY#" value="311-100CRCT-ND"/>
 </part>
 <part name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNEL" device="BSS138"/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
@@ -6291,7 +6291,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
 </part>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="DIGIKEY#" value="541-82.0CCT-NDE"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
 </part>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
