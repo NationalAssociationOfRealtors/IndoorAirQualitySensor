@@ -3317,6 +3317,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="U4" library="SparkFun-Sensors" package="LGA8" value="MPL115A" x="35.814" y="4.1402" smashed="yes" rot="R180">
 <attribute name="VALUE" x="32.639" y="6.858" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="DIGIKEY#" value="MPL115A2-ND" x="35.814" y="4.1402" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="SparkFun-Passives" package="0805" value="0.1uF" x="39.4716" y="3.175" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.5892" y="4.8514" size="0.8128" layer="121" font="vector" rot="R270"/>
