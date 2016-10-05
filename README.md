@@ -4,7 +4,7 @@ An open hardware and software indoor air quality sensor provided by the [Nationa
 The board comes in two form factors. One dedicated for the Raspberry Pi - [PiAQ](http://piaq.io)
 
 <p align="center">
-  <a href="http://piaq.io"><img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/master/docs/images/PiAQ_Reflow.jpg" alt="CRT Sensor Board"/></a>
+  <a href="http://piaq.io"><img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/master/docs/images/images/preview-full-IMG_0117.png" alt="CRT Sensor Board"/></a>
 </p>
 
 
