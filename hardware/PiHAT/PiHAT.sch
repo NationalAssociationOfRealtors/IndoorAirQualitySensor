@@ -6261,7 +6261,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100">
 <attribute name="DIGIKEY#" value="311-100CRCT-ND"/>
 </part>
-<part name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNEL" device="BSS138"/>
+<part name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNEL" device="BSS138">
+<attribute name="DIGIKEY#" value="BSS138-FDICT-ND"/>
+</part>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
 </part>
@@ -6448,7 +6450,9 @@ Akram Ali</text>
 <instance part="R20" gate="G$1" x="152.4" y="-119.38" rot="R180">
 <attribute name="DIGIKEY#" x="152.4" y="-119.38" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
-<instance part="MOSFET" gate="G$1" x="175.26" y="-119.38"/>
+<instance part="MOSFET" gate="G$1" x="175.26" y="-119.38">
+<attribute name="DIGIKEY#" x="175.26" y="-119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C7" gate="G$1" x="284.48" y="-99.06">
 <attribute name="DIGIKEY#" x="284.48" y="-99.06" size="1.778" layer="96" display="off"/>
 </instance>

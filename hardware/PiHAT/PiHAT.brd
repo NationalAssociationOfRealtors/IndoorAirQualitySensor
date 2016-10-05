@@ -3368,6 +3368,7 @@ einem neuen Namen ab.</description>
 <element name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" package="SPARKFUN-DISCRETESEMI_SOT23-3" value="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNELBSS138" x="55.626" y="26.416" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-00830" x="-56.134" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="57.6961" y="25.0698" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="BSS138-FDICT-ND" x="55.626" y="26.416" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Passives" package="0805" value="0.1uF" x="51.6128" y="37.973" smashed="yes" rot="R270">
 <attribute name="VALUE" x="50.3936" y="36.4998" size="0.8128" layer="121" font="vector" rot="R90"/>
