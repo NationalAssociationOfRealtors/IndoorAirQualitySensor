@@ -6174,37 +6174,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
+<attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
 </part>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
 </part>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
+<part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ">
+<attribute name="DIGIKEY#" value="490-1198-1-ND"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<attribute name="DIGIKEY#" value="475-1196-1-ND"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
+</part>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="RESET" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD">
 <attribute name="DIGIKEY#" value="CKN9104CT-ND"/>
@@ -6214,51 +6223,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U4" library="SparkFun-Sensors" deviceset="MPL115A" device="">
 <attribute name="DIGIKEY#" value="MPL115A2-ND"/>
 </part>
-<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
+<part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="MICS4514" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-SENSORS_MICS-4514" device=""/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47K">
+<attribute name="DIGIKEY#" value="RHM47KKCT-ND"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="82">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-NDE"/>
 </part>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22K">
+<attribute name="DIGIKEY#" value="311-22KARCT-NDE"/>
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="51">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="RHM51KCT-ND"/>
 </part>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="82">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-NDE"/>
 </part>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-NDE"/>
 </part>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-100CRCT-NDE"/>
 </part>
 <part name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNEL" device="BSS138"/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
 </part>
 <part name="U6" library="SparkFun-Sensors" deviceset="ADMP401" device="">
 <attribute name="DIGIKEY#" value="INMP401ACEZ-R7CT-ND"/>
@@ -6267,45 +6270,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY#" value="296-41475-1-ND"/>
 </part>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100pF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-1111-1-ND"/>
 </part>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-1871-1-ND"/>
 </part>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-1365-1-ND"/>
 </part>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="YAG1814CT-ND"/>
 </part>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
 </part>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-NDE"/>
 </part>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
+<attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6369,34 +6362,43 @@ Akram Ali</text>
 <attribute name="OC_NEWARK" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="508" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="500.38" y="114.3" rot="R90">
-<attribute name="OC_NEWARK" x="500.38" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="500.38" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="500.38" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="500.38" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="510.54" y="114.3" rot="R90">
-<attribute name="OC_NEWARK" x="510.54" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="510.54" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="510.54" y="114.3" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="510.54" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C3" gate="G$1" x="337.82" y="30.48"/>
-<instance part="C4" gate="G$1" x="485.14" y="-17.78"/>
-<instance part="C5" gate="G$1" x="375.92" y="-53.34"/>
+<instance part="C3" gate="G$1" x="337.82" y="30.48">
+<attribute name="DIGIKEY#" x="337.82" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="485.14" y="-17.78">
+<attribute name="DIGIKEY#" x="485.14" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="375.92" y="-53.34">
+<attribute name="DIGIKEY#" x="375.92" y="-53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y1" gate="G$1" x="434.34" y="81.28">
 <attribute name="OC_NEWARK" x="434.34" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="434.34" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="434.34" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="434.34" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="505.46" y="127"/>
 <instance part="LED2" gate="G$1" x="523.24" y="76.2" rot="R90">
 <attribute name="OC_NEWARK" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="523.24" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="530.86" y="66.04"/>
-<instance part="R13" gate="G$1" x="426.72" y="124.46" rot="R90"/>
-<instance part="C12" gate="G$1" x="411.48" y="124.46"/>
+<instance part="R13" gate="G$1" x="426.72" y="124.46" rot="R90">
+<attribute name="DIGIKEY#" x="426.72" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="411.48" y="124.46">
+<attribute name="DIGIKEY#" x="411.48" y="124.46" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="393.7" y="111.76"/>
 <instance part="RESET" gate="S" x="401.32" y="119.38">
 <attribute name="DIGIKEY#" x="401.32" y="119.38" size="1.778" layer="96" display="off"/>
@@ -6406,8 +6408,12 @@ Akram Ali</text>
 <instance part="U4" gate="G$1" x="325.12" y="109.22">
 <attribute name="DIGIKEY#" x="325.12" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C13" gate="G$1" x="297.18" y="104.14"/>
-<instance part="C14" gate="G$1" x="289.56" y="104.14"/>
+<instance part="C13" gate="G$1" x="297.18" y="104.14">
+<attribute name="DIGIKEY#" x="297.18" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="289.56" y="104.14">
+<attribute name="DIGIKEY#" x="289.56" y="104.14" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY12" gate="G$1" x="289.56" y="119.38"/>
 <instance part="GND6" gate="1" x="213.36" y="-20.32"/>
 <instance part="MICS4514" gate="G$1" x="254" y="-99.06"/>
@@ -6415,42 +6421,32 @@ Akram Ali</text>
 <attribute name="OC_NEWARK" x="223.52" y="-111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="223.52" y="-111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="223.52" y="-111.76" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="223.52" y="-111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="213.36" y="-111.76" rot="R90">
-<attribute name="OC_NEWARK" x="213.36" y="-111.76" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="213.36" y="-111.76" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="213.36" y="-111.76" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="213.36" y="-111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="203.2" y="-111.76" rot="R90">
 <attribute name="OC_NEWARK" x="203.2" y="-111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="203.2" y="-111.76" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="203.2" y="-111.76" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="203.2" y="-111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="190.5" y="-121.92" rot="R90">
-<attribute name="OC_NEWARK" x="190.5" y="-121.92" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="190.5" y="-121.92" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="190.5" y="-121.92" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="190.5" y="-121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="190.5" y="-101.6" rot="R90">
-<attribute name="OC_NEWARK" x="190.5" y="-101.6" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="190.5" y="-101.6" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="190.5" y="-101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="190.5" y="-101.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="162.56" y="-129.54" rot="R90">
-<attribute name="OC_NEWARK" x="162.56" y="-129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="162.56" y="-129.54" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="162.56" y="-129.54" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="162.56" y="-129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="152.4" y="-119.38" rot="R180">
-<attribute name="OC_NEWARK" x="152.4" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="152.4" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="152.4" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" x="152.4" y="-119.38" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="MOSFET" gate="G$1" x="175.26" y="-119.38"/>
 <instance part="C7" gate="G$1" x="284.48" y="-99.06">
-<attribute name="OC_NEWARK" x="284.48" y="-99.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="284.48" y="-99.06" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="284.48" y="-99.06" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="284.48" y="-99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="454.66" y="-99.06">
 <attribute name="DIGIKEY#" x="454.66" y="-99.06" size="1.778" layer="96" display="off"/>
@@ -6459,45 +6455,35 @@ Akram Ali</text>
 <attribute name="DIGIKEY#" x="508" y="-101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="510.54" y="-71.12" rot="R90">
-<attribute name="OC_NEWARK" x="510.54" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="510.54" y="-71.12" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="510.54" y="-71.12" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="510.54" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="472.44" y="-99.06" rot="R90">
-<attribute name="OC_NEWARK" x="472.44" y="-99.06" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="472.44" y="-99.06" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="472.44" y="-99.06" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="472.44" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="485.14" y="-119.38">
-<attribute name="OC_NEWARK" x="485.14" y="-119.38" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="485.14" y="-119.38" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="485.14" y="-119.38" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="485.14" y="-119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C10" gate="G$1" x="434.34" y="-99.06"/>
+<instance part="C10" gate="G$1" x="434.34" y="-99.06">
+<attribute name="DIGIKEY#" x="434.34" y="-99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R1" gate="G$1" x="495.3" y="-116.84" rot="R90">
-<attribute name="OC_NEWARK" x="495.3" y="-116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="495.3" y="-116.84" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="495.3" y="-116.84" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="495.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="482.6" y="-99.06" rot="R180">
-<attribute name="OC_NEWARK" x="482.6" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="482.6" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="482.6" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" x="482.6" y="-99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="495.3" y="-88.9" rot="R90">
-<attribute name="OC_NEWARK" x="495.3" y="-88.9" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="495.3" y="-88.9" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="495.3" y="-88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="495.3" y="-88.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="508" y="-78.74" rot="R180">
-<attribute name="OC_NEWARK" x="508" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="508" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="508" y="-78.74" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" x="508" y="-78.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="434.34" y="-86.36"/>
 <instance part="SUPPLY6" gate="G$1" x="495.3" y="-81.28"/>
 <instance part="SUPPLY9" gate="G$1" x="508" y="-91.44"/>
-<instance part="C15" gate="G$1" x="419.1" y="81.28"/>
+<instance part="C15" gate="G$1" x="419.1" y="81.28">
+<attribute name="DIGIKEY#" x="419.1" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

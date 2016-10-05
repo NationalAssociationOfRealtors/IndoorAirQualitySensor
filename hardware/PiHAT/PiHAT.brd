@@ -3261,27 +3261,27 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="" x="53.213" y="113.157" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="53.213" y="113.157" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.0988" y="44.45" size="0.8128" layer="121" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="DIGIKEY#" value="311-47ARCT-ND" x="1.651" y="44.45" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0805" value="10K" x="36.0934" y="14.351" smashed="yes">
-<attribute name="MF" value="" x="-38.7096" y="65.913" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-38.7096" y="65.913" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-38.7096" y="65.913" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="35.1282" y="15.2908" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND" x="36.0934" y="14.351" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0805" value="10K" x="36.0934" y="16.9926" smashed="yes">
-<attribute name="MF" value="" x="-44.8056" y="68.5546" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-44.8056" y="68.5546" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-44.8056" y="68.5546" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="35.2044" y="18.1102" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND" x="36.0934" y="16.9926" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Passives" package="0805" value="0.1uF" x="25.1206" y="6.2992" smashed="yes" rot="R180">
 <attribute name="VALUE" x="27.0002" y="8.382" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="25.1206" y="6.2992" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Passives" package="0805" value="0.1uF" x="10.795" y="2.921" smashed="yes" rot="R270">
 <attribute name="VALUE" x="8.6868" y="4.699" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="10.795" y="2.921" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="SparkFun-Passives" package="0805" value="0.1uF" x="40.2082" y="26.543" smashed="yes">
 <attribute name="VALUE" x="42.2656" y="27.9654" size="0.8128" layer="121" font="vector" rot="SR270"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="40.2082" y="26.543" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Y1" library="SparkFun-FreqCtrl" package="RESONATOR-SMD" value="16MHZ" x="24.7142" y="23.7744" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3289,18 +3289,22 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.6065" y="26.3525" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="490-1198-1-ND" x="24.7142" y="23.7744" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="1.651" y="39.497" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-0.889" y="40.767" size="1.27" layer="27" rot="R270"/>
+<attribute name="DIGIKEY#" value="475-1196-1-ND" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="10K" x="8.255" y="17.5514" smashed="yes" rot="R270">
 <attribute name="VALUE" x="6.2484" y="18.796" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND" x="8.255" y="17.5514" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="SparkFun-Passives" package="0805" value="0.1uF" x="11.3284" y="17.6276" smashed="yes" rot="R270">
 <attribute name="VALUE" x="12.6492" y="19.0246" size="0.8128" layer="121" font="vector" rot="SR270"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="11.3284" y="17.6276" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RESET" library="SparkFun-Retired" package="TACTILE-SWITCH-SMD" value="TAC_SWITCHSMD" x="3.429" y="11.684" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="SWCH-08247" x="-26.924" y="-72.39" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3316,9 +3320,11 @@ einem neuen Namen ab.</description>
 </element>
 <element name="C13" library="SparkFun-Passives" package="0805" value="0.1uF" x="39.4716" y="3.175" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.5892" y="4.8514" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="39.4716" y="3.175" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C14" library="SparkFun-Passives" package="0805" value="0.1uF" x="37.8968" y="8.4328" smashed="yes">
 <attribute name="VALUE" x="36.6268" y="9.7282" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="37.8968" y="8.4328" size="1.778" layer="27" display="off"/>
 </element>
 <element name="MICS4514" library="MICS-4514_CO_and_NOx_Sensor_Breakout" package="SPARKFUN-SENSORS_MICS_10-SMD" value="SPARKFUN-SENSORS_MICS-4514" x="56.642" y="37.592" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="COMP-12310" x="74.422" y="146.812" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3329,52 +3335,42 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="" x="169.6974" y="8.8646" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="169.6974" y="8.8646" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.9694" y="45.9486" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="RHM47KKCT-ND" x="58.8264" y="44.0436" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="SparkFun-Passives" package="0805" value="82" x="61.976" y="39.751" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="97.155" y="156.591" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="97.155" y="156.591" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="97.155" y="156.591" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="63.1952" y="40.386" size="0.8128" layer="121" font="vector" rot="SR270"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-NDE" x="61.976" y="39.751" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R16" library="SparkFun-Passives" package="0805" value="22K" x="61.976" y="36.068" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="26.797" y="-86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="26.797" y="-86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="26.797" y="-86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.1698" y="37.0332" size="0.8128" layer="121" font="vector" rot="SR270"/>
+<attribute name="DIGIKEY#" value="311-22KARCT-NDE" x="61.976" y="36.068" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R17" library="SparkFun-Passives" package="0805" value="51" x="61.595" y="28.448" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="96.774" y="157.226" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="96.774" y="157.226" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="96.774" y="157.226" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="62.7634" y="29.083" size="0.8128" layer="121" font="vector" rot="SR270"/>
+<attribute name="DIGIKEY#" value="RHM51KCT-ND" x="61.595" y="28.448" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R18" library="SparkFun-Passives" package="0805" value="82" x="59.0804" y="28.448" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="23.9014" y="-106.299" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="" x="23.9014" y="-106.299" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="23.9014" y="-106.299" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="57.9882" y="27.7876" size="0.8128" layer="121" font="vector" rot="R90"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-NDE" x="59.0804" y="28.448" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R19" library="SparkFun-Passives" package="0805" value="100K" x="51.689" y="25.4" smashed="yes">
-<attribute name="MF" value="" x="-89.027" y="60.579" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-89.027" y="60.579" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-89.027" y="60.579" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="50.292" y="23.3934" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-100KCRCT-NDE" x="51.689" y="25.4" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R20" library="SparkFun-Passives" package="0805" value="100" x="51.689" y="28.067" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="198.374" y="-7.112" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="198.374" y="-7.112" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="198.374" y="-7.112" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="52.9844" y="30.099" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="311-100CRCT-NDE" x="51.689" y="28.067" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" package="SPARKFUN-DISCRETESEMI_SOT23-3" value="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNELBSS138" x="55.626" y="26.416" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-00830" x="-56.134" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="57.6961" y="25.0698" size="0.8128" layer="121" font="vector"/>
 </element>
 <element name="C7" library="SparkFun-Passives" package="0805" value="0.1uF" x="51.6128" y="37.973" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="83.4898" y="164.465" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="83.4898" y="164.465" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="83.4898" y="164.465" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="50.3936" y="36.4998" size="0.8128" layer="121" font="vector" rot="R90"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="51.6128" y="37.973" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="SparkFun-Sensors" package="ADMP401" value="ADMP401" x="60.4012" y="15.6464" smashed="yes" rot="R90">
 <attribute name="VALUE" x="62.2074" y="19.2306" size="0.8128" layer="121" font="vector" rot="R180"/>
@@ -3386,52 +3382,40 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY#" value="296-41475-1-ND" x="51.308" y="11.049" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0805" value="100pF" x="62.4586" y="8.5344" smashed="yes">
-<attribute name="MF" value="" x="-112.4204" y="29.1084" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-112.4204" y="29.1084" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-112.4204" y="29.1084" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="61.0108" y="6.6294" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-1111-1-ND" x="62.4586" y="8.5344" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="58.674" y="11.176" smashed="yes">
-<attribute name="MF" value="" x="-90.805" y="35.687" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-90.805" y="35.687" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-90.805" y="35.687" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.404" y="12.1666" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-1871-1-ND" x="58.674" y="11.176" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0805" value="1uF" x="50.927" y="5.334" smashed="yes">
-<attribute name="MF" value="" x="-104.521" y="29.845" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-104.521" y="29.845" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-104.521" y="29.845" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.9336" y="5.0292" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-1365-1-ND" x="50.927" y="5.334" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="55.499" y="14.732" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.229" y="13.4112" size="0.8128" layer="121" font="vector" rot="R90"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="55.499" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Passives" package="0805" value="10K" x="50.927" y="2.667" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="238.76" y="-21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="238.76" y="-21.844" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="238.76" y="-21.844" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="55.0672" y="3.0988" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND" x="50.927" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R3" library="SparkFun-Passives" package="0805" value="1.5K" x="58.674" y="8.509" smashed="yes">
-<attribute name="MF" value="" x="-88.392" y="36.322" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-88.392" y="36.322" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-88.392" y="36.322" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.3786" y="6.5532" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="YAG1814CT-ND" x="58.674" y="8.509" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Passives" package="0805" value="10K" x="50.927" y="8.001" smashed="yes">
-<attribute name="MF" value="" x="-102.108" y="35.814" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="-102.108" y="35.814" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-102.108" y="35.814" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.959" y="7.6962" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-10KARCT-ND" x="50.927" y="8.001" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Passives" package="0805" value="100K" x="62.4586" y="11.2014" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="221.4626" y="-16.6116" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="221.4626" y="-16.6116" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="221.4626" y="-16.6116" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="63.9826" y="13.0048" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="DIGIKEY#" value="541-82.0CCT-NDE" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="SparkFun-Passives" package="0805" value="0.1uF" x="29.591" y="24.4094" smashed="yes">
 <attribute name="VALUE" x="28.1432" y="22.5044" size="0.8128" layer="121" font="vector"/>
+<attribute name="DIGIKEY#" value="311-1088-1-ND" x="29.591" y="24.4094" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
