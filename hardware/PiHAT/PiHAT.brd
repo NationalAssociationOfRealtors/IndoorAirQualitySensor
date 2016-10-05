@@ -3313,6 +3313,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="AVR_ICSP" value="" x="10.033" y="26.67" smashed="yes">
 <attribute name="VALUE" x="7.239" y="26.416" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="DIGIKEY#" value="S6105-ND" x="10.033" y="26.67" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="SparkFun-Sensors" package="LGA8" value="MPL115A" x="35.814" y="4.1402" smashed="yes" rot="R180">
 <attribute name="VALUE" x="32.639" y="6.858" size="0.8128" layer="121" font="vector" rot="R270"/>

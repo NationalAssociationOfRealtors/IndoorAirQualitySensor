@@ -6219,7 +6219,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DIGIKEY#" value="CKN9104CT-ND"/>
 </part>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="M05X2" device="PTH"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M05X2" device="PTH">
+<attribute name="DIGIKEY#" value="S6105-ND"/>
+</part>
 <part name="U4" library="SparkFun-Sensors" deviceset="MPL115A" device="">
 <attribute name="DIGIKEY#" value="MPL115A2-ND"/>
 </part>
@@ -6404,7 +6406,9 @@ Akram Ali</text>
 <attribute name="DIGIKEY#" x="401.32" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="426.72" y="132.08"/>
-<instance part="J2" gate="G$1" x="187.96" y="-10.16"/>
+<instance part="J2" gate="G$1" x="187.96" y="-10.16">
+<attribute name="DIGIKEY#" x="187.96" y="-10.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U4" gate="G$1" x="325.12" y="109.22">
 <attribute name="DIGIKEY#" x="325.12" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
