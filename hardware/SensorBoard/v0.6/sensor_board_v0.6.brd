@@ -940,6 +940,15 @@ Humidity</text>
 <text x="52.07" y="9.4488" size="0.508" layer="118" font="vector" rot="R90" align="bottom-center">VOC / CO2</text>
 <text x="51.9176" y="35.9664" size="0.508" layer="118" font="vector" rot="R90" align="bottom-center">AIr Pressure</text>
 <text x="11.43" y="7.5184" size="0.508" layer="118" font="vector" rot="R180" align="bottom-center">CO / NO2</text>
+<wire x1="30.3784" y1="19.2024" x2="29.7688" y2="18.5928" width="0.1778" layer="121" style="dashdot" curve="90"/>
+<wire x1="29.7688" y1="18.5928" x2="29.7688" y2="14.4272" width="0.1778" layer="121" style="dashdot"/>
+<wire x1="34.7472" y1="19.2024" x2="35.4076" y2="18.542" width="0.1778" layer="121" style="dashdot" curve="-90"/>
+<wire x1="35.4076" y1="18.542" x2="35.4076" y2="14.5288" width="0.1778" layer="121" style="dashdot"/>
+<wire x1="29.7688" y1="14.4272" x2="30.3784" y2="13.8176" width="0.1778" layer="121" style="dashdot" curve="90"/>
+<wire x1="30.3784" y1="13.8176" x2="30.4292" y2="13.8176" width="0.1778" layer="121" style="dashdot"/>
+<wire x1="35.4076" y1="14.478" x2="35.4076" y2="14.4272" width="0.1778" layer="121" style="dashdot"/>
+<wire x1="35.4076" y1="14.4272" x2="34.798" y2="13.8176" width="0.1778" layer="121" style="dashdot" curve="-90"/>
+<text x="32.6644" y="14.8844" size="0.508" layer="118" font="vector" rot="R180" align="bottom-center">I2C Pullups</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
@@ -2115,13 +2124,13 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="31.369" y="16.6624" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="31.369" y="16.6624" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="31.369" y="16.6624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="32.8168" y="16.0528" size="0.508" layer="121" font="vector" rot="R90"/>
+<attribute name="VALUE" x="32.1564" y="18.8468" size="0.508" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0805" value="10K" x="33.8836" y="16.6624" smashed="yes" rot="R90">
 <attribute name="OC_NEWARK" value="unknown" x="33.8836" y="16.6624" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="33.8836" y="16.6624" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="33.8836" y="16.6624" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="34.8742" y="17.3736" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="VALUE" x="33.274" y="18.3642" size="0.508" layer="121" font="vector"/>
 </element>
 <element name="C3" library="SparkFun-Passives" package="0805" value="0.1uF" x="46.5836" y="18.2626" smashed="yes" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="46.5836" y="18.2626" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2140,7 +2149,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="38.9636" y="28.5242" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="38.9636" y="28.5242" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="38.9636" y="28.5242" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="40.8559" y="27.2669" size="0.508" layer="121" font="vector" rot="R90"/>
+<attribute name="VALUE" x="40.8559" y="27.3685" size="0.508" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="8.0264" y="26.035" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="8.0264" y="26.035" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2262,7 +2271,7 @@ design rules under a new name.</description>
 </element>
 <element name="U5" library="SparkFun-DigitalIC" package="SSOP20_L" value="FT231XS" x="30.5816" y="39.1668" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="IC-11524" x="30.5816" y="39.1668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="32.2072" y="35.6108" size="0.508" layer="121" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.258" y="35.6108" size="0.508" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="RX" library="adafruit" package="CHIPLED_0805" value="Green" x="39.4716" y="39.1668" smashed="yes">
 <attribute name="MF" value="" x="39.4716" y="39.1668" size="1.778" layer="27" display="off"/>
@@ -2313,7 +2322,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="25.146" y="43.561" size="0.508" layer="121" font="vector"/>
 </element>
 <element name="U11" library="RFM69 USB Gateway" package="LOWPOWERLAB_RFM69W-MINPADS" value="RFM69HW" x="30.5308" y="37.7952" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="30.488" y="30.9512" size="0.508" layer="122" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="40.5016" y="36.1616" size="0.508" layer="122" font="vector" rot="MR90"/>
 </element>
 <element name="X1" library="adafruit" package="SMA_EDGELAUNCH" value="" x="52.3748" y="42.7736" smashed="yes" rot="R180">
 <attribute name="VALUE" x="47.2948" y="50.3936" size="0.8128" layer="27" ratio="10"/>
@@ -2633,9 +2642,7 @@ design rules under a new name.</description>
 <via x="34.7472" y="8.0264" extent="1-16" drill="0.254" diameter="0.127"/>
 <wire x1="34.7472" y1="8.0264" x2="32.1564" y2="8.0264" width="0.1778" layer="16"/>
 <wire x1="32.1564" y1="8.0264" x2="31.3944" y2="8.7884" width="0.1778" layer="16"/>
-<wire x1="31.3944" y1="8.7884" x2="31.3944" y2="14.4272" width="0.1778" layer="16"/>
-<via x="31.3944" y="14.4272" extent="1-16" drill="0.254" diameter="0.127"/>
-<wire x1="31.3944" y1="14.4272" x2="31.3944" y2="15.737" width="0.1778" layer="1"/>
+<via x="31.3944" y="12.9032" extent="1-16" drill="0.254" diameter="0.127"/>
 <wire x1="31.3944" y1="15.737" x2="31.369" y2="15.7624" width="0.1778" layer="1"/>
 <via x="50.292" y="16.2052" extent="1-16" drill="0.254" diameter="0.127"/>
 <wire x1="44.3484" y1="17.6276" x2="43.7896" y2="18.1864" width="0.1778" layer="16"/>
@@ -2655,14 +2662,16 @@ design rules under a new name.</description>
 <wire x1="51.7144" y1="32.5628" x2="50.8508" y2="33.4264" width="0.1778" layer="16"/>
 <wire x1="40.8432" y1="17.5768" x2="40.8432" y2="15.8496" width="0.1778" layer="16"/>
 <wire x1="40.8432" y1="15.8496" x2="40.2844" y2="15.2908" width="0.1778" layer="16"/>
-<wire x1="40.2844" y1="15.2908" x2="36.0172" y2="15.2908" width="0.1778" layer="16"/>
-<wire x1="36.0172" y1="15.2908" x2="35.1536" y2="14.4272" width="0.1778" layer="16"/>
-<wire x1="35.1536" y1="14.4272" x2="31.3944" y2="14.4272" width="0.1778" layer="16"/>
+<wire x1="40.2844" y1="15.2908" x2="32.0548" y2="15.2908" width="0.1778" layer="16"/>
 <wire x1="51.7144" y1="17.6276" x2="50.292" y2="16.2052" width="0.1778" layer="16"/>
 <wire x1="49.926" y1="17.6146" x2="49.926" y2="16.5712" width="0.1778" layer="1"/>
 <wire x1="49.926" y1="16.5712" x2="50.292" y2="16.2052" width="0.1778" layer="1"/>
 <wire x1="44.3484" y1="17.6276" x2="48.8696" y2="17.6276" width="0.1778" layer="16"/>
 <wire x1="48.8696" y1="17.6276" x2="50.292" y2="16.2052" width="0.1778" layer="16"/>
+<wire x1="31.3944" y1="15.737" x2="31.3944" y2="12.9032" width="0.1778" layer="1"/>
+<wire x1="31.3944" y1="8.7884" x2="31.3944" y2="12.9032" width="0.1778" layer="16"/>
+<wire x1="32.0548" y1="15.2908" x2="31.3944" y2="14.6304" width="0.1778" layer="16"/>
+<wire x1="31.3944" y1="14.6304" x2="31.3944" y2="12.9032" width="0.1778" layer="16"/>
 </signal>
 <signal name="D5">
 <contactref element="U1" pad="9"/>
