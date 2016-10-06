@@ -3297,7 +3297,7 @@ einem neuen Namen ab.</description>
 <attribute name="PROD_ID" value="IC-09069" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ATMEGA328PB-AU" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="58Y6083" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="20.447" y="20.4978" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="VALUE" x="20.5994" y="20.5486" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="ATMEGA328P-AU-ND" x="27.0256" y="16.7132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U7" library="thomasb9511" package="SHT3X" value="SHT31-DIS" x="14.224" y="3.048" smashed="yes" rot="R180">
@@ -3326,11 +3326,11 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY#" value="311-47ARCT-ND" x="1.651" y="44.45" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0805" value="10K" x="36.0934" y="14.351" smashed="yes">
-<attribute name="VALUE" x="35.1282" y="15.2908" size="0.8128" layer="121" font="vector"/>
+<attribute name="VALUE" x="35.0774" y="15.2908" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="36.0934" y="14.351" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0805" value="10K" x="36.0934" y="16.9926" smashed="yes">
-<attribute name="VALUE" x="35.2044" y="18.1102" size="0.8128" layer="121" font="vector"/>
+<attribute name="VALUE" x="35.1028" y="18.0594" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="36.0934" y="16.9926" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Passives" package="0805" value="0.1uF" x="25.1206" y="6.2992" smashed="yes" rot="R180">
@@ -3350,7 +3350,7 @@ einem neuen Namen ab.</description>
 <attribute name="PROD_ID" value="XTAL-08900" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="26.6065" y="26.3525" size="0.8128" layer="121" font="vector" rot="R180"/>
+<attribute name="VALUE" x="26.5557" y="26.2001" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="490-1198-1-ND" x="24.7142" y="23.7744" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="1.651" y="39.497" smashed="yes" rot="R180">
@@ -3361,16 +3361,16 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY#" value="475-1196-1-ND" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="10K" x="8.255" y="16.129" smashed="yes" rot="R270">
-<attribute name="VALUE" x="6.2484" y="17.3736" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="VALUE" x="6.35" y="17.3736" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="8.255" y="16.129" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="SparkFun-Passives" package="0805" value="0.1uF" x="11.3284" y="17.9324" smashed="yes" rot="R270">
-<attribute name="VALUE" x="12.6492" y="19.3294" size="0.8128" layer="121" font="vector" rot="SR270"/>
+<attribute name="VALUE" x="10.2616" y="16.5354" size="0.8128" layer="121" font="vector" rot="SR90"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="11.3284" y="17.9324" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RESET" library="SparkFun-Retired" package="TACTILE-SWITCH-SMD" value="TAC_SWITCHSMD" x="3.429" y="11.684" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="SWCH-08247" x="-26.924" y="-72.39" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="7.5692" y="9.779" size="0.8128" layer="121" font="vector" rot="SR90"/>
+<attribute name="NAME" x="7.3152" y="9.8806" size="0.8128" layer="121" font="vector" rot="SR90"/>
 <attribute name="DIGIKEY#" value="CKN9104CT-ND" x="3.429" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U4" library="SparkFun-Sensors" package="LGA8" value="MPL115A" x="35.814" y="4.1402" smashed="yes" rot="R180">
@@ -3474,7 +3474,7 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="SparkFun-Passives" package="0805" value="0.1uF" x="29.591" y="24.4094" smashed="yes">
-<attribute name="VALUE" x="28.1432" y="22.5044" size="0.8128" layer="121" font="vector"/>
+<attribute name="VALUE" x="28.0416" y="22.5044" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="29.591" y="24.4094" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED_26" library="adafruit" package="CHIPLED_0805" value="" x="50.8" y="46.228" smashed="yes">
@@ -3493,7 +3493,7 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="54.6862" y="45.466" size="0.8128" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="U$1" library="CCS811" package="LGA" value="CCS811" x="42.4688" y="38.9636" smashed="yes" rot="R90">
-<attribute name="VALUE" x="37.211" y="42.6466" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="VALUE" x="37.0078" y="42.545" size="0.8128" layer="121" font="vector" rot="R270"/>
 </element>
 <element name="R9" library="SparkFun-Passives" package="0805" value="100K" x="40.1828" y="37.1856" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="40.1828" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
