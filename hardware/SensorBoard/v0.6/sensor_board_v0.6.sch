@@ -6424,6 +6424,7 @@ Akram Ali and Dave Conroy</text>
 <text x="68.58" y="96.52" size="1.778" layer="97">0x39</text>
 <text x="157.48" y="17.78" size="1.778" layer="97">0x60</text>
 <text x="309.88" y="-22.86" size="1.778" layer="97">0x44</text>
+<text x="182.88" y="88.9" size="1.778" layer="97">0x5B</text>
 </plain>
 <instances>
 <instance part="U1" gate="U$1" x="304.8" y="88.9">
