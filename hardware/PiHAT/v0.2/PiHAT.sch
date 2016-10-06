@@ -3974,61 +3974,6 @@ Standard 10-pin dual row 0.1" header. Commonly used with AVR-ISP. Use with Spark
 </deviceset>
 </devicesets>
 </library>
-<library name="IAQ-CORE">
-<packages>
-<package name="IAQ-CORE">
-<wire x1="0" y1="-2" x2="0" y2="-17.8" width="0.127" layer="21"/>
-<wire x1="0" y1="-17.8" x2="15.2" y2="-17.8" width="0.127" layer="21"/>
-<wire x1="15.2" y1="-17.8" x2="15.2" y2="0" width="0.127" layer="21"/>
-<wire x1="15.2" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="0" y2="-2" width="0.127" layer="21"/>
-<smd name="VCC" x="15.2" y="-7.82" dx="1.4" dy="2.54" layer="1" rot="R90"/>
-<smd name="NC2" x="15.2" y="-10.36" dx="1.4" dy="2.54" layer="1" rot="R90"/>
-<smd name="SDA" x="15.2" y="-12.9" dx="1.4" dy="2.54" layer="1" rot="R90"/>
-<smd name="NC" x="0" y="-7.82" dx="1.4" dy="2.54" layer="1" rot="R90"/>
-<smd name="SCL" x="0" y="-10.36" dx="1.4" dy="2.54" layer="1" rot="R90"/>
-<smd name="GND" x="0" y="-12.9" dx="1.4" dy="2.54" layer="1" rot="R90"/>
-<text x="0" y="2" size="1.27" layer="25">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="AMS-IAQ-CORE">
-<pin name="VCC" x="17.78" y="3.81" length="middle" rot="R180"/>
-<pin name="NC2" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="SDA" x="17.78" y="-3.81" length="middle" rot="R180"/>
-<pin name="GND" x="-17.78" y="-3.81" length="middle"/>
-<pin name="SCL" x="-17.78" y="0" length="middle"/>
-<pin name="NC" x="-17.78" y="3.81" length="middle"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-16.51" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-16.51" x2="12.7" y2="-16.51" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-16.51" x2="12.7" y2="15.24" width="0.254" layer="94"/>
-<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
-<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IAQ-CORE" prefix="IAQ-CORE">
-<gates>
-<gate name="G$1" symbol="AMS-IAQ-CORE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="IAQ-CORE">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NC2" pad="NC2"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -6128,6 +6073,82 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="CCS811">
+<packages>
+<package name="LGA">
+<description>CCS811 is available in a lead 2.7 x 4.0mm, 0.6mm pitch LGA package.
+
+Designed by Akram Ali
+September 2016</description>
+<wire x1="-0.1" y1="-0.1" x2="-0.1" y2="4.1" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="4.1" x2="2.8" y2="4.1" width="0.127" layer="21"/>
+<wire x1="2.8" y1="4.1" x2="2.8" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2.8" y1="-0.1" x2="-0.1" y2="-0.1" width="0.127" layer="21"/>
+<smd name="11" x="1.35" y="2" dx="1.2" dy="2.4" layer="1"/>
+<smd name="1" x="0.3" y="3.2" dx="0.6" dy="0.4" layer="1"/>
+<smd name="2" x="0.3" y="2.6" dx="0.6" dy="0.4" layer="1"/>
+<smd name="3" x="0.3" y="2" dx="0.6" dy="0.4" layer="1"/>
+<smd name="4" x="0.3" y="1.4" dx="0.6" dy="0.4" layer="1"/>
+<smd name="5" x="0.3" y="0.8" dx="0.6" dy="0.4" layer="1"/>
+<smd name="6" x="2.4" y="0.8" dx="0.6" dy="0.4" layer="1"/>
+<smd name="7" x="2.4" y="1.4" dx="0.6" dy="0.4" layer="1"/>
+<smd name="8" x="2.4" y="2" dx="0.6" dy="0.4" layer="1"/>
+<smd name="9" x="2.4" y="2.6" dx="0.6" dy="0.4" layer="1"/>
+<smd name="10" x="2.4" y="3.2" dx="0.6" dy="0.4" layer="1"/>
+<circle x="-0.482596875" y="3.185159375" radius="0.1365" width="0.2032" layer="21"/>
+<text x="-0.127" y="4.445" size="0.508" layer="25">&gt;NAME</text>
+<text x="-0.127" y="-0.889" size="0.508" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CCS811">
+<pin name="ADDR" x="-5.08" y="15.24" length="middle"/>
+<pin name="RESET" x="-5.08" y="12.7" length="middle"/>
+<pin name="INT" x="-5.08" y="10.16" length="middle"/>
+<pin name="PWM" x="-5.08" y="7.62" length="middle"/>
+<pin name="SENSE" x="-5.08" y="5.08" length="middle"/>
+<pin name="VDD" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="WAKE" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="AUX" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="SDA" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="SCL" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<text x="0" y="21.082" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="20.32" x2="25.4" y2="20.32" width="0.254" layer="94"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="0" width="0.254" layer="94"/>
+<wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CCS811">
+<gates>
+<gate name="G$1" symbol="CCS811" x="-15.24" y="-22.86"/>
+</gates>
+<devices>
+<device name="-I2C" package="LGA">
+<connects>
+<connect gate="G$1" pin="ADDR" pad="1"/>
+<connect gate="G$1" pin="AUX" pad="8"/>
+<connect gate="G$1" pin="GND" pad="11"/>
+<connect gate="G$1" pin="INT" pad="3"/>
+<connect gate="G$1" pin="PWM" pad="4"/>
+<connect gate="G$1" pin="RESET" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="10"/>
+<connect gate="G$1" pin="SDA" pad="9"/>
+<connect gate="G$1" pin="SENSE" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="WAKE" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6161,12 +6182,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MOUSER#" value="856-TSL2561T"/>
 <attribute name="MPN" value="TSL2561FN"/>
 <attribute name="OC_NEWARK" value="82Y5564"/>
-</part>
-<part name="IAQ-CORE" library="IAQ-CORE" deviceset="IAQ-CORE" device="">
-<attribute name="DIGIKEY#" value="IAQ-CORE C-ND"/>
-<attribute name="MF" value=""/>
-<attribute name="MPN" value="IAQ CORE"/>
-<attribute name="OC_NEWARK" value="82Y5455"/>
 </part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -6303,12 +6318,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
 </part>
+<part name="LED_26" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<attribute name="DIGIKEY#" value="475-1196-1-ND"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
+<attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="U$1" library="CCS811" deviceset="CCS811" device="-I2C" value="CCS811"/>
+<part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
+<attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+</part>
+<part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
+<attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
+<part name="LED_05" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<attribute name="DIGIKEY#" value="475-1196-1-ND"/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="302.26" y="50.8" size="3.81" layer="94">Light Intensity</text>
-<text x="322.58" y="-25.4" size="3.81" layer="94">VOC and Derived CO2</text>
+<text x="332.74" y="-33.02" size="3.81" layer="94">VOC and Derived CO2</text>
 <text x="307.34" y="127" size="3.81" layer="94">Air Pressure</text>
 <text x="447.04" y="-71.12" size="3.81" layer="94">Sound Intensity</text>
 <text x="426.72" y="17.78" size="3.81" layer="94">Temperature and Relative Humidity</text>
@@ -6316,13 +6362,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="193.04" y="-81.28" size="3.81" layer="94">CO and NO2 concentration</text>
 <text x="322.58" y="-132.08" size="5.08" layer="94" font="vector" ratio="20">CRT Labs</text>
 <text x="332.74" y="-137.16" size="2.54" layer="94" font="vector" ratio="10">PiAQ HAT</text>
-<text x="340.36" y="-147.32" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.1
-(September 2016)</text>
+<text x="340.36" y="-147.32" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.2
+(October 2016)</text>
 <text x="340.36" y="-154.94" size="1.27" layer="94" font="vector" ratio="10" align="bottom-center">Designed by
 Akram Ali</text>
 <text x="322.58" y="20.32" size="1.778" layer="97">0x39</text>
 <text x="330.2" y="99.06" size="1.778" layer="97">0x60</text>
-<text x="353.06" y="-71.12" size="1.778" layer="97">0x5A</text>
+<text x="358.14" y="-63.5" size="1.778" layer="97">0x5B</text>
 <text x="467.36" y="-17.78" size="1.778" layer="97">0x44</text>
 <frame x1="104.14" y1="-167.64" x2="568.96" y2="165.1" columns="8" rows="5" layer="94"/>
 </plain>
@@ -6351,17 +6397,11 @@ Akram Ali</text>
 <attribute name="MF" x="317.5" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="317.5" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="IAQ-CORE" gate="G$1" x="345.44" y="-52.07">
-<attribute name="OC_NEWARK" x="345.44" y="-52.07" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="345.44" y="-52.07" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="345.44" y="-52.07" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" x="345.44" y="-52.07" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND3" gate="1" x="434.34" y="53.34"/>
 <instance part="SUPPLY1" gate="G$1" x="434.34" y="132.08"/>
 <instance part="SUPPLY2" gate="G$1" x="337.82" y="40.64"/>
 <instance part="SUPPLY3" gate="G$1" x="497.84" y="-10.16"/>
-<instance part="SUPPLY5" gate="G$1" x="375.92" y="-43.18"/>
+<instance part="SUPPLY5" gate="G$1" x="381" y="-55.88"/>
 <instance part="R4" gate="G$1" x="508" y="76.2">
 <attribute name="OC_NEWARK" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6380,8 +6420,8 @@ Akram Ali</text>
 <instance part="C4" gate="G$1" x="485.14" y="-17.78">
 <attribute name="DIGIKEY#" x="485.14" y="-17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="375.92" y="-53.34">
-<attribute name="DIGIKEY#" x="375.92" y="-53.34" size="1.778" layer="96" display="off"/>
+<instance part="C5" gate="G$1" x="375.92" y="-63.5">
+<attribute name="DIGIKEY#" x="375.92" y="-63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Y1" gate="G$1" x="434.34" y="81.28">
 <attribute name="OC_NEWARK" x="434.34" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6492,6 +6532,37 @@ Akram Ali</text>
 <instance part="C15" gate="G$1" x="419.1" y="81.28">
 <attribute name="DIGIKEY#" x="419.1" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="LED_26" gate="G$1" x="129.54" y="63.5" rot="R270">
+<attribute name="OC_NEWARK" x="129.54" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="129.54" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="129.54" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" x="129.54" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="142.24" y="63.5">
+<attribute name="OC_NEWARK" x="142.24" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="142.24" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="142.24" y="63.5" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="142.24" y="63.5" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND4" gate="1" x="119.38" y="55.88"/>
+<instance part="U$1" gate="G$1" x="337.82" y="-60.96"/>
+<instance part="SUPPLY8" gate="G$1" x="322.58" y="-33.02"/>
+<instance part="R9" gate="G$1" x="322.58" y="-40.64" rot="R270">
+<attribute name="DIGIKEY#" x="322.58" y="-40.64" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="GND7" gate="1" x="350.52" y="-73.66"/>
+<instance part="R10" gate="G$1" x="142.24" y="73.66">
+<attribute name="OC_NEWARK" x="142.24" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MF" x="142.24" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="142.24" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" x="142.24" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED_05" gate="G$1" x="129.54" y="73.66" rot="R270">
+<attribute name="OC_NEWARK" x="129.54" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="129.54" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="129.54" y="73.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" x="129.54" y="73.66" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6512,13 +6583,6 @@ Akram Ali</text>
 <label x="438.15" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IAQ-CORE" gate="G$1" pin="SDA"/>
-<wire x1="363.22" y1="-55.88" x2="365.76" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="-55.88" x2="370.84" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="370.84" y1="-60.96" x2="375.92" y2="-60.96" width="0.1524" layer="91"/>
-<label x="375.92" y="-60.96" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="SDA"/>
 <wire x1="302.26" y1="33.02" x2="299.72" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="33.02" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
@@ -6529,6 +6593,11 @@ Akram Ali</text>
 <pinref part="U4" gate="G$1" pin="SDA/DIN"/>
 <wire x1="337.82" y1="109.22" x2="342.9" y2="109.22" width="0.1524" layer="91"/>
 <label x="342.9" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SDA"/>
+<wire x1="368.3" y1="-48.26" x2="378.46" y2="-48.26" width="0.1524" layer="91"/>
+<label x="378.46" y="-48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -6542,11 +6611,6 @@ Akram Ali</text>
 <wire x1="515.62" y1="104.14" x2="518.16" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="518.16" y1="101.6" x2="520.7" y2="101.6" width="0.1524" layer="91"/>
 <label x="520.7" y="101.6" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IAQ-CORE" gate="G$1" pin="SCL"/>
-<wire x1="327.66" y1="-52.07" x2="320.04" y2="-52.07" width="0.1524" layer="91"/>
-<label x="320.04" y="-52.07" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="SCL"/>
@@ -6563,6 +6627,13 @@ Akram Ali</text>
 <wire x1="337.82" y1="111.76" x2="340.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="111.76" x2="342.9" y2="114.3" width="0.1524" layer="91"/>
 <label x="342.9" y="114.3" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SCL"/>
+<wire x1="368.3" y1="-45.72" x2="370.84" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="-45.72" x2="373.38" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-43.18" x2="378.46" y2="-43.18" width="0.1524" layer="91"/>
+<label x="378.46" y="-43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
@@ -6617,8 +6688,9 @@ Akram Ali</text>
 <net name="GPIO5" class="0">
 <segment>
 <pinref part="RPI1" gate="G$1" pin="GPIO5"/>
-<wire x1="152.4" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 <label x="152.4" y="73.66" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GPIO6" class="0">
@@ -6647,6 +6719,7 @@ Akram Ali</text>
 <pinref part="RPI1" gate="G$1" pin="GPIO26"/>
 <wire x1="147.32" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
 <label x="152.4" y="63.5" size="1.778" layer="95"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6755,19 +6828,6 @@ Akram Ali</text>
 <label x="289.56" y="96.52" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="375.92" y1="-55.88" x2="388.62" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="-55.88" x2="393.7" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="-60.96" x2="396.24" y2="-60.96" width="0.1524" layer="91"/>
-<label x="396.24" y="-60.96" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IAQ-CORE" gate="G$1" pin="GND"/>
-<wire x1="327.66" y1="-55.88" x2="320.04" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="-55.88" x2="320.04" y2="-58.42" width="0.1524" layer="91"/>
-<label x="320.04" y="-58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="-134.62" x2="162.56" y2="-139.7" width="0.1524" layer="91"/>
 <label x="162.56" y="-139.7" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -6853,6 +6913,26 @@ Akram Ali</text>
 <pinref part="U7" gate="G$1" pin="ADDR"/>
 <wire x1="447.04" y1="-2.54" x2="441.96" y2="-2.54" width="0.1524" layer="91"/>
 <label x="441.96" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="LED_26" gate="G$1" pin="C"/>
+<wire x1="119.38" y1="58.42" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="LED_05" gate="G$1" pin="C"/>
+<wire x1="124.46" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="73.66" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
+<junction x="119.38" y="63.5"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="350.52" y1="-66.04" x2="350.52" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="350.52" y1="-68.58" x2="350.52" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="-66.04" x2="375.92" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="-68.58" x2="350.52" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="350.52" y="-68.58"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="GPIO18" class="0">
@@ -6940,14 +7020,6 @@ Akram Ali</text>
 </segment>
 </net>
 <net name="VCC" class="0">
-<segment>
-<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-<pinref part="IAQ-CORE" gate="G$1" pin="VCC"/>
-<wire x1="375.92" y1="-43.18" x2="375.92" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-48.26" x2="363.22" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<junction x="375.92" y="-48.26"/>
-</segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
@@ -7047,6 +7119,20 @@ Akram Ali</text>
 <wire x1="195.58" y1="-5.08" x2="198.12" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="-5.08" x2="200.66" y2="-2.54" width="0.1524" layer="91"/>
 <label x="200.66" y="-2.54" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
+<wire x1="368.3" y1="-55.88" x2="375.92" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="375.92" y1="-55.88" x2="381" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="-58.42" x2="375.92" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="375.92" y="-55.88"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
+<wire x1="322.58" y1="-35.56" x2="322.58" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D5" class="0">
@@ -7429,6 +7515,27 @@ Akram Ali</text>
 <pinref part="RPI1" gate="G$1" pin="SCL"/>
 <wire x1="165.1" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <label x="152.4" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="LED_26" gate="G$1" pin="A"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="ADDR"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="332.74" y1="-45.72" x2="322.58" y2="-45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="LED_05" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
