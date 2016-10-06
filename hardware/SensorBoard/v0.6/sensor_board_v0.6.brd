@@ -934,12 +934,12 @@ LED</text>
 <wire x1="18.3896" y1="8.7376" x2="18.8976" y2="8.2296" width="0.0254" layer="20" curve="90"/>
 <wire x1="18.8976" y1="12.2428" x2="18.3896" y2="11.7348" width="0.0254" layer="20" curve="90"/>
 <wire x1="19.4056" y1="11.7348" x2="18.8976" y2="12.2428" width="0.0254" layer="20" curve="90"/>
-<text x="52.2732" y="27.3304" size="0.508" layer="118" font="vector" rot="R90" align="bottom-center">Temperature
+<text x="52.2732" y="27.3304" size="0.508" layer="121" font="vector" rot="R90" align="bottom-center">Temperature
 Humidity</text>
-<text x="52.07" y="18.4912" size="0.508" layer="118" font="vector" rot="R90" align="bottom-center">Light</text>
-<text x="52.07" y="9.4488" size="0.508" layer="118" font="vector" rot="R90" align="bottom-center">VOC / CO2</text>
-<text x="51.9176" y="35.9664" size="0.508" layer="118" font="vector" rot="R90" align="bottom-center">AIr Pressure</text>
-<text x="11.43" y="7.5184" size="0.508" layer="118" font="vector" rot="R180" align="bottom-center">CO / NO2</text>
+<text x="52.07" y="18.4912" size="0.508" layer="121" font="vector" rot="R90" align="bottom-center">Light</text>
+<text x="52.07" y="9.4488" size="0.508" layer="121" font="vector" rot="R90" align="bottom-center">VOC / CO2</text>
+<text x="51.9176" y="35.9664" size="0.508" layer="121" font="vector" rot="R90" align="bottom-center">AIr Pressure</text>
+<text x="11.43" y="7.5184" size="0.508" layer="121" font="vector" rot="R180" align="bottom-center">CO / NO2</text>
 <wire x1="30.3784" y1="19.2024" x2="29.7688" y2="18.5928" width="0.1778" layer="121" style="dashdot" curve="90"/>
 <wire x1="29.7688" y1="18.5928" x2="29.7688" y2="14.4272" width="0.1778" layer="121" style="dashdot"/>
 <wire x1="34.7472" y1="19.2024" x2="35.4076" y2="18.542" width="0.1778" layer="121" style="dashdot" curve="-90"/>
@@ -948,7 +948,7 @@ Humidity</text>
 <wire x1="30.3784" y1="13.8176" x2="30.4292" y2="13.8176" width="0.1778" layer="121" style="dashdot"/>
 <wire x1="35.4076" y1="14.478" x2="35.4076" y2="14.4272" width="0.1778" layer="121" style="dashdot"/>
 <wire x1="35.4076" y1="14.4272" x2="34.798" y2="13.8176" width="0.1778" layer="121" style="dashdot" curve="-90"/>
-<text x="32.6644" y="14.8844" size="0.508" layer="118" font="vector" rot="R180" align="bottom-center">I2C Pullups</text>
+<text x="32.6644" y="14.8844" size="0.508" layer="121" font="vector" rot="R180" align="bottom-center">I2C Pullups</text>
 </plain>
 <libraries>
 <library name="SparkFun-Passives">
