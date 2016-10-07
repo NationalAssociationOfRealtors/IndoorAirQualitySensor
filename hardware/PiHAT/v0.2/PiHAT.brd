@@ -3291,7 +3291,9 @@ einem neuen Namen ab.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="RPI1" library="microbuilder" package="PI_HAT_SLOTS" value="RASPBERRYPI_BPLUS_HATSLOTS" x="0" y="-1.27" smashed="yes"/>
+<element name="RPI1" library="microbuilder" package="PI_HAT_SLOTS" value="RASPBERRYPI_BPLUS_HATSLOTS" x="0" y="-1.27" smashed="yes">
+<attribute name="NO_BOM" value="TRUE" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U1" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA328P" x="27.0256" y="16.7132" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="IC-09069" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3359,8 +3361,7 @@ einem neuen Namen ab.</description>
 </element>
 <element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="1.651" y="39.497" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LY L29K-H1K2-26-Z" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-0.889" y="40.767" size="1.27" layer="27" rot="R270"/>
 <attribute name="DIGIKEY#" value="475-1196-1-ND" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -3398,6 +3399,8 @@ einem neuen Namen ab.</description>
 <element name="MICS4514" library="MICS-4514_CO_and_NOx_Sensor_Breakout" package="SPARKFUN-SENSORS_MICS_10-SMD" value="SPARKFUN-SENSORS_MICS-4514" x="56.642" y="37.592" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="COMP-12310" x="74.422" y="146.812" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="53.975" y="31.6992" size="0.8128" layer="121" font="vector"/>
+<attribute name="MPN" value="MiCS-4514" x="56.642" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="SensorTech" x="56.642" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R14" library="SparkFun-Passives" package="0805" value="47K" x="58.8264" y="44.0436" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="169.6974" y="8.8646" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3520,8 +3523,10 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="RC0805JR-0747RL" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="54.6862" y="45.466" size="0.8128" layer="121" font="vector" rot="R90"/>
 </element>
-<element name="U$1" library="CCS811" package="LGA" value="CCS811" x="42.4688" y="38.9636" smashed="yes" rot="R90">
+<element name="U8" library="CCS811" package="LGA" value="CCS811" x="42.4688" y="38.9636" smashed="yes" rot="R90">
 <attribute name="VALUE" x="37.0078" y="42.545" size="0.8128" layer="121" font="vector" rot="R270"/>
+<attribute name="MANF" value="AMS" x="42.4688" y="38.9636" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CCS811" x="42.4688" y="38.9636" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="SparkFun-Passives" package="0805" value="100K" x="40.1828" y="37.1856" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="40.1828" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3546,9 +3551,11 @@ einem neuen Namen ab.</description>
 <element name="J1" library="SparkFun-Connectors" package="FTDI_BASIC" value="FTDI" x="7.62" y="20.4724" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.2964" y="35.8394" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="MPN" value="FT231XS-R" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY#" value="768-1129-1-ND" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="2X3" value="ISP" x="12.7508" y="29.1592" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13.3096" y="31.1658" size="0.8128" layer="121" font="vector"/>
+<attribute name="NO_BOM" value="TRUE" x="12.7508" y="29.1592" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3588,7 +3595,7 @@ einem neuen Namen ab.</description>
 <wire x1="30.6578" y1="0.7366" x2="29.7688" y2="-0.1524" width="0.3048" layer="1"/>
 <wire x1="15.4178" y1="0.3302" x2="15.9004" y2="-0.1524" width="0.3048" layer="1"/>
 <wire x1="15.9004" y1="-0.1524" x2="29.7688" y2="-0.1524" width="0.3048" layer="1"/>
-<contactref element="U$1" pad="9"/>
+<contactref element="U8" pad="9"/>
 <wire x1="37.4396" y1="43.7642" x2="37.4396" y2="24.892" width="0.3048" layer="16"/>
 <wire x1="39.8688" y1="41.3636" x2="39.8688" y2="41.8684" width="0.3048" layer="1"/>
 <wire x1="39.8688" y1="41.8684" x2="39.4716" y2="42.2656" width="0.3048" layer="1"/>
@@ -3637,7 +3644,7 @@ einem neuen Namen ab.</description>
 <wire x1="17.0434" y1="1.143" x2="18.3388" y2="-0.1524" width="0.3048" layer="16"/>
 <wire x1="18.3388" y1="-0.1524" x2="20.9296" y2="-0.1524" width="0.3048" layer="16"/>
 <wire x1="20.9296" y1="-0.1524" x2="22.2758" y2="1.1938" width="0.3048" layer="16"/>
-<contactref element="U$1" pad="10"/>
+<contactref element="U8" pad="10"/>
 <wire x1="35.9156" y1="35.5854" x2="35.9156" y2="24.892" width="0.3048" layer="16"/>
 <wire x1="35.9156" y1="24.892" x2="26.8224" y2="15.7988" width="0.3048" layer="16"/>
 <wire x1="35.9156" y1="35.5854" x2="36.8554" y2="35.5854" width="0.3048" layer="1"/>
@@ -3752,7 +3759,7 @@ einem neuen Namen ab.</description>
 <via x="39.243" y="6.3246" extent="1-16" drill="0.6"/>
 <via x="27.1272" y="29.4132" extent="1-16" drill="0.6"/>
 <contactref element="LED_26" pad="C"/>
-<contactref element="U$1" pad="11"/>
+<contactref element="U8" pad="11"/>
 <contactref element="C5" pad="2"/>
 <contactref element="LED_05" pad="C"/>
 <contactref element="J3" pad="6"/>
@@ -3885,7 +3892,7 @@ einem neuen Namen ab.</description>
 <wire x1="27.432" y1="21.0122" x2="27.4256" y2="21.0058" width="0.6096" layer="1"/>
 <wire x1="28.69" y1="23.61" x2="28.69" y2="24.4084" width="0.6096" layer="1"/>
 <wire x1="28.69" y1="24.4084" x2="28.691" y2="24.4094" width="0.6096" layer="1"/>
-<contactref element="U$1" pad="6"/>
+<contactref element="U8" pad="6"/>
 <contactref element="C5" pad="1"/>
 <contactref element="R9" pad="1"/>
 <wire x1="41.667" y1="43.4086" x2="41.667" y2="44.3086" width="0.3048" layer="1"/>
@@ -4320,7 +4327,7 @@ einem neuen Namen ab.</description>
 <wire x1="50.8484" y1="45.2264" x2="50.8" y2="45.178" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="U$1" pad="1"/>
+<contactref element="U8" pad="1"/>
 <contactref element="R9" pad="2"/>
 <wire x1="39.2688" y1="39.2636" x2="39.2688" y2="37.1996" width="0.3048" layer="1"/>
 <wire x1="39.2688" y1="37.1996" x2="39.2828" y2="37.1856" width="0.3048" layer="1"/>

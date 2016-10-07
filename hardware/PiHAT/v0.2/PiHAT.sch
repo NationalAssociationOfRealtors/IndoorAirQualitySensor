@@ -5943,7 +5943,9 @@ September 2016</description>
 </class>
 </classes>
 <parts>
-<part name="RPI1" library="microbuilder" deviceset="RASPBERRYPI_BPLUS" device="_HATSLOTS"/>
+<part name="RPI1" library="microbuilder" deviceset="RASPBERRYPI_BPLUS" device="_HATSLOTS">
+<attribute name="NO_BOM" value="TRUE"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P">
@@ -6007,8 +6009,7 @@ September 2016</description>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="DIGIKEY#" value="475-1196-1-ND"/>
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
+<attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
@@ -6038,7 +6039,10 @@ September 2016</description>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="MICS4514" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-SENSORS_MICS-4514" device=""/>
+<part name="MICS4514" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-SENSORS_MICS-4514" device="">
+<attribute name="MANF" value="SensorTech"/>
+<attribute name="MPN" value="MiCS-4514"/>
+</part>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47K">
 <attribute name="DIGIKEY#" value="RHM47KKCT-ND"/>
 <attribute name="MF" value=""/>
@@ -6139,7 +6143,10 @@ September 2016</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$1" library="CCS811" deviceset="CCS811" device="-I2C" value="CCS811"/>
+<part name="U8" library="CCS811" deviceset="CCS811" device="-I2C" value="CCS811">
+<attribute name="MANF" value="AMS"/>
+<attribute name="MPN" value="CCS811"/>
+</part>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
@@ -6159,9 +6166,12 @@ September 2016</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="FTDI_BASIC" device="PTH" value="FTDI">
+<attribute name="DIGIKEY#" value="768-1129-1-ND"/>
 <attribute name="MPN" value="FT231XS-R"/>
 </part>
-<part name="J3" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH" value="ISP"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH" value="ISP">
+<attribute name="NO_BOM" value="TRUE"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6187,7 +6197,9 @@ Akram Ali</text>
 <text x="172.72" y="-38.1" size="3.81" layer="94">FTDI Header</text>
 </plain>
 <instances>
-<instance part="RPI1" gate="G$1" x="210.82" y="109.22"/>
+<instance part="RPI1" gate="G$1" x="210.82" y="109.22">
+<attribute name="NO_BOM" x="210.82" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="187.96" y="78.74"/>
 <instance part="GND2" gate="1" x="238.76" y="76.2"/>
 <instance part="U1" gate="U$1" x="464.82" y="86.36">
@@ -6249,7 +6261,6 @@ Akram Ali</text>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="505.46" y="127"/>
 <instance part="LED2" gate="G$1" x="523.24" y="76.2" rot="R90">
-<attribute name="OC_NEWARK" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="523.24" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6282,7 +6293,10 @@ Akram Ali</text>
 <attribute name="MPN" x="289.56" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="289.56" y="119.38"/>
-<instance part="MICS4514" gate="G$1" x="248.92" y="-106.68"/>
+<instance part="MICS4514" gate="G$1" x="248.92" y="-106.68">
+<attribute name="MPN" x="248.92" y="-106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="248.92" y="-106.68" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R14" gate="G$1" x="218.44" y="-119.38" rot="R90">
 <attribute name="OC_NEWARK" x="218.44" y="-119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="218.44" y="-119.38" size="1.778" layer="96" display="off"/>
@@ -6383,7 +6397,10 @@ Akram Ali</text>
 <attribute name="DIGIKEY#" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="147.32" y="76.2"/>
-<instance part="U$1" gate="G$1" x="337.82" y="-60.96"/>
+<instance part="U8" gate="G$1" x="337.82" y="-60.96">
+<attribute name="MANF" x="337.82" y="-60.96" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="337.82" y="-60.96" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="G$1" x="322.58" y="-33.02"/>
 <instance part="R9" gate="G$1" x="322.58" y="-40.64" rot="R270">
 <attribute name="DIGIKEY#" x="322.58" y="-40.64" size="1.778" layer="96" rot="R270" display="off"/>
@@ -6404,8 +6421,11 @@ Akram Ali</text>
 </instance>
 <instance part="J1" gate="G$1" x="187.96" y="-53.34">
 <attribute name="MPN" x="187.96" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY#" x="187.96" y="-53.34" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J3" gate="G$1" x="180.34" y="20.32"/>
+<instance part="J3" gate="G$1" x="180.34" y="20.32">
+<attribute name="NO_BOM" x="180.34" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6438,7 +6458,7 @@ Akram Ali</text>
 <label x="342.9" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SDA"/>
+<pinref part="U8" gate="G$1" pin="SDA"/>
 <wire x1="368.3" y1="-48.26" x2="378.46" y2="-48.26" width="0.1524" layer="91"/>
 <label x="378.46" y="-48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6472,7 +6492,7 @@ Akram Ali</text>
 <label x="342.9" y="114.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCL"/>
+<pinref part="U8" gate="G$1" pin="SCL"/>
 <wire x1="368.3" y1="-45.72" x2="370.84" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="-45.72" x2="373.38" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="-43.18" x2="378.46" y2="-43.18" width="0.1524" layer="91"/>
@@ -6760,7 +6780,7 @@ Akram Ali</text>
 <junction x="147.32" y="83.82"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U8" gate="G$1" pin="GND"/>
 <wire x1="350.52" y1="-66.04" x2="350.52" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="350.52" y1="-68.58" x2="350.52" y2="-71.12" width="0.1524" layer="91"/>
@@ -6967,7 +6987,7 @@ Akram Ali</text>
 <label x="180.34" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="U8" gate="G$1" pin="VDD"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <wire x1="368.3" y1="-55.88" x2="375.92" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
@@ -7375,7 +7395,7 @@ Akram Ali</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="ADDR"/>
+<pinref part="U8" gate="G$1" pin="ADDR"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="332.74" y1="-45.72" x2="322.58" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
