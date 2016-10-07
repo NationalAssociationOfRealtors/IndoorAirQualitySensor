@@ -3295,62 +3295,63 @@ einem neuen Namen ab.</description>
 <attribute name="NO_BOM" value="TRUE" x="0" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="SparkFun-DigitalIC" package="TQFP32-08" value="ATMEGA328P" x="27.0256" y="16.7132" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PROD_ID" value="IC-09069" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ATMEGA328PB-AU" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="58Y6083" x="61.1886" y="41.8592" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.5994" y="20.5486" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="ATMEGA328P-AU-ND" x="27.0256" y="16.7132" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="556-ATMEGA328P-AU" x="27.0256" y="16.7132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U7" library="thomasb9511" package="SHT3X" value="SHT31-DIS" x="14.224" y="3.048" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="52.451" y="-43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="SHT31-DIS-B" x="52.451" y="-43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="47Y1304" x="52.451" y="-43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="14.3842" y="0.5316" size="0.8128" layer="121" font="vector" rot="R180" align="center"/>
 <attribute name="DIGIKEY#" value="1649-1011-1-ND" x="14.224" y="3.048" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="403-SHT31-DIS-B" x="14.224" y="3.048" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U2" library="SparkFun-DigitalIC" package="FN-6" value="TSL2561" x="26.797" y="2.921" smashed="yes">
-<attribute name="MANF#" value="TSL2561FN" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER#" value="856-TSL2561T" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="PROD_ID" value="IC-11791" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TSL2561FN" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="82Y5564" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="TSL2561-FNCT-ND" x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="AMS-TAOS-USA-Inc." x="-6.731" y="54.991" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.797" y="0.9344" size="0.8128" layer="121" font="vector" rot="R180" align="bottom-center"/>
+<attribute name="MOUSER#" value="856-TSL2561T" x="26.797" y="2.921" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0805" value="47" x="1.651" y="44.45" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="53.213" y="113.157" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805JR-0747RL" x="53.213" y="113.157" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="53.213" y="113.157" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="3.0988" y="44.45" size="0.8128" layer="121" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="DIGIKEY#" value="311-47ARCT-ND" x="1.651" y="44.45" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0747RL" x="1.651" y="44.45" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0805" value="10K" x="36.0934" y="14.351" smashed="yes">
 <attribute name="VALUE" x="35.0774" y="15.2908" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="36.0934" y="14.351" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="36.0934" y="14.351" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL" x="36.0934" y="14.351" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0805" value="10K" x="36.0934" y="16.9926" smashed="yes">
 <attribute name="VALUE" x="35.1028" y="18.0594" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="36.0934" y="16.9926" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="36.0934" y="16.9926" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL" x="36.0934" y="16.9926" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Passives" package="0805" value="0.1uF" x="25.1206" y="6.2992" smashed="yes" rot="R180">
 <attribute name="VALUE" x="27.0002" y="8.382" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="25.1206" y="6.2992" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="25.1206" y="6.2992" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100RL" x="25.1206" y="6.2992" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C4" library="SparkFun-Passives" package="0805" value="0.1uF" x="10.795" y="2.921" smashed="yes" rot="R270">
 <attribute name="VALUE" x="8.6868" y="4.699" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="10.795" y="2.921" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="10.795" y="2.921" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="10.795" y="2.921" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="SparkFun-Passives" package="0805" value="0.1uF" x="40.767" y="43.4086" smashed="yes" rot="R180">
 <attribute name="VALUE" x="42.5958" y="43.0784" size="0.8128" layer="121" font="vector" rot="SR0"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="40.767" y="43.4086" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="40.767" y="43.4086" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="40.767" y="43.4086" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="Y1" library="SparkFun-FreqCtrl" package="RESONATOR-SMD" value="16MHZ" x="24.7142" y="23.7744" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3358,43 +3359,50 @@ einem neuen Namen ab.</description>
 <attribute name="MPN" value="CSTCE16M0V53-R0" x="105.8672" y="-17.8816" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.5557" y="26.2001" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="490-1198-1-ND" x="24.7142" y="23.7744" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="81-CSTCE16M0V53-R0" x="24.7142" y="23.7744" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="1.651" y="39.497" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="LED1" library="adafruit" package="CHIPLED_0805" value="" x="1.651" y="39.497" smashed="yes" rot="R180">
 <attribute name="MPN" value="LY L29K-H1K2-26-Z" x="69.596" y="-3.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-0.889" y="40.767" size="1.27" layer="27" rot="R270"/>
 <attribute name="DIGIKEY#" value="475-1196-1-ND" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="720-LYL29KH1K226Z" x="1.651" y="39.497" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="10K" x="8.255" y="16.129" smashed="yes" rot="R270">
 <attribute name="VALUE" x="6.35" y="17.3736" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="8.255" y="16.129" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="8.255" y="16.129" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL" x="8.255" y="16.129" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="SparkFun-Passives" package="0805" value="0.1uF" x="11.3284" y="17.9324" smashed="yes" rot="R270">
 <attribute name="VALUE" x="10.2616" y="16.5354" size="0.8128" layer="121" font="vector" rot="SR90"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="11.3284" y="17.9324" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="11.3284" y="17.9324" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="11.3284" y="17.9324" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RESET" library="SparkFun-Retired" package="TACTILE-SWITCH-SMD" value="TAC_SWITCHSMD" x="3.429" y="11.684" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="SWCH-08247" x="-26.924" y="-72.39" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="7.3152" y="9.8806" size="0.8128" layer="121" font="vector" rot="SR90"/>
 <attribute name="DIGIKEY#" value="CKN9104CT-ND" x="3.429" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="PTS525SM15SMTR2 LFS" x="3.429" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER#" value="611-PTS525SM15SMTR2" x="3.429" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U4" library="SparkFun-Sensors" package="LGA8" value="MPL115A" x="35.814" y="4.1402" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.4264" y="0.127" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="MPL115A2-ND" x="35.814" y="4.1402" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MPL115A2" x="35.814" y="4.1402" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="841-MPL115A2" x="35.814" y="4.1402" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C13" library="SparkFun-Passives" package="0805" value="0.1uF" x="39.4716" y="3.175" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.5892" y="4.8514" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="39.4716" y="3.175" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="39.4716" y="3.175" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="39.4716" y="3.175" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C14" library="SparkFun-Passives" package="0805" value="0.1uF" x="37.8968" y="8.4328" smashed="yes">
 <attribute name="VALUE" x="36.6268" y="9.7282" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="37.8968" y="8.4328" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="37.8968" y="8.4328" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="37.8968" y="8.4328" size="1.778" layer="27" display="off"/>
 </element>
 <element name="MICS4514" library="MICS-4514_CO_and_NOx_Sensor_Breakout" package="SPARKFUN-SENSORS_MICS_10-SMD" value="SPARKFUN-SENSORS_MICS-4514" x="56.642" y="37.592" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="COMP-12310" x="74.422" y="146.812" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3403,54 +3411,59 @@ einem neuen Namen ab.</description>
 <attribute name="MANF" value="SensorTech" x="56.642" y="37.592" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R14" library="SparkFun-Passives" package="0805" value="47K" x="58.8264" y="44.0436" smashed="yes" rot="R180">
-<attribute name="MF" value="" x="169.6974" y="8.8646" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ESR10EZPJ473" x="169.6974" y="8.8646" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="169.6974" y="8.8646" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.9694" y="45.9486" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="RHM47KKCT-ND" x="58.8264" y="44.0436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="755-ESR10EZPJ473" x="58.8264" y="44.0436" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R15" library="SparkFun-Passives" package="0805" value="82" x="61.976" y="39.751" smashed="yes" rot="R270">
 <attribute name="VALUE" x="63.1952" y="40.386" size="0.8128" layer="121" font="vector" rot="SR270"/>
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="61.976" y="39.751" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CRCW080582R0FKEA" x="61.976" y="39.751" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="CRCW080582R0FKEA" x="61.976" y="39.751" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R16" library="SparkFun-Passives" package="0805" value="22K" x="61.976" y="36.068" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="26.797" y="-86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805JR-0722KL" x="26.797" y="-86.741" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="26.797" y="-86.741" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="63.2206" y="37.084" size="0.8128" layer="121" font="vector" rot="SR270"/>
 <attribute name="DIGIKEY#" value="311-22KARCT-ND" x="61.976" y="36.068" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0722KL" x="61.976" y="36.068" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R17" library="SparkFun-Passives" package="0805" value="51" x="59.944" y="23.241" smashed="yes" rot="R180">
 <attribute name="VALUE" x="59.309" y="21.3614" size="0.8128" layer="121" font="vector" rot="SR0"/>
 <attribute name="DIGIKEY#" value="RHM51KCT-ND" x="59.944" y="23.241" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="ESR10EZPJ510" x="59.944" y="23.241" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="755-ESR10EZPJ510" x="59.944" y="23.241" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R18" library="SparkFun-Passives" package="0805" value="82" x="59.944" y="25.2984" smashed="yes">
 <attribute name="VALUE" x="59.3344" y="26.4414" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="59.944" y="25.2984" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CRCW080582R0FKEA" x="59.944" y="25.2984" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="CRCW080582R0FKEA" x="59.944" y="25.2984" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R19" library="SparkFun-Passives" package="0805" value="100K" x="51.6382" y="23.2156" smashed="yes">
 <attribute name="VALUE" x="50.2412" y="21.209" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-100KCRCT-ND" x="51.6382" y="23.2156" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100KL" x="51.6382" y="23.2156" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100KL" x="51.6382" y="23.2156" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R20" library="SparkFun-Passives" package="0805" value="100" x="51.6382" y="25.273" smashed="yes" rot="R180">
 <attribute name="VALUE" x="52.832" y="27.2542" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="311-100CRCT-ND" x="51.6382" y="25.273" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100RL" x="51.6382" y="25.273" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100RL" x="51.6382" y="25.273" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" package="SPARKFUN-DISCRETESEMI_SOT23-3" value="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNELBSS138" x="55.88" y="24.1808" smashed="yes">
 <attribute name="PROD_ID" value="TRANS-00830" x="-55.88" y="52.7558" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="53.8861" y="21.2598" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="BSS138-FDICT-ND" x="55.88" y="24.1808" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="BSS138-7-F" x="55.88" y="24.1808" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="621-BSS138-7-F" x="55.88" y="24.1808" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C7" library="SparkFun-Passives" package="0805" value="0.1uF" x="51.6128" y="37.973" smashed="yes" rot="R270">
 <attribute name="VALUE" x="50.3936" y="36.4998" size="0.8128" layer="121" font="vector" rot="R90"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="51.6128" y="37.973" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="51.6128" y="37.973" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="51.6128" y="37.973" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U6" library="SparkFun-Sensors" package="ADMP401" value="ADMP401" x="60.4012" y="15.6464" smashed="yes" rot="R90">
 <attribute name="VALUE" x="62.2074" y="19.2306" size="0.8128" layer="121" font="vector" rot="R180"/>
@@ -3462,66 +3475,75 @@ einem neuen Namen ab.</description>
 <attribute name="VALUE" x="48.1711" y="13.3731" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="DIGIKEY#" value="296-41475-1-ND" x="51.308" y="11.049" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="OPA344NA/3K" x="51.308" y="11.049" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="595-OPA344NA/3K" x="51.308" y="11.049" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" package="0805" value="100pF" x="62.4586" y="8.5344" smashed="yes">
 <attribute name="VALUE" x="61.0108" y="6.6294" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1111-1-ND" x="62.4586" y="8.5344" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805JRNPO9BN101" x="62.4586" y="8.5344" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-CC805JRNPO9BN101" x="62.4586" y="8.5344" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="58.674" y="11.176" smashed="yes">
 <attribute name="VALUE" x="57.404" y="12.1666" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1871-1-ND" x="58.674" y="11.176" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805KKX5R8BB475" x="58.674" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-CC805KKX5R8BB475" x="58.674" y="11.176" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0805" value="1uF" x="50.927" y="5.334" smashed="yes">
 <attribute name="VALUE" x="52.9336" y="5.0292" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1365-1-ND" x="50.927" y="5.334" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0805KKX7R7BB105" x="50.927" y="5.334" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-CC805KKX7R7BB105" x="50.927" y="5.334" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="55.499" y="14.732" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.229" y="13.4112" size="0.8128" layer="121" font="vector" rot="R90"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="55.499" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="55.499" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="55.499" y="14.732" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="SparkFun-Passives" package="0805" value="10K" x="50.927" y="2.667" smashed="yes" rot="R180">
 <attribute name="VALUE" x="55.0672" y="3.0988" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="50.927" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="50.927" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL" x="50.927" y="2.667" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R3" library="SparkFun-Passives" package="0805" value="1.5K" x="58.674" y="8.509" smashed="yes">
 <attribute name="VALUE" x="57.3786" y="6.5532" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="YAG1814CT-ND" x="58.674" y="8.509" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RT0805BRD071K5L" x="58.674" y="8.509" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-RT0805BRD071K5L" x="58.674" y="8.509" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Passives" package="0805" value="10K" x="50.927" y="8.001" smashed="yes">
 <attribute name="VALUE" x="52.959" y="7.6962" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-10KARCT-ND" x="50.927" y="8.001" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC0805JR-0710KL" x="50.927" y="8.001" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL" x="50.927" y="8.001" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Passives" package="0805" value="100K" x="62.4586" y="11.2014" smashed="yes" rot="R180">
 <attribute name="VALUE" x="63.9826" y="13.0048" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC0805FR-07100KL" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100KL" x="62.4586" y="11.2014" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="SparkFun-Passives" package="0805" value="0.1uF" x="29.591" y="24.4094" smashed="yes">
 <attribute name="VALUE" x="28.0416" y="22.5044" size="0.8128" layer="121" font="vector"/>
 <attribute name="DIGIKEY#" value="311-1088-1-ND" x="29.591" y="24.4094" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104" x="29.591" y="24.4094" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104" x="29.591" y="24.4094" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED_26" library="adafruit" package="CHIPLED_0805" value="" x="50.8" y="46.228" smashed="yes">
-<attribute name="MF" value="" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
+<element name="LED3" library="adafruit" package="CHIPLED_0805" value="" x="50.8" y="46.228" smashed="yes">
 <attribute name="DIGIKEY#" value="475-1196-1-ND" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LY L29K-H1K2-26-Z" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.9204" y="48.5648" size="0.8128" layer="121" font="vector" rot="R270"/>
 <attribute name="VALUE" x="53.34" y="44.958" size="1.27" layer="27" rot="R90"/>
+<attribute name="DESCRIPTION" value="LED" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="720-LYL29KH1K226Z" x="50.8" y="46.228" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="47" x="52.7304" y="46.1264" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="311-47ARCT-ND" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805JR-0747RL" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="54.6862" y="45.466" size="0.8128" layer="121" font="vector" rot="R90"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0747RL" x="52.7304" y="46.1264" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U8" library="CCS811" package="LGA" value="CCS811" x="42.4688" y="38.9636" smashed="yes" rot="R90">
 <attribute name="VALUE" x="37.0078" y="42.545" size="0.8128" layer="121" font="vector" rot="R270"/>
@@ -3532,26 +3554,27 @@ einem neuen Namen ab.</description>
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND" x="40.1828" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="41.7576" y="36.0934" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="MPN" value="RC0805FR-07100KL" x="40.1828" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100KL" x="40.1828" y="37.1856" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" package="0805" value="47" x="44.3992" y="46.0756" smashed="yes" rot="R90">
-<attribute name="MF" value="" x="44.3992" y="46.0756" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="44.3992" y="46.0756" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="311-47ARCT-ND" x="44.3992" y="46.0756" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC0805JR-0747RL" x="44.3992" y="46.0756" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="43.3578" y="45.5676" size="0.8128" layer="121" font="vector" rot="R90"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0747RL" x="44.3992" y="46.0756" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED_05" library="adafruit" package="CHIPLED_0805" value="" x="46.2788" y="46.228" smashed="yes">
-<attribute name="MF" value="" x="46.2788" y="46.228" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="46.2788" y="46.228" size="1.778" layer="27" display="off"/>
+<element name="LED2" library="adafruit" package="CHIPLED_0805" value="" x="46.2788" y="46.228" smashed="yes">
 <attribute name="DIGIKEY#" value="475-1196-1-ND" x="46.2788" y="46.228" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="LY L29K-H1K2-26-Z" x="46.2788" y="46.228" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="48.2092" y="44.0944" size="0.8128" layer="121" font="vector" rot="R90"/>
 <attribute name="VALUE" x="48.8188" y="44.958" size="1.27" layer="27" rot="R90"/>
+<attribute name="DESCRIPTION" value="LED" x="46.2788" y="46.228" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER#" value="720-LYL29KH1K226Z" x="46.2788" y="46.228" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="FTDI_BASIC" value="FTDI" x="7.62" y="20.4724" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.2964" y="35.8394" size="0.8128" layer="121" font="vector" rot="R180"/>
 <attribute name="MPN" value="FT231XS-R" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="768-1129-1-ND" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER#" value="895-FT231XS-R" x="7.62" y="20.4724" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J3" library="SparkFun-Connectors" package="2X3" value="ISP" x="12.7508" y="29.1592" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13.3096" y="31.1658" size="0.8128" layer="121" font="vector"/>
@@ -3714,7 +3737,7 @@ einem neuen Namen ab.</description>
 <contactref element="C15" pad="2"/>
 <contactref element="RESET" pad="1"/>
 <contactref element="RESET" pad="2"/>
-<contactref element="LED2" pad="C"/>
+<contactref element="LED1" pad="C"/>
 <contactref element="C3" pad="2"/>
 <contactref element="U4" pad="3"/>
 <contactref element="C13" pad="2"/>
@@ -3758,10 +3781,10 @@ einem neuen Namen ab.</description>
 <via x="27.3812" y="10.795" extent="1-16" drill="0.6"/>
 <via x="39.243" y="6.3246" extent="1-16" drill="0.6"/>
 <via x="27.1272" y="29.4132" extent="1-16" drill="0.6"/>
-<contactref element="LED_26" pad="C"/>
+<contactref element="LED3" pad="C"/>
 <contactref element="U8" pad="11"/>
 <contactref element="C5" pad="2"/>
-<contactref element="LED_05" pad="C"/>
+<contactref element="LED2" pad="C"/>
 <contactref element="J3" pad="6"/>
 <contactref element="J1" pad="CTS"/>
 <contactref element="J1" pad="GND"/>
@@ -4270,7 +4293,7 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="N$3">
 <contactref element="R4" pad="2"/>
-<contactref element="LED2" pad="A"/>
+<contactref element="LED1" pad="A"/>
 <wire x1="1.651" y1="40.547" x2="1.651" y2="43.55" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$7">
@@ -4321,7 +4344,7 @@ einem neuen Namen ab.</description>
 <contactref element="RPI1" pad="5"/>
 </signal>
 <signal name="N$1">
-<contactref element="LED_26" pad="A"/>
+<contactref element="LED3" pad="A"/>
 <contactref element="R2" pad="1"/>
 <wire x1="52.7304" y1="45.2264" x2="50.8484" y2="45.2264" width="0.3048" layer="1"/>
 <wire x1="50.8484" y1="45.2264" x2="50.8" y2="45.178" width="0.3048" layer="1"/>
@@ -4334,7 +4357,7 @@ einem neuen Namen ab.</description>
 </signal>
 <signal name="N$6">
 <contactref element="R10" pad="1"/>
-<contactref element="LED_05" pad="A"/>
+<contactref element="LED2" pad="A"/>
 <wire x1="44.3992" y1="45.1756" x2="46.2764" y2="45.1756" width="0.3048" layer="1"/>
 <wire x1="46.2764" y1="45.1756" x2="46.2788" y2="45.178" width="0.3048" layer="1"/>
 </signal>

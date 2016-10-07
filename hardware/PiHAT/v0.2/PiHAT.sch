@@ -5950,24 +5950,20 @@ September 2016</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P">
 <attribute name="DIGIKEY#" value="ATMEGA328P-AU-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="556-ATMEGA328P-AU"/>
 <attribute name="MPN" value="ATMEGA328PB-AU"/>
-<attribute name="OC_NEWARK" value="58Y6083"/>
 </part>
 <part name="U7" library="thomasb9511" deviceset="SHT31-DIS" device="">
 <attribute name="DIGIKEY#" value="1649-1011-1-ND"/>
 <attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="403-SHT31-DIS-B"/>
 <attribute name="MPN" value="SHT31-DIS-B"/>
-<attribute name="OC_NEWARK" value="47Y1304"/>
 </part>
 <part name="U2" library="SparkFun-DigitalIC" deviceset="TSL2561" device="FN" value="TSL2561">
 <attribute name="DIGIKEY#" value="TSL2561-FNCT-ND"/>
 <attribute name="MANF" value="AMS-TAOS-USA-Inc."/>
-<attribute name="MANF#" value="TSL2561FN"/>
-<attribute name="MF" value=""/>
 <attribute name="MOUSER#" value="856-TSL2561T"/>
 <attribute name="MPN" value="TSL2561FN"/>
-<attribute name="OC_NEWARK" value="82Y5564"/>
 </part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -5977,65 +5973,77 @@ September 2016</description>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
 <attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
 <attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="603-RC0805JR-0747RL"/>
 <attribute name="MPN" value="RC0805JR-0747RL"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
 <attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
 <attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100RL"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ">
 <attribute name="DIGIKEY#" value="490-1198-1-ND"/>
 <attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="81-CSTCE16M0V53-R0"/>
 <attribute name="MPN" value="CSTCE16M0V53-R0"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="DIGIKEY#" value="475-1196-1-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="720-LYL29KH1K226Z"/>
 <attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
 <attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="RESET" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="SMD" value="TAC_SWITCHSMD">
 <attribute name="DIGIKEY#" value="CKN9104CT-ND"/>
+<attribute name="MOUSER#" value="611-PTS525SM15SMTR2"/>
 <attribute name="MPN" value="PTS525SM15SMTR2 LFS"/>
 </part>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="U4" library="SparkFun-Sensors" deviceset="MPL115A" device="">
 <attribute name="DIGIKEY#" value="MPL115A2-ND"/>
+<attribute name="MOUSER#" value="841-MPL115A2"/>
 <attribute name="MPN" value="MPL115A2"/>
 </part>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -6045,42 +6053,47 @@ September 2016</description>
 </part>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47K">
 <attribute name="DIGIKEY#" value="RHM47KKCT-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="755-ESR10EZPJ473"/>
 <attribute name="MPN" value="ESR10EZPJ473"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="82">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+<attribute name="MOUSER#" value="CRCW080582R0FKEA"/>
 <attribute name="MPN" value="CRCW080582R0FKEA"/>
 </part>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="22K">
 <attribute name="DIGIKEY#" value="311-22KARCT-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="603-RC0805JR-0722KL"/>
 <attribute name="MPN" value="RC0805JR-0722KL"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="51">
 <attribute name="DIGIKEY#" value="RHM51KCT-ND"/>
+<attribute name="MOUSER#" value="755-ESR10EZPJ510"/>
 <attribute name="MPN" value="ESR10EZPJ510"/>
 </part>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="82">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+<attribute name="MOUSER#" value="CRCW080582R0FKEA"/>
 <attribute name="MPN" value="CRCW080582R0FKEA"/>
 </part>
 <part name="R19" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
 <attribute name="DIGIKEY#" value="311-100KCRCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100KL"/>
 <attribute name="MPN" value="RC0805FR-07100KL"/>
 </part>
 <part name="R20" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100">
 <attribute name="DIGIKEY#" value="311-100CRCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100RL"/>
 <attribute name="MPN" value="RC0805FR-07100RL"/>
 </part>
 <part name="MOSFET" library="MICS-4514_CO_and_NOx_Sensor_Breakout" deviceset="SPARKFUN-DISCRETESEMI_MOSFET-NCHANNEL" device="BSS138">
 <attribute name="DIGIKEY#" value="BSS138-FDICT-ND"/>
+<attribute name="MOUSER#" value="621-BSS138-7-F"/>
 <attribute name="MPN" value="BSS138-7-F"/>
 </part>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="U6" library="SparkFun-Sensors" deviceset="ADMP401" device="">
@@ -6089,38 +6102,47 @@ September 2016</description>
 </part>
 <part name="U3" library="SparkFun-AnalogIC" deviceset="OPA344" device="">
 <attribute name="DIGIKEY#" value="296-41475-1-ND"/>
+<attribute name="MOUSER#" value="595-OPA344NA/3K"/>
 <attribute name="MPN" value="OPA344NA/3K"/>
 </part>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100pF">
 <attribute name="DIGIKEY#" value="311-1111-1-ND"/>
+<attribute name="MOUSER#" value="603-CC805JRNPO9BN101"/>
 <attribute name="MPN" value="CC0805JRNPO9BN101"/>
 </part>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF">
 <attribute name="DIGIKEY#" value="311-1871-1-ND"/>
+<attribute name="MOUSER#" value="603-CC805KKX5R8BB475"/>
 <attribute name="MPN" value="CC0805KKX5R8BB475"/>
 </part>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF">
 <attribute name="DIGIKEY#" value="311-1365-1-ND"/>
+<attribute name="MOUSER#" value="603-CC805KKX7R7BB105"/>
 <attribute name="MPN" value="CC0805KKX7R7BB105"/>
 </part>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
 <attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K">
 <attribute name="DIGIKEY#" value="YAG1814CT-ND"/>
+<attribute name="MOUSER#" value="603-RT0805BRD071K5L"/>
 <attribute name="MPN" value="RT0805BRD071K5L"/>
 </part>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
 <attribute name="DIGIKEY#" value="311-10KARCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805JR-0710KL"/>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100KL"/>
 <attribute name="MPN" value="RC0805FR-07100KL"/>
 </part>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -6128,19 +6150,19 @@ September 2016</description>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="DIGIKEY#" value="311-1088-1-ND"/>
+<attribute name="MOUSER#" value="603-CC603KRX7R7BB104"/>
 <attribute name="MPN" value="CC0603KRX7R7BB104"/>
 </part>
-<part name="LED_26" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<attribute name="DESCRIPTION" value="LED"/>
 <attribute name="DIGIKEY#" value="475-1196-1-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="720-LYL29KH1K226Z"/>
 <attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
 <attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="603-RC0805JR-0747RL"/>
 <attribute name="MPN" value="RC0805JR-0747RL"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U8" library="CCS811" deviceset="CCS811" device="-I2C" value="CCS811">
@@ -6150,23 +6172,24 @@ September 2016</description>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
 <attribute name="DIGIKEY#" value="541-82.0CCT-ND"/>
+<attribute name="MOUSER#" value="603-RC0805FR-07100KL"/>
 <attribute name="MPN" value="RC0805FR-07100KL"/>
 </part>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47">
 <attribute name="DIGIKEY#" value="311-47ARCT-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="603-RC0805JR-0747RL"/>
 <attribute name="MPN" value="RC0805JR-0747RL"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="LED_05" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<attribute name="DESCRIPTION" value="LED"/>
 <attribute name="DIGIKEY#" value="475-1196-1-ND"/>
-<attribute name="MF" value=""/>
+<attribute name="MOUSER#" value="720-LYL29KH1K226Z"/>
 <attribute name="MPN" value="LY L29K-H1K2-26-Z"/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="J1" library="SparkFun-Connectors" deviceset="FTDI_BASIC" device="PTH" value="FTDI">
 <attribute name="DIGIKEY#" value="768-1129-1-ND"/>
+<attribute name="MOUSER#" value="895-FT231XS-R"/>
 <attribute name="MPN" value="FT231XS-R"/>
 </part>
 <part name="J3" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH" value="ISP">
@@ -6203,25 +6226,21 @@ Akram Ali</text>
 <instance part="GND1" gate="1" x="187.96" y="78.74"/>
 <instance part="GND2" gate="1" x="238.76" y="76.2"/>
 <instance part="U1" gate="U$1" x="464.82" y="86.36">
-<attribute name="OC_NEWARK" x="464.82" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="464.82" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="464.82" y="86.36" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="464.82" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="464.82" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U7" gate="G$1" x="462.28" y="-5.08">
-<attribute name="OC_NEWARK" x="462.28" y="-5.08" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="462.28" y="-5.08" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="462.28" y="-5.08" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="462.28" y="-5.08" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="462.28" y="-5.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U2" gate="G$1" x="317.5" y="30.48">
 <attribute name="DIGIKEY#" x="317.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MANF#" x="317.5" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANF" x="317.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER#" x="317.5" y="30.48" size="1.778" layer="96" display="off"/>
-<attribute name="OC_NEWARK" x="317.5" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="317.5" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="317.5" y="30.48" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER#" x="317.5" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="434.34" y="53.34"/>
 <instance part="SUPPLY1" gate="G$1" x="434.34" y="132.08"/>
@@ -6229,68 +6248,80 @@ Akram Ali</text>
 <instance part="SUPPLY3" gate="G$1" x="497.84" y="-10.16"/>
 <instance part="SUPPLY5" gate="G$1" x="381" y="-55.88"/>
 <instance part="R4" gate="G$1" x="508" y="76.2">
-<attribute name="OC_NEWARK" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MF" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="508" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="508" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="508" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="500.38" y="114.3" rot="R90">
 <attribute name="DIGIKEY#" x="500.38" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="500.38" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="500.38" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="510.54" y="114.3" rot="R90">
 <attribute name="DIGIKEY#" x="510.54" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="510.54" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="510.54" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="337.82" y="30.48">
 <attribute name="DIGIKEY#" x="337.82" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="337.82" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="337.82" y="30.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="485.14" y="-17.78">
 <attribute name="DIGIKEY#" x="485.14" y="-17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="485.14" y="-17.78" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="485.14" y="-17.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="375.92" y="-63.5">
 <attribute name="DIGIKEY#" x="375.92" y="-63.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="375.92" y="-63.5" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="375.92" y="-63.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Y1" gate="G$1" x="434.34" y="81.28">
 <attribute name="MF" x="434.34" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="434.34" y="81.28" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="434.34" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="434.34" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="505.46" y="127"/>
-<instance part="LED2" gate="G$1" x="523.24" y="76.2" rot="R90">
-<attribute name="MF" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
+<instance part="LED1" gate="G$1" x="523.24" y="76.2" rot="R90">
 <attribute name="MPN" x="523.24" y="76.2" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="523.24" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="523.24" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="530.86" y="66.04"/>
 <instance part="R13" gate="G$1" x="426.72" y="124.46" rot="R90">
 <attribute name="DIGIKEY#" x="426.72" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="426.72" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="426.72" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="411.48" y="124.46">
 <attribute name="DIGIKEY#" x="411.48" y="124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="411.48" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="411.48" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="393.7" y="111.76"/>
 <instance part="RESET" gate="S" x="401.32" y="119.38">
 <attribute name="DIGIKEY#" x="401.32" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="401.32" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="401.32" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="G$1" x="426.72" y="132.08"/>
 <instance part="U4" gate="G$1" x="325.12" y="109.22">
 <attribute name="DIGIKEY#" x="325.12" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="325.12" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="325.12" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="297.18" y="104.14">
 <attribute name="DIGIKEY#" x="297.18" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="297.18" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="297.18" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="289.56" y="104.14">
 <attribute name="DIGIKEY#" x="289.56" y="104.14" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="289.56" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="289.56" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="289.56" y="119.38"/>
 <instance part="MICS4514" gate="G$1" x="248.92" y="-106.68">
@@ -6298,44 +6329,49 @@ Akram Ali</text>
 <attribute name="MANF" x="248.92" y="-106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="218.44" y="-119.38" rot="R90">
-<attribute name="OC_NEWARK" x="218.44" y="-119.38" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="218.44" y="-119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="218.44" y="-119.38" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY#" x="218.44" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="218.44" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="208.28" y="-119.38" rot="R90">
 <attribute name="DIGIKEY#" x="208.28" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="208.28" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="208.28" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="198.12" y="-119.38" rot="R90">
-<attribute name="OC_NEWARK" x="198.12" y="-119.38" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="198.12" y="-119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="198.12" y="-119.38" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY#" x="198.12" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="198.12" y="-119.38" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="185.42" y="-129.54" rot="R90">
 <attribute name="DIGIKEY#" x="185.42" y="-129.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="185.42" y="-129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="185.42" y="-129.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="185.42" y="-109.22" rot="R90">
 <attribute name="DIGIKEY#" x="185.42" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="185.42" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="185.42" y="-109.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="157.48" y="-137.16" rot="R90">
 <attribute name="DIGIKEY#" x="157.48" y="-137.16" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="157.48" y="-137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="157.48" y="-137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="147.32" y="-127" rot="R180">
 <attribute name="DIGIKEY#" x="147.32" y="-127" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="147.32" y="-127" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER#" x="147.32" y="-127" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="MOSFET" gate="G$1" x="170.18" y="-127">
 <attribute name="DIGIKEY#" x="170.18" y="-127" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="170.18" y="-127" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="170.18" y="-127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="279.4" y="-106.68">
 <attribute name="DIGIKEY#" x="279.4" y="-106.68" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="279.4" y="-106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="279.4" y="-106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="454.66" y="-99.06">
 <attribute name="DIGIKEY#" x="454.66" y="-99.06" size="1.778" layer="96" display="off"/>
@@ -6344,38 +6380,47 @@ Akram Ali</text>
 <instance part="U3" gate="G$1" x="508" y="-101.6">
 <attribute name="DIGIKEY#" x="508" y="-101.6" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="508" y="-101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="508" y="-101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="510.54" y="-71.12" rot="R90">
 <attribute name="DIGIKEY#" x="510.54" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="510.54" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="510.54" y="-71.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="472.44" y="-99.06" rot="R90">
 <attribute name="DIGIKEY#" x="472.44" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="472.44" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="472.44" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="485.14" y="-119.38">
 <attribute name="DIGIKEY#" x="485.14" y="-119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="485.14" y="-119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="485.14" y="-119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="434.34" y="-99.06">
 <attribute name="DIGIKEY#" x="434.34" y="-99.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="434.34" y="-99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="434.34" y="-99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="495.3" y="-116.84" rot="R90">
 <attribute name="DIGIKEY#" x="495.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="495.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="495.3" y="-116.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="482.6" y="-99.06" rot="R180">
 <attribute name="DIGIKEY#" x="482.6" y="-99.06" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="482.6" y="-99.06" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER#" x="482.6" y="-99.06" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="495.3" y="-88.9" rot="R90">
 <attribute name="DIGIKEY#" x="495.3" y="-88.9" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="495.3" y="-88.9" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER#" x="495.3" y="-88.9" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="508" y="-78.74" rot="R180">
 <attribute name="DIGIKEY#" x="508" y="-78.74" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MPN" x="508" y="-78.74" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MOUSER#" x="508" y="-78.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="434.34" y="-86.36"/>
 <instance part="SUPPLY6" gate="G$1" x="495.3" y="-81.28"/>
@@ -6383,18 +6428,18 @@ Akram Ali</text>
 <instance part="C15" gate="G$1" x="419.1" y="81.28">
 <attribute name="DIGIKEY#" x="419.1" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="419.1" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="419.1" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED_26" gate="G$1" x="157.48" y="83.82" rot="R270">
-<attribute name="OC_NEWARK" x="157.48" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="157.48" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="LED3" gate="G$1" x="157.48" y="83.82" rot="R270">
 <attribute name="MPN" x="157.48" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" x="157.48" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="157.48" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER#" x="157.48" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="170.18" y="83.82">
-<attribute name="OC_NEWARK" x="170.18" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="170.18" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="170.18" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="170.18" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND4" gate="1" x="147.32" y="76.2"/>
 <instance part="U8" gate="G$1" x="337.82" y="-60.96">
@@ -6405,23 +6450,24 @@ Akram Ali</text>
 <instance part="R9" gate="G$1" x="322.58" y="-40.64" rot="R270">
 <attribute name="DIGIKEY#" x="322.58" y="-40.64" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="322.58" y="-40.64" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER#" x="322.58" y="-40.64" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="350.52" y="-73.66"/>
 <instance part="R10" gate="G$1" x="170.18" y="93.98">
-<attribute name="OC_NEWARK" x="170.18" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="170.18" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MPN" x="170.18" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" x="170.18" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="170.18" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="LED_05" gate="G$1" x="157.48" y="93.98" rot="R270">
-<attribute name="OC_NEWARK" x="157.48" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MF" x="157.48" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="LED2" gate="G$1" x="157.48" y="93.98" rot="R270">
 <attribute name="MPN" x="157.48" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" x="157.48" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="157.48" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER#" x="157.48" y="93.98" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="J1" gate="G$1" x="187.96" y="-53.34">
 <attribute name="MPN" x="187.96" y="-53.34" size="1.778" layer="96" display="off"/>
 <attribute name="DIGIKEY#" x="187.96" y="-53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER#" x="187.96" y="-53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="180.34" y="20.32">
 <attribute name="NO_BOM" x="180.34" y="20.32" size="1.778" layer="96" display="off"/>
@@ -6652,7 +6698,7 @@ Akram Ali</text>
 <junction x="393.7" y="116.84"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="528.32" y1="76.2" x2="530.86" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="530.86" y1="76.2" x2="530.86" y2="68.58" width="0.1524" layer="91"/>
@@ -6771,10 +6817,10 @@ Akram Ali</text>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="LED_26" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="147.32" y1="78.74" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="LED_05" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="152.4" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="93.98" x2="147.32" y2="83.82" width="0.1524" layer="91"/>
 <junction x="147.32" y="83.82"/>
@@ -7317,7 +7363,7 @@ Akram Ali</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="513.08" y1="76.2" x2="520.7" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -7388,7 +7434,7 @@ Akram Ali</text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED_26" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -7403,7 +7449,7 @@ Akram Ali</text>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="LED_05" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="93.98" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
