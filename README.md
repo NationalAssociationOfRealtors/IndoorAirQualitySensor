@@ -1,14 +1,6 @@
 # Open Source Indoor Air Quality Sensor
 An open hardware and software indoor air quality sensor provided by the [National Association of REALTORS](http://realtor.org) and [CRT Labs](https://crtlabs.org).
 
-The board comes in two form factors. One dedicated for the Raspberry Pi - [PiAQ](http://piaq.io)
-
-<p align="center">
-  <a href="http://piaq.io"><img src="http://piaq.io/images/preview-full-IMG_0117.png" alt="CRT Sensor Board"/></a>
-</p>
-
-
-And a standalone model with a variety of connectivity options
 <p align="center">
   <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/master/docs/media/v0.3_prototype.jpg" alt="CRT Sensor Board"/>
 </p>
@@ -40,3 +32,10 @@ Connectivity:
 
 License:
 Apache License Version 2.0
+
+For the Raspberry Pi HAT, please visit the [PiAQ Website](http://piaq.io) and [repository](https://github.com/NationalAssociationOfRealtors/PiAQ)
+
+<p align="center">
+  <a href="http://piaq.io"><img src="http://piaq.io/images/preview-full-IMG_0117.png" alt="CRT Sensor Board"/></a>
+</p>
+
