@@ -1789,7 +1789,7 @@ by exp-lbrs.ulp</description>
 
 Designed by Akram Ali
 September 2016</description>
-<circle x="-0.482596875" y="3.185159375" radius="0.1365" width="0.2032" layer="21"/>
+<circle x="-0.682596875" y="3.935159375" radius="0.1365" width="0.2032" layer="21"/>
 <wire x1="-0.1" y1="-0.1" x2="-0.1" y2="4.1" width="0.127" layer="21"/>
 <wire x1="-0.1" y1="4.1" x2="2.8" y2="4.1" width="0.127" layer="21"/>
 <wire x1="2.8" y1="4.1" x2="2.8" y2="-0.1" width="0.127" layer="21"/>
