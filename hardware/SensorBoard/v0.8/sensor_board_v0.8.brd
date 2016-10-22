@@ -753,7 +753,7 @@ LED</text>
 <wire x1="5.6896" y1="26.2128" x2="5.8928" y2="26.2128" width="0.1778" layer="121"/>
 <wire x1="5.8928" y1="26.2128" x2="5.9944" y2="26.1112" width="0.1778" layer="121"/>
 <wire x1="6.4516" y1="25.7048" x2="5.3848" y2="25.7048" width="0.1778" layer="121"/>
-<text x="46.736" y="43.0276" size="0.508" layer="121" font="vector" rot="R180">ANT</text>
+<text x="46.6852" y="42.9768" size="0.508" layer="121" font="vector" rot="R180">ANT</text>
 <rectangle x1="11.049" y1="8.5598" x2="11.6586" y2="8.6106" layer="122" rot="R180"/>
 <rectangle x1="10.6934" y1="8.5598" x2="10.795" y2="8.6106" layer="122" rot="R180"/>
 <rectangle x1="9.3218" y1="8.5598" x2="9.4742" y2="8.6106" layer="122" rot="R180"/>
@@ -887,8 +887,6 @@ LED</text>
 <rectangle x1="9.3218" y1="9.5758" x2="9.3726" y2="9.6266" layer="122" rot="R180"/>
 <rectangle x1="8.1026" y1="9.5758" x2="8.1534" y2="9.6266" layer="122" rot="R180"/>
 <rectangle x1="10.0838" y1="9.6266" x2="10.1346" y2="9.6774" layer="122" rot="R180"/>
-<text x="38.5064" y="39.7256" size="0.508" layer="121" font="vector" rot="R90" align="bottom-right">RX</text>
-<text x="38.4556" y="43.688" size="0.508" layer="121" font="vector" rot="R90" align="bottom-right">TX</text>
 <wire x1="53.4416" y1="14.8336" x2="44.2468" y2="14.8336" width="0.0254" layer="20"/>
 <wire x1="43.7388" y1="15.3416" x2="43.7388" y2="16.764" width="0.0254" layer="20"/>
 <wire x1="53.4416" y1="13.8176" x2="44.2468" y2="13.8176" width="0.0254" layer="20"/>
@@ -1174,7 +1172,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <smd name="GND@4" x="2.032" y="-2.54" dx="1.524" dy="4.064" layer="16" rot="R90" cream="no"/>
 <text x="5.08" y="6.985" size="1.016" layer="25" ratio="18" rot="R180">&gt;NAME</text>
 <text x="5.08" y="-7.62" size="0.8128" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<text x="5.08" y="-6.35" size="1.016" layer="25" ratio="18" rot="R180">&gt;LABEL</text>
 <rectangle x1="0" y1="-0.3175" x2="3.175" y2="0.3175" layer="51"/>
 <polygon width="0.127" layer="51">
 <vertex x="-1.524" y="3.048"/>
@@ -2316,18 +2313,21 @@ design rules under a new name.</description>
 </element>
 <element name="U5" library="SparkFun-DigitalIC" package="SSOP20_L" value="FT231XS" x="30.5816" y="39.1668" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="IC-11524" x="30.5816" y="39.1668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="32.3088" y="35.56" size="0.508" layer="121" font="vector" rot="R180"/>
+<attribute name="VALUE" x="32.3088" y="35.4584" size="0.508" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="RX" library="adafruit" package="CHIPLED_0805" value="Green" x="39.4716" y="39.1668" smashed="yes">
 <attribute name="MF" value="" x="39.4716" y="39.1668" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="39.4716" y="39.1668" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="39.4716" y="39.1668" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="40.894" y="38.1508" size="0.508" layer="27" font="vector" rot="R90"/>
+<attribute name="NAME" x="38.4048" y="38.8112" size="0.508" layer="121" font="vector" rot="R90"/>
+<attribute name="VALUE" x="40.9956" y="38.1" size="0.508" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="TX" library="adafruit" package="CHIPLED_0805" value="Red" x="39.4716" y="43.18" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="39.4716" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="39.4716" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="39.4716" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="37.8968" y="43.6372" size="0.508" layer="121" font="vector" rot="R270"/>
+<attribute name="VALUE" x="40.5384" y="43.8912" size="0.508" layer="121" font="vector" rot="R270"/>
 </element>
 <element name="R9" library="SparkFun-Passives" package="0805" value="47" x="36.7792" y="39.4716" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="36.7792" y="39.4716" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2366,7 +2366,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.9268" y="43.4594" size="0.508" layer="121" font="vector"/>
 </element>
 <element name="U11" library="RFM69 USB Gateway" package="LOWPOWERLAB_RFM69W-MINPADS" value="RFM69HW" x="30.5308" y="37.7952" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="40.5016" y="36.1616" size="0.508" layer="122" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="31.4024" y="47.1564" size="0.508" layer="122" font="vector" rot="MR0"/>
 </element>
 <element name="X1" library="adafruit" package="SMA_EDGELAUNCH" value="" x="47.7012" y="48.6156" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.0812" y="43.5356" size="0.8128" layer="27" ratio="10" rot="R90"/>
@@ -2532,7 +2532,7 @@ design rules under a new name.</description>
 <via x="38.7096" y="27.7368" extent="1-16" drill="0.254" diameter="0.127"/>
 <via x="25.2476" y="12.8524" extent="1-16" drill="0.254" diameter="0.127"/>
 <via x="49.4792" y="39.9796" extent="1-16" drill="0.254" diameter="0.127"/>
-<via x="28.4988" y="47.2948" extent="1-16" drill="0.254" diameter="0.127"/>
+<via x="26.3652" y="47.2948" extent="1-16" drill="0.254" diameter="0.127"/>
 <via x="43.3324" y="47.1932" extent="1-16" drill="0.254" diameter="0.127"/>
 <via x="11.9888" y="47.3964" extent="1-16" drill="0.254" diameter="0.127"/>
 <contactref element="IC1" pad="1"/>
@@ -2799,9 +2799,10 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="Y1" pad="3"/>
 <contactref element="U3" pad="8"/>
-<wire x1="32.4752" y1="28.166" x2="33.1952" y2="28.166" width="0.1778" layer="1"/>
-<wire x1="33.1952" y1="28.166" x2="34.036" y2="29.0068" width="0.1778" layer="1"/>
-<wire x1="34.036" y1="29.0068" x2="34.036" y2="30.0798" width="0.1778" layer="1"/>
+<wire x1="32.4752" y1="28.166" x2="32.4752" y2="29.5288" width="0.1778" layer="1"/>
+<wire x1="32.4752" y1="29.5288" x2="33.02" y2="30.0736" width="0.1778" layer="1"/>
+<wire x1="33.02" y1="30.0736" x2="34.0298" y2="30.0736" width="0.1778" layer="1"/>
+<wire x1="34.0298" y1="30.0736" x2="34.036" y2="30.0798" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="Y1" pad="1"/>
