@@ -5881,45 +5881,45 @@ by exp-lbrs.ulp</description>
 
 Designed by Akram Ali
 September 2016</description>
+<circle x="-0.482596875" y="3.185159375" radius="0.1365" width="0.2032" layer="21"/>
 <wire x1="-0.1" y1="-0.1" x2="-0.1" y2="4.1" width="0.127" layer="21"/>
 <wire x1="-0.1" y1="4.1" x2="2.8" y2="4.1" width="0.127" layer="21"/>
 <wire x1="2.8" y1="4.1" x2="2.8" y2="-0.1" width="0.127" layer="21"/>
 <wire x1="2.8" y1="-0.1" x2="-0.1" y2="-0.1" width="0.127" layer="21"/>
-<smd name="11" x="1.35" y="2" dx="1.2" dy="2.4" layer="1"/>
-<smd name="1" x="0.3" y="3.2" dx="0.6" dy="0.4" layer="1"/>
-<smd name="2" x="0.3" y="2.6" dx="0.6" dy="0.4" layer="1"/>
-<smd name="3" x="0.3" y="2" dx="0.6" dy="0.4" layer="1"/>
-<smd name="4" x="0.3" y="1.4" dx="0.6" dy="0.4" layer="1"/>
-<smd name="5" x="0.3" y="0.8" dx="0.6" dy="0.4" layer="1"/>
-<smd name="6" x="2.4" y="0.8" dx="0.6" dy="0.4" layer="1"/>
-<smd name="7" x="2.4" y="1.4" dx="0.6" dy="0.4" layer="1"/>
-<smd name="8" x="2.4" y="2" dx="0.6" dy="0.4" layer="1"/>
-<smd name="9" x="2.4" y="2.6" dx="0.6" dy="0.4" layer="1"/>
-<smd name="10" x="2.4" y="3.2" dx="0.6" dy="0.4" layer="1"/>
-<circle x="-0.482596875" y="3.185159375" radius="0.1365" width="0.2032" layer="21"/>
+<smd name="1" x="0.3" y="3.2" dx="0.6" dy="0.35" layer="1"/>
+<smd name="2" x="0.3" y="2.6" dx="0.6" dy="0.35" layer="1"/>
+<smd name="3" x="0.3" y="2" dx="0.6" dy="0.35" layer="1"/>
+<smd name="4" x="0.3" y="1.4" dx="0.6" dy="0.35" layer="1"/>
+<smd name="5" x="0.3" y="0.8" dx="0.6" dy="0.35" layer="1"/>
+<smd name="6" x="2.4" y="0.8" dx="0.6" dy="0.35" layer="1"/>
+<smd name="7" x="2.4" y="1.4" dx="0.6" dy="0.35" layer="1"/>
+<smd name="8" x="2.4" y="2" dx="0.6" dy="0.35" layer="1"/>
+<smd name="9" x="2.4" y="2.6" dx="0.6" dy="0.35" layer="1"/>
+<smd name="10" x="2.4" y="3.2" dx="0.6" dy="0.35" layer="1"/>
+<smd name="11" x="1.35" y="2" dx="1.1" dy="2.3" layer="1"/>
 <text x="-0.127" y="4.445" size="0.508" layer="25">&gt;NAME</text>
 <text x="-0.127" y="-0.889" size="0.508" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
 <symbol name="CCS811">
-<pin name="ADDR" x="-5.08" y="15.24" length="middle"/>
-<pin name="RESET" x="-5.08" y="12.7" length="middle"/>
-<pin name="INT" x="-5.08" y="10.16" length="middle"/>
-<pin name="PWM" x="-5.08" y="7.62" length="middle"/>
-<pin name="SENSE" x="-5.08" y="5.08" length="middle"/>
-<pin name="VDD" x="30.48" y="5.08" length="middle" rot="R180"/>
-<pin name="WAKE" x="30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="AUX" x="30.48" y="10.16" length="middle" rot="R180"/>
-<pin name="SDA" x="30.48" y="12.7" length="middle" rot="R180"/>
-<pin name="SCL" x="30.48" y="15.24" length="middle" rot="R180"/>
-<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R90"/>
-<text x="0" y="21.082" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="0" y1="0" x2="0" y2="20.32" width="0.254" layer="94"/>
 <wire x1="0" y1="20.32" x2="25.4" y2="20.32" width="0.254" layer="94"/>
 <wire x1="25.4" y1="20.32" x2="25.4" y2="0" width="0.254" layer="94"/>
 <wire x1="25.4" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="ADDR" x="-5.08" y="15.24" length="middle"/>
+<pin name="AUX" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="GND" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="INT" x="-5.08" y="10.16" length="middle"/>
+<pin name="PWM" x="-5.08" y="7.62" length="middle"/>
+<pin name="RESET" x="-5.08" y="12.7" length="middle"/>
+<pin name="SCL" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="SDA" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="SENSE" x="-5.08" y="5.08" length="middle"/>
+<pin name="VDD" x="30.48" y="5.08" length="middle" rot="R180"/>
+<pin name="WAKE" x="30.48" y="7.62" length="middle" rot="R180"/>
+<text x="0" y="21.082" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
