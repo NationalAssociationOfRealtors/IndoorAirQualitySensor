@@ -206,58 +206,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.85" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.95" size="0.4064" layer="27" rot="R180" align="bottom-center">&gt;VALUE</text>
 </package>
-<package name="SSOP20_L">
-<description>Longer version of SSOP-20 Package</description>
-<wire x1="4.3307" y1="-1.9558" x2="4.3307" y2="1.9558" width="0.2032" layer="21"/>
-<circle x="-3.81" y="-2.54" radius="0.254" width="0" layer="21"/>
-<text x="0" y="0" size="0.4064" layer="25">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
-<smd name="16" x="-0.3175" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="15" x="0.3175" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="14" x="0.9525" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="13" x="1.5875" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="12" x="2.2225" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="11" x="2.8575" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="17" x="-0.9525" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="18" x="-1.5875" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="19" x="-2.2225" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="20" x="-2.8575" y="2.6797" dx="0.381" dy="1.143" layer="1"/>
-<smd name="6" x="0.3175" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="5" x="-0.3175" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="4" x="-0.9525" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="3" x="-1.5875" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="2" x="-2.2225" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="1" x="-2.8575" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="7" x="0.9525" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="8" x="1.5875" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="9" x="2.2225" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<smd name="10" x="2.8575" y="-2.6797" dx="0.381" dy="1.143" layer="1" rot="R180"/>
-<rectangle x1="0.1905" y1="-2.9845" x2="0.4445" y2="-2.3495" layer="51"/>
-<rectangle x1="0.8255" y1="-2.9845" x2="1.0795" y2="-2.3495" layer="51"/>
-<rectangle x1="1.4605" y1="-2.9845" x2="1.7145" y2="-2.3495" layer="51"/>
-<rectangle x1="2.0955" y1="-2.9845" x2="2.3495" y2="-2.3495" layer="51"/>
-<rectangle x1="2.7305" y1="-2.9845" x2="2.9845" y2="-2.3495" layer="51"/>
-<rectangle x1="-0.4445" y1="-2.9845" x2="-0.1905" y2="-2.3495" layer="51"/>
-<rectangle x1="-1.0795" y1="-2.9845" x2="-0.8255" y2="-2.3495" layer="51"/>
-<rectangle x1="-1.7145" y1="-2.9845" x2="-1.4605" y2="-2.3495" layer="51"/>
-<rectangle x1="-2.3495" y1="-2.9845" x2="-2.0955" y2="-2.3495" layer="51"/>
-<rectangle x1="-2.9845" y1="-2.9845" x2="-2.7305" y2="-2.3495" layer="51"/>
-<rectangle x1="-0.4445" y1="2.3495" x2="-0.1905" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="-1.0795" y1="2.3495" x2="-0.8255" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="-1.7145" y1="2.3495" x2="-1.4605" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="-2.3495" y1="2.3495" x2="-2.0955" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="-2.9845" y1="2.3495" x2="-2.7305" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="0.1905" y1="2.3495" x2="0.4445" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="0.8255" y1="2.3495" x2="1.0795" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="1.4605" y1="2.3495" x2="1.7145" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="2.0955" y1="2.3495" x2="2.3495" y2="2.9845" layer="51" rot="R180"/>
-<rectangle x1="2.7305" y1="2.3495" x2="2.9845" y2="2.9845" layer="51" rot="R180"/>
-<wire x1="-4.3307" y1="1.9558" x2="-4.3307" y2="-1.9558" width="0.2032" layer="21"/>
-<wire x1="-4.3307" y1="-1.9558" x2="-3.2512" y2="-1.9558" width="0.2032" layer="21"/>
-<wire x1="3.2512" y1="-1.9558" x2="4.3307" y2="-1.9558" width="0.2032" layer="21"/>
-<wire x1="-4.3307" y1="1.9558" x2="-3.2512" y2="1.9558" width="0.2032" layer="21"/>
-<wire x1="3.2512" y1="1.9558" x2="4.3307" y2="1.9558" width="0.2032" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="TSL2561">
@@ -273,34 +221,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VDD" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <text x="-10.16" y="-10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="10.16" size="1.778" layer="95" rot="MR180">&gt;VALUE</text>
-</symbol>
-<symbol name="FT231X">
-<pin name="VCC" x="-12.7" y="15.24" length="short"/>
-<pin name="VCCIO" x="-12.7" y="12.7" length="short"/>
-<pin name="3V3OUT" x="-12.7" y="10.16" length="short"/>
-<pin name="USBDM" x="-12.7" y="5.08" length="short"/>
-<pin name="USBDP" x="-12.7" y="2.54" length="short"/>
-<pin name="!RESET" x="-12.7" y="-2.54" length="short"/>
-<pin name="GND@6" x="-12.7" y="-12.7" length="short"/>
-<pin name="GND@16" x="-12.7" y="-15.24" length="short"/>
-<pin name="TXD" x="12.7" y="15.24" length="short" rot="R180"/>
-<pin name="CBUS3" x="12.7" y="-15.24" length="short" rot="R180"/>
-<pin name="CBUS2" x="12.7" y="-12.7" length="short" rot="R180"/>
-<pin name="CBUS1" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="CBUS0" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="!RI" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="!DCD" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="!DSR" x="12.7" y="0" length="short" rot="R180"/>
-<pin name="!DTR" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="!CTS" x="12.7" y="5.08" length="short" rot="R180"/>
-<pin name="!RTS" x="12.7" y="7.62" length="short" rot="R180"/>
-<pin name="RXD" x="12.7" y="12.7" length="short" rot="R180"/>
-<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
-<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
-<text x="-10.16" y="18.034" size="1.778" layer="95">&gt;Name</text>
-<text x="-10.16" y="-18.288" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -357,45 +277,6 @@ remains asserted until the firmware clears it.</description>
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FT231X" prefix="U">
-<description>&lt;h3&gt;FTDI FT231X Full Speed USB to Full-handshake UART&lt;/h3&gt;
-This USB2.0 Full Speed  IC offers a compact bridge to full handshake UART interfaces. The device is a UART, capable of operating up to 3MBaud, with low power consumption (8mA). The FT231X includes the complete FT-X series feature set and enables USB to be added into a system design quickly and easily over a UART interface.&lt;br&gt;&lt;br&gt;</description>
-<gates>
-<gate name="U$1" symbol="FT231X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="S" package="SSOP20_L">
-<connects>
-<connect gate="U$1" pin="!CTS" pad="9"/>
-<connect gate="U$1" pin="!DCD" pad="8"/>
-<connect gate="U$1" pin="!DSR" pad="7"/>
-<connect gate="U$1" pin="!DTR" pad="1"/>
-<connect gate="U$1" pin="!RESET" pad="14"/>
-<connect gate="U$1" pin="!RI" pad="5"/>
-<connect gate="U$1" pin="!RTS" pad="2"/>
-<connect gate="U$1" pin="3V3OUT" pad="13"/>
-<connect gate="U$1" pin="CBUS0" pad="18"/>
-<connect gate="U$1" pin="CBUS1" pad="17"/>
-<connect gate="U$1" pin="CBUS2" pad="10"/>
-<connect gate="U$1" pin="CBUS3" pad="19"/>
-<connect gate="U$1" pin="GND@16" pad="16"/>
-<connect gate="U$1" pin="GND@6" pad="6"/>
-<connect gate="U$1" pin="RXD" pad="4"/>
-<connect gate="U$1" pin="TXD" pad="20"/>
-<connect gate="U$1" pin="USBDM" pad="12"/>
-<connect gate="U$1" pin="USBDP" pad="11"/>
-<connect gate="U$1" pin="VCC" pad="15"/>
-<connect gate="U$1" pin="VCCIO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-11524"/>
-<attribute name="VALUE" value="FT231XS"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -6240,6 +6121,112 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </deviceset>
 </devicesets>
 </library>
+<library name="ftdi_ft231xq-r">
+<packages>
+<package name="FTDI_FT231XQ-R_PACKAGE">
+<smd name="CBUS0" x="1.968" y="0.968" dx="1" dy="0.25" layer="1"/>
+<smd name="CBUS1" x="1.968" y="0.468" dx="1" dy="0.25" layer="1"/>
+<smd name="GND_PIN13" x="1.968" y="-0.032" dx="1" dy="0.25" layer="1"/>
+<smd name="VCC" x="1.968" y="-0.532" dx="1" dy="0.25" layer="1"/>
+<smd name="RESET#" x="1.968" y="-1.032" dx="1" dy="0.25" layer="1"/>
+<smd name="3V3OUT" x="0.968" y="-2.032" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="USBDM" x="0.468" y="-2.032" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="USBDP" x="-0.032" y="-2.032" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="CBUS2" x="-0.532" y="-2.032" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="CTS#" x="-1.032" y="-2.032" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="DCD#" x="-2.032" y="-1.032" dx="1" dy="0.25" layer="1"/>
+<smd name="DSR#" x="-2.032" y="-0.532" dx="1" dy="0.25" layer="1"/>
+<smd name="GND_PIN3" x="-2.032" y="-0.032" dx="1" dy="0.25" layer="1"/>
+<smd name="RI#" x="-2.032" y="0.468" dx="1" dy="0.25" layer="1"/>
+<smd name="RXD" x="-2.032" y="0.968" dx="1" dy="0.25" layer="1"/>
+<smd name="VCCIO" x="-1.032" y="1.968" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="RTS#" x="-0.532" y="1.968" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="DTR#" x="-0.032" y="1.968" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="TXD" x="0.468" y="1.968" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="CBUS3" x="0.968" y="1.968" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="GND_PIN21" x="-0.032" y="-0.032" dx="2" dy="2" layer="1"/>
+<circle x="-2.836" y="1.626" radius="0.25" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.532" x2="-2.032" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-2.032" x2="-1.532" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.468" x2="-2.032" y2="1.968" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.968" x2="-1.532" y2="1.968" width="0.127" layer="21"/>
+<wire x1="1.468" y1="1.968" x2="1.968" y2="1.968" width="0.127" layer="21"/>
+<wire x1="1.968" y1="1.968" x2="1.968" y2="1.468" width="0.127" layer="21"/>
+<wire x1="1.968" y1="-1.532" x2="1.968" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="1.968" y1="-2.032" x2="1.468" y2="-2.032" width="0.127" layer="21"/>
+<text x="-2.15" y="2.85" size="0.6096" layer="21">&gt;NAME</text>
+<text x="-2.15" y="-3.55" size="0.6096" layer="21">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="FTDI231X_20-LD_QFN_SYMBOL">
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<pin name="RXD" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="RI#" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND_3" x="-15.24" y="-15.24" length="middle"/>
+<pin name="DSR#" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="DCD#" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="CTS#" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="CBUS2" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="USBDP" x="-15.24" y="2.54" length="middle"/>
+<pin name="USBDM" x="-15.24" y="5.08" length="middle"/>
+<pin name="3V3OUT" x="-15.24" y="10.16" length="middle"/>
+<pin name="RESET#" x="-15.24" y="-2.54" length="middle"/>
+<pin name="VCC" x="-15.24" y="15.24" length="middle"/>
+<pin name="GND_13" x="-15.24" y="-12.7" length="middle"/>
+<pin name="CBUS1" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="CBUS0" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="CBUS3" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="TXD" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="DTR#" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="RTS#" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="VCCIO" x="-15.24" y="12.7" length="middle"/>
+<pin name="GND_21" x="-15.24" y="-10.16" length="middle"/>
+<text x="-10.16" y="20.32" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FT231XQ-R">
+<description>This is the 20-LD QFN package of the FTDI FT231XQ-R chip.</description>
+<gates>
+<gate name="G$1" symbol="FTDI231X_20-LD_QFN_SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FTDI_FT231XQ-R_PACKAGE">
+<connects>
+<connect gate="G$1" pin="3V3OUT" pad="3V3OUT"/>
+<connect gate="G$1" pin="CBUS0" pad="CBUS0"/>
+<connect gate="G$1" pin="CBUS1" pad="CBUS1"/>
+<connect gate="G$1" pin="CBUS2" pad="CBUS2"/>
+<connect gate="G$1" pin="CBUS3" pad="CBUS3"/>
+<connect gate="G$1" pin="CTS#" pad="CTS#"/>
+<connect gate="G$1" pin="DCD#" pad="DCD#"/>
+<connect gate="G$1" pin="DSR#" pad="DSR#"/>
+<connect gate="G$1" pin="DTR#" pad="DTR#"/>
+<connect gate="G$1" pin="GND_13" pad="GND_PIN13"/>
+<connect gate="G$1" pin="GND_21" pad="GND_PIN21"/>
+<connect gate="G$1" pin="GND_3" pad="GND_PIN3"/>
+<connect gate="G$1" pin="RESET#" pad="RESET#"/>
+<connect gate="G$1" pin="RI#" pad="RI#"/>
+<connect gate="G$1" pin="RTS#" pad="RTS#"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="USBDM" pad="USBDM"/>
+<connect gate="G$1" pin="USBDP" pad="USBDP"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VCCIO" pad="VCCIO"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6386,7 +6373,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
-<part name="U5" library="SparkFun-DigitalIC" deviceset="FT231X" device="S" value="FT231XS"/>
 <part name="RX" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Green">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
@@ -6452,6 +6438,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="U3" library="ATMEGA328P-MU" deviceset="ATMEGA328P-MU" device=""/>
+<part name="U$1" library="ftdi_ft231xq-r" deviceset="FT231XQ-R" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6466,7 +6453,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <frame x1="-86.36" y1="-185.42" x2="388.62" y2="157.48" columns="8" rows="5" layer="94"/>
 <text x="142.24" y="-152.4" size="5.08" layer="94" font="vector" ratio="20">CRT Labs</text>
 <text x="147.32" y="-157.48" size="2.54" layer="94" font="vector" ratio="10">Sensor Node</text>
-<text x="160.02" y="-167.64" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.6
+<text x="160.02" y="-167.64" size="2.54" layer="94" font="vector" ratio="10" align="bottom-center">v0.8
 (October 2016)</text>
 <text x="160.02" y="-175.26" size="1.27" layer="94" font="vector" ratio="10" align="bottom-center">Designed by
 Akram Ali and Dave Conroy</text>
@@ -6615,7 +6602,6 @@ Akram Ali and Dave Conroy</text>
 </instance>
 <instance part="GND3" gate="1" x="149.86" y="-81.28"/>
 <instance part="J3" gate="G$1" x="238.76" y="-116.84" rot="R180"/>
-<instance part="U5" gate="U$1" x="299.72" y="-134.62"/>
 <instance part="RX" gate="G$1" x="332.74" y="-144.78" rot="R270">
 <attribute name="OC_NEWARK" x="332.74" y="-144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="332.74" y="-144.78" size="1.778" layer="96" rot="R90" display="off"/>
@@ -6681,6 +6667,7 @@ Akram Ali and Dave Conroy</text>
 <instance part="C2" gate="G$1" x="187.96" y="27.94"/>
 <instance part="C8" gate="G$1" x="124.46" y="33.02" rot="R180"/>
 <instance part="U3" gate="G$1" x="304.8" y="91.44"/>
+<instance part="U$1" gate="G$1" x="302.26" y="-134.62"/>
 </instances>
 <busses>
 </busses>
@@ -6744,14 +6731,18 @@ Akram Ali and Dave Conroy</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U5" gate="U$1" pin="GND@6"/>
 <wire x1="287.02" y1="-147.32" x2="284.48" y2="-147.32" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-147.32" x2="284.48" y2="-149.86" width="0.1524" layer="91"/>
-<pinref part="U5" gate="U$1" pin="GND@16"/>
 <wire x1="287.02" y1="-149.86" x2="284.48" y2="-149.86" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-149.86" x2="284.48" y2="-157.48" width="0.1524" layer="91"/>
 <junction x="284.48" y="-149.86"/>
 <pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="GND_3"/>
+<pinref part="U$1" gate="G$1" pin="GND_13"/>
+<pinref part="U$1" gate="G$1" pin="GND_21"/>
+<wire x1="287.02" y1="-144.78" x2="284.48" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="-144.78" x2="284.48" y2="-147.32" width="0.1524" layer="91"/>
+<junction x="284.48" y="-147.32"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
@@ -7208,9 +7199,9 @@ Akram Ali and Dave Conroy</text>
 <label x="-25.4" y="99.06" size="1.9304" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U5" gate="U$1" pin="!DTR"/>
-<wire x1="312.42" y1="-132.08" x2="322.58" y2="-132.08" width="0.1524" layer="91"/>
 <label x="322.58" y="-132.08" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="DTR#"/>
+<wire x1="317.5" y1="-132.08" x2="322.58" y2="-132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -7225,9 +7216,9 @@ Akram Ali and Dave Conroy</text>
 <pinref part="U3" gate="G$1" pin="PD0"/>
 </segment>
 <segment>
-<pinref part="U5" gate="U$1" pin="TXD"/>
-<wire x1="312.42" y1="-119.38" x2="322.58" y2="-119.38" width="0.1524" layer="91"/>
 <label x="322.58" y="-119.38" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="TXD"/>
+<wire x1="317.5" y1="-119.38" x2="322.58" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -7242,9 +7233,9 @@ Akram Ali and Dave Conroy</text>
 <pinref part="U3" gate="G$1" pin="PD1"/>
 </segment>
 <segment>
-<pinref part="U5" gate="U$1" pin="RXD"/>
-<wire x1="312.42" y1="-121.92" x2="322.58" y2="-121.92" width="0.1524" layer="91"/>
 <label x="322.58" y="-121.92" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="RXD"/>
+<wire x1="317.5" y1="-121.92" x2="322.58" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -7393,34 +7384,34 @@ Akram Ali and Dave Conroy</text>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="U5" gate="U$1" pin="USBDM"/>
 <wire x1="287.02" y1="-129.54" x2="271.78" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-129.54" x2="271.78" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-139.7" x2="266.7" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="USBDM"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="U5" gate="U$1" pin="USBDP"/>
 <wire x1="287.02" y1="-132.08" x2="274.32" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="-132.08" x2="274.32" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="-142.24" x2="266.7" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="USBDP"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="U5" gate="U$1" pin="CBUS1"/>
 <pinref part="RX" gate="G$1" pin="C"/>
-<wire x1="312.42" y1="-144.78" x2="327.66" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CBUS1"/>
+<wire x1="317.5" y1="-144.78" x2="327.66" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U5" gate="U$1" pin="CBUS2"/>
 <pinref part="TX" gate="G$1" pin="C"/>
-<wire x1="312.42" y1="-147.32" x2="320.04" y2="-147.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CBUS2"/>
+<wire x1="317.5" y1="-147.32" x2="320.04" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -7439,7 +7430,6 @@ Akram Ali and Dave Conroy</text>
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="U5" gate="U$1" pin="VCC"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="287.02" y1="-119.38" x2="261.62" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
@@ -7448,6 +7438,7 @@ Akram Ali and Dave Conroy</text>
 <junction x="261.62" y="-119.38"/>
 <pinref part="J3" gate="G$1" pin="VBUS"/>
 <wire x1="241.3" y1="-119.38" x2="261.62" y2="-119.38" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -7470,17 +7461,17 @@ Akram Ali and Dave Conroy</text>
 </net>
 <net name="FTDI_VCC" class="0">
 <segment>
-<pinref part="U5" gate="U$1" pin="!RESET"/>
 <wire x1="287.02" y1="-137.16" x2="281.94" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="-137.16" x2="281.94" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="U5" gate="U$1" pin="3V3OUT"/>
 <wire x1="281.94" y1="-124.46" x2="287.02" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="U5" gate="U$1" pin="VCCIO"/>
 <wire x1="287.02" y1="-124.46" x2="287.02" y2="-121.92" width="0.1524" layer="91"/>
-<junction x="287.02" y="-124.46"/>
 <wire x1="287.02" y1="-121.92" x2="279.4" y2="-121.92" width="0.1524" layer="91"/>
-<junction x="287.02" y="-121.92"/>
 <label x="279.4" y="-121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="3V3OUT"/>
+<junction x="287.02" y="-124.46"/>
+<pinref part="U$1" gate="G$1" pin="RESET#"/>
+<pinref part="U$1" gate="G$1" pin="VCCIO"/>
+<junction x="287.02" y="-121.92"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
