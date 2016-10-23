@@ -2816,11 +2816,11 @@ design rules under a new name.</description>
 <wire x1="11.3284" y1="42.9768" x2="9.5504" y2="42.9768" width="0.1778" layer="16"/>
 <contactref element="U3" pad="16"/>
 <wire x1="13.5636" y1="30.5308" x2="27.3304" y2="30.5308" width="0.1778" layer="16"/>
-<wire x1="31.1912" y1="34.3916" x2="28.448" y2="31.6484" width="0.1778" layer="1"/>
-<via x="28.448" y="31.6484" extent="1-16" drill="0.254" diameter="0.127"/>
-<wire x1="28.448" y1="31.6484" x2="27.3304" y2="30.5308" width="0.1778" layer="16"/>
+<via x="28.8544" y="32.0548" extent="1-16" drill="0.254" diameter="0.127"/>
+<wire x1="28.8544" y1="32.0548" x2="27.3304" y2="30.5308" width="0.1778" layer="16"/>
 <wire x1="28.4252" y1="28.716" x2="28.4252" y2="31.6256" width="0.1778" layer="1"/>
-<wire x1="28.4252" y1="31.6256" x2="28.448" y2="31.6484" width="0.1778" layer="1"/>
+<wire x1="28.4252" y1="31.6256" x2="28.8544" y2="32.0548" width="0.1778" layer="1"/>
+<wire x1="31.1912" y1="34.3916" x2="28.8544" y2="32.0548" width="0.1778" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="J2" pad="3"/>
