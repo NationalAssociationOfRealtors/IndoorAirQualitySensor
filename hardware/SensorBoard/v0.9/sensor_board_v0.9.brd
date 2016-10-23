@@ -2266,7 +2266,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="18T9177" x="21.5392" y="32.3342" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="21.5392" y="32.3342" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="MCP1703T-2502E/CB" x="21.5392" y="32.3342" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="19.3294" y="29.8704" size="0.508" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="19.3294" y="29.8704" size="0.508" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0805" value="1uF" x="21.3614" y="35.4076" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="21.3614" y="35.4076" size="1.778" layer="27" display="off"/>
@@ -2382,7 +2382,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="QFN-32 Atmel" x="30.1752" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MP" value="ATMEGA328P-MU" x="30.1752" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Atmel" x="30.1752" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="33.274409375" y="29.798109375" size="0.508" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="33.274409375" y="29.798109375" size="0.508" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="U$1" library="ftdi_ft231xq-r" package="FTDI_FT231XQ-R_PACKAGE" value="FT231XQ-R" x="30.6324" y="40.4368" smashed="yes" rot="R270">
 <attribute name="VALUE" x="27.6292" y="38.4392" size="0.508" layer="121" font="vector" rot="R90"/>
@@ -2395,7 +2395,7 @@ design rules under a new name.</description>
 <attribute name="DESCRIPTION" value="Configurable AFE Potentiostat for Low-Power Chemical Sensing Applications" x="28.194" y="13.6652" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VENDOR" value="Texas Instruments" x="28.194" y="13.6652" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BASEPN" value="LMP91000" x="28.194" y="13.6652" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="26.377" y="15.9614" size="0.508" layer="27" font="vector" rot="SR0"/>
+<attribute name="VALUE" x="26.377" y="15.9614" size="0.508" layer="121" font="vector" rot="SR0"/>
 </element>
 <element name="U$2" library="3SP_CO" package="3SP_CO_PIN_PACKAGE" value="3SP_CO" x="4.2164" y="6.7056" smashed="yes">
 <attribute name="VALUE" x="13.302" y="6.0948" size="0.508" layer="21" font="vector"/>
@@ -2404,25 +2404,25 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="16.51" y="28.5496" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="16.51" y="28.5496" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="16.51" y="28.5496" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.748" y="29.4894" size="0.508" layer="27" font="vector"/>
+<attribute name="VALUE" x="15.748" y="29.4894" size="0.508" layer="121" font="vector"/>
 </element>
 <element name="C7" library="SparkFun-Passives" package="0805" value="0.1uF" x="31.8516" y="15.5448" smashed="yes" rot="R270">
-<attribute name="VALUE" x="30.9372" y="17.4498" size="0.508" layer="27" font="vector"/>
+<attribute name="VALUE" x="30.9372" y="17.4498" size="0.508" layer="121" font="vector"/>
 </element>
 <element name="IC2" library="linear" package="SOT23" value="VREF" x="27.1272" y="21.6916" smashed="yes">
-<attribute name="VALUE" x="25.3238" y="21.1074" size="0.508" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="25.3238" y="21.1074" size="0.508" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="C10" library="SparkFun-Passives" package="0805" value="0.1uF" x="27.178" y="18.1864" smashed="yes" rot="R180">
-<attribute name="VALUE" x="28.2956" y="19.6342" size="0.508" layer="27" font="vector" rot="R180"/>
+<attribute name="VALUE" x="28.2956" y="19.6342" size="0.508" layer="121" font="vector" rot="R180"/>
 </element>
 <element name="R3" library="SparkFun-Passives" package="0805" value="49.9" x="24.1808" y="15.24" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="24.1808" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="24.1808" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="24.1808" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="22.6822" y="16.0528" size="0.508" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="22.6822" y="16.0528" size="0.508" layer="121" font="vector" rot="R270"/>
 </element>
 <element name="C9" library="SparkFun-Passives" package="0805" value="1uF" x="24.1808" y="18.6944" smashed="yes" rot="R90">
-<attribute name="VALUE" x="23.241" y="18.1356" size="0.508" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="23.241" y="18.1356" size="0.508" layer="121" font="vector" rot="R90"/>
 </element>
 </elements>
 <signals>
