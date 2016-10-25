@@ -1,12 +1,12 @@
-#include <RFM69.h>  // from lowpowerlab
+#include <RFM69.h>  //  https://github.com/LowPowerLab/RFM69
 #include <SPI.h>
-#include <SPIFlash.h> //get it here: https://www.github.com/lowpowerlab/spiflash
+#include <SPIFlash.h> // https://www.github.com/lowpowerlab/spiflash
 #include <Arduino.h>
-#include <Wire.h>
-#include "Adafruit_SHT31.h"
-#include "SparkFunMPL3115A2.h"
-#include <Adafruit_Sensor.h>  // from Adafruit's github
-#include <Adafruit_TSL2561_U.h>
+#include <Wire.h> 
+#include "Adafruit_SHT31.h" //https://github.com/adafruit/Adafruit_SHT31
+#include "SparkFunMPL3115A2.h" // https://github.com/sparkfun/SparkFun_MPL3115A2_Breakout_Arduino_Library/tree/master/src
+#include <Adafruit_Sensor.h>  // https://github.com/adafruit/Adafruit_Sensor
+#include <Adafruit_TSL2561_U.h> // https://github.com/adafruit/Adafruit_TSL2561
 #include <avr/sleep.h>
 #include <avr/wdt.h>
 
