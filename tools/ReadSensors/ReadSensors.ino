@@ -1,16 +1,16 @@
 /*
-  Sensor Board v0.3
+  Sensor Board v0.2
   Measures Temperature, Relative Humidity, Light intensity,
   Air pressure (and derived altitude), Sound intensity,
   concentrations of CO, NO2, VOC (derived) and CO2 (derived)
 
   Currently untested: TSL2561 light sensor code
-  Currently untested: MAX4466 mic + amp code
+  Currently untested: ADMP401 mic code
   
   Designed at CRT Labs (July 2016)
   https://github.com/NationalAssociationOfRealtors/SensorBoard
   
-  Modified: 6 September 2016
+  Modified: 8 September 2016
   by Akram Ali
  */
 
@@ -36,8 +36,8 @@ uint16_t tvoc;
 
 // define MICS-4514 global variables
 #define PRE_PIN          8
-#define VNOX_PIN         A0
-#define VRED_PIN         A1
+#define VNOX_PIN         A1
+#define VRED_PIN         A2
 #define PRE_HEAT_SECONDS 10
 int vnox_value = 0;
 int vred_value = 0;
@@ -74,9 +74,10 @@ void loop()
   
   Serial.println("---------------------");
   
-  // MAX 4466 amp
-  //Serial.println(analogRead(A0));  // read sound levels
-  //Serial.println();
+  // ADMP401 mic for sound level
+  Serial.print("Sound Level: ");
+  Serial.print(analogRead(A0));  // read sound levels
+  Serial.println();
 
 
   // TSL2561 light sensor
@@ -214,8 +215,16 @@ float readCO()
   //Serial.println(Rs);
   //Serial.println(R0);
   //Serial.println(ratio);
-  Serial.println(concentration);
-  return concentration;
+  if(concentration>0)
+  {
+    Serial.println(concentration);
+    return concentration;
+  }
+  else
+  {
+    Serial.println("0");
+    return 0;
+  }
 }
 
 float readNO2()
@@ -230,6 +239,14 @@ float readNO2()
   //Serial.println(Rs);
   //Serial.println(R0);
   //Serial.println(ratio);
-  Serial.println(concentration);
-  return concentration;
+  if(concentration>0)
+  {
+    Serial.println(concentration);
+    return concentration;
+  }
+  else
+  {
+    Serial.println("0");
+    return 0;
+  }
 }
