@@ -11,8 +11,8 @@
 #include <avr/wdt.h>
 
 // define node parameters
-char node[] = "2";
-#define NODEID        2 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
+char node[] = "6";
+#define NODEID        6 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
 #define GATEWAYID     1
 #define NETWORKID     101
 #define FREQUENCY     RF69_915MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
@@ -84,7 +84,7 @@ void setup()
 
 void sleep()
 {
-  //Serial.println("Going to Sleep");
+ 
   Serial.flush(); // empty the send buffer, before continue with; going to sleep
 
   digitalWrite(A1, LOW); // turn off UV sensor
@@ -103,9 +103,7 @@ void sleep()
   asm("wdr");
   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
   cli();       
-  //PORTD |= (1<<PORTD4); //Activate pullup on pin 4
-  //PCICR |= (1<<PCIE2);
-  //PCMSK2 |= (1<<PCINT20);
+
   sleep_enable();  
   sleep_bod_disable();
   sei();       
@@ -117,7 +115,6 @@ void sleep()
   ADCSRA = _ADCSRA; // restore ADC state (enable ADC)
   delay(1);
   
-  //ADCSRA &= (1 << ADEN);
 }
 
 
@@ -125,28 +122,20 @@ void loop()
 {
   sleep();
 
-  long t1 = millis();
+
   readSensors();
   
   Serial.println(dataPacket);
-  Serial.println(strlen(dataPacket));
+  //Serial.println("strlen(dataPacket)); packet length
   delay(50);
 
   // send datapacket
   radio.sendWithRetry(GATEWAYID, dataPacket, strlen(dataPacket), 5, 100);  // send data, retry 5 times with delay of 100ms between each retry
   dataPacket[0] = (char)0; // clearing first byte of char array clears the array
 
-  long t2 = millis();
-  Serial.println(t2-t1);
-  /*
-  // blink LED after sending to give visual indication on the board
-  digitalWrite(9, HIGH);
-  delay(50);
-  digitalWrite(9, LOW);
-  */
+ 
   fadeLED();
-  long t3 = millis();
-  Serial.println(t3-t2);
+
 }
 
 
@@ -200,9 +189,9 @@ void readSensors()
   float pressure = myPressure.readPressure();
   float temperature = myPressure.readTempF();
 
-  //const int station_elevation_ft = 5374; //Must be obtained with a GPS unit
-  //float station_elevation_m = station_elevation_ft * 0.3048; //I'm going to hard code this
-  const int station_elevation_m = 181; //Chicago
+
+
+  const int station_elevation_m = 181; //Elevation of Chicago in meters
   //1 pascal = 0.01 millibars
   pressure /= 100; //pressure is now in millibars
 
@@ -217,15 +206,12 @@ void readSensors()
   bar = altimeter_setting_pressure_mb * 0.02953;
 
 
-
   // MICS 4514 CO/NO2 gas sensor
   // Read analog values, print them out, and wait
   vnox_value = analogRead(VNOX_PIN);
   vred_value = analogRead(VRED_PIN);
   co = readCO();
   no2 = readNO2();
-
-
 
 
   // define character arrays for all variables
@@ -290,10 +276,7 @@ float readCO()
   float R0 = 82000.0;
   float ratio = Rs/R0;
   float concentration = ((-181.4)*log(ratio))-97.469;
-  //Serial.println(adc);
-  //Serial.println(Rs);
-  //Serial.println(R0);
-  //Serial.println(ratio);
+
   if(concentration>0)
   {
     return concentration;
@@ -311,10 +294,7 @@ float readNO2()
   float R0 = 350.0;
   float ratio = Rs/R0;
   float concentration = (124.28*log(ratio))-270.37;
-  //Serial.println(adc);
-  //Serial.println(Rs);
-  //Serial.println(R0);
-  //Serial.println(ratio);
+
   if(concentration>0)
   {
     return concentration;
