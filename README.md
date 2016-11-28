@@ -2,13 +2,13 @@
 An open hardware and software indoor air quality sensor provided by the [National Association of REALTORS](http://realtor.org) and [CRT Labs](https://crtlabs.org).
 
 <p align="center">
-  <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/master/docs/media/v0.3_prototype.jpg" alt="CRT Sensor Board"/>
+  <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/dev/docs/media/v0.3_prototype.jpg" alt="CRT Sensor Board"/>
 </p>
 
 
 
 <p align="center">
-  <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/master/docs/media/sensor_board_v0.5.png" alt="CRT Sensor Board OSH Park render"/>
+  <img src="https://github.com/NationalAssociationOfRealtors/IndoorAirQualitySensor/blob/dev/docs/media/sensor_board_v0.5.png" alt="CRT Sensor Board OSH Park render"/>
 </p>
 
 Measurement Points:
