@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5393,19 +5393,30 @@ September 2016</description>
 <wire x1="-0.1" y1="4.1" x2="2.8" y2="4.1" width="0.127" layer="21"/>
 <wire x1="2.8" y1="4.1" x2="2.8" y2="-0.1" width="0.127" layer="21"/>
 <wire x1="2.8" y1="-0.1" x2="-0.1" y2="-0.1" width="0.127" layer="21"/>
-<smd name="1" x="0.3" y="3.2" dx="0.6" dy="0.35" layer="1"/>
-<smd name="2" x="0.3" y="2.6" dx="0.6" dy="0.35" layer="1"/>
-<smd name="3" x="0.3" y="2" dx="0.6" dy="0.35" layer="1"/>
-<smd name="4" x="0.3" y="1.4" dx="0.6" dy="0.35" layer="1"/>
-<smd name="5" x="0.3" y="0.8" dx="0.6" dy="0.35" layer="1"/>
-<smd name="6" x="2.4" y="0.8" dx="0.6" dy="0.35" layer="1"/>
-<smd name="7" x="2.4" y="1.4" dx="0.6" dy="0.35" layer="1"/>
-<smd name="8" x="2.4" y="2" dx="0.6" dy="0.35" layer="1"/>
-<smd name="9" x="2.4" y="2.6" dx="0.6" dy="0.35" layer="1"/>
-<smd name="10" x="2.4" y="3.2" dx="0.6" dy="0.35" layer="1"/>
-<smd name="11" x="1.35" y="2" dx="1.1" dy="2.3" layer="1"/>
+<smd name="1" x="0.3" y="3.2" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="2" x="0.3" y="2.6" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="3" x="0.3" y="2" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="4" x="0.3" y="1.4" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="5" x="0.3" y="0.8" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="6" x="2.4" y="0.8" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="7" x="2.4" y="1.4" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="8" x="2.4" y="2" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="9" x="2.4" y="2.6" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="10" x="2.4" y="3.2" dx="0.6" dy="0.35" layer="1" stop="no"/>
+<smd name="11" x="1.35" y="2" dx="1.1" dy="2.3" layer="1" stop="no"/>
 <text x="-0.127" y="4.445" size="0.508" layer="25">&gt;NAME</text>
 <text x="-0.127" y="-0.889" size="0.508" layer="27">&gt;VALUE</text>
+<rectangle x1="0.76" y1="0.81" x2="1.94" y2="3.19" layer="29"/>
+<rectangle x1="-0.05" y1="2.98" x2="0.65" y2="3.42" layer="29"/>
+<rectangle x1="-0.05" y1="2.38" x2="0.65" y2="2.82" layer="29"/>
+<rectangle x1="-0.05" y1="1.78" x2="0.65" y2="2.22" layer="29"/>
+<rectangle x1="-0.05" y1="1.18" x2="0.65" y2="1.62" layer="29"/>
+<rectangle x1="-0.05" y1="0.58" x2="0.65" y2="1.02" layer="29"/>
+<rectangle x1="2.05" y1="2.98" x2="2.75" y2="3.42" layer="29"/>
+<rectangle x1="2.05" y1="2.38" x2="2.75" y2="2.82" layer="29"/>
+<rectangle x1="2.05" y1="1.79" x2="2.75" y2="2.23" layer="29"/>
+<rectangle x1="2.05" y1="1.18" x2="2.75" y2="1.62" layer="29"/>
+<rectangle x1="2.05" y1="0.58" x2="2.75" y2="1.02" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -6300,12 +6311,12 @@ October 2016</description>
 <part name="IC2" library="linear" deviceset="ISL60002DIH320Z" device="CB" value="VREF"/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="49.9">
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
