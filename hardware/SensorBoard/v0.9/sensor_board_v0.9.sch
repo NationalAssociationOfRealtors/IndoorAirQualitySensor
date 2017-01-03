@@ -6173,17 +6173,17 @@ October 2016</description>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ">
 <attribute name="MPN" value="CSTCE16M0V53-R0"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805">
-<attribute name="MPN" value="LTST-C170TBKT"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805">
+<attribute name="MPN" value="150080BS75000"/>
 </part>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U8" library="linear" deviceset="MCP1703" device="CB" value="MCP1703/3.3V">
@@ -6201,7 +6201,7 @@ October 2016</description>
 <attribute name="MPN" value="RC0805JR-0710KL"/>
 </part>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M05X2" device="PTH">
@@ -6213,10 +6213,10 @@ October 2016</description>
 <attribute name="MPN" value="CONN-09505"/>
 </part>
 <part name="RX" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Green">
-<attribute name="MPN" value="LTST-C170TBKT"/>
+<attribute name="MPN" value="LG R971-KN-1"/>
 </part>
 <part name="TX" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Red">
-<attribute name="MPN" value="LTST-C170TBKT"/>
+<attribute name="MPN" value="LH R974-LP-1"/>
 </part>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47">
 <attribute name="MPN" value="RC0805JR-0747RL"/>
@@ -6234,7 +6234,7 @@ October 2016</description>
 <attribute name="MPN" value="RC0805FR-0727RL"/>
 </part>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -6246,7 +6246,7 @@ October 2016</description>
 <attribute name="MPN" value="WRL-00593"/>
 </part>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="U10" library="CCS811" deviceset="CCS811" device="-I2C" value="CCS811">
 <attribute name="MPN" value="CCS811"/>
@@ -6265,10 +6265,10 @@ October 2016</description>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="U3" library="ATMEGA328P-MU" deviceset="ATMEGA328P-MU" device="">
 <attribute name="MPN" value="ATMEGA328P-MU"/>
@@ -6288,14 +6288,14 @@ October 2016</description>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="IC2" library="linear" deviceset="ISL60002DIH320Z" device="CB" value="VREF">
-<attribute name="MPN" value="ISL60002DIH320ZCB"/>
+<attribute name="MPN" value="ISL60002DIH320Z-TK"/>
 </part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="MPN" value="AC0805KRX7R9BB104"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K">
 <attribute name="MPN" value="RC0805JR-071KL"/>
@@ -6360,7 +6360,7 @@ Akram Ali and Dave Conroy</text>
 <attribute name="MPN" x="274.32" y="83.82" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="345.44" y="129.54"/>
-<instance part="LED2" gate="G$1" x="363.22" y="78.74" rot="R90">
+<instance part="LED1" gate="G$1" x="363.22" y="78.74" rot="R90">
 <attribute name="MPN" x="363.22" y="78.74" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="370.84" y="68.58"/>
@@ -6529,7 +6529,7 @@ Akram Ali and Dave Conroy</text>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="368.3" y1="78.74" x2="370.84" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="78.74" x2="370.84" y2="71.12" width="0.1524" layer="91"/>
@@ -7099,7 +7099,7 @@ Akram Ali and Dave Conroy</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="353.06" y1="78.74" x2="360.68" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
