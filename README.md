@@ -30,6 +30,11 @@ Connectivity:
 * Cellular (Particle Electron) (Coming soon)
 * LoRa (Coming Soon)
 
+Bom:
+
+* [Octopart](https://octopart.com/bom-tool/bizoiMZQ)
+
+
 License:
 Apache License Version 2.0
 
