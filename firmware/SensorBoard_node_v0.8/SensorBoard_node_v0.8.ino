@@ -11,8 +11,8 @@
 #include <avr/wdt.h>
 
 // define node parameters
-char node[] = "8";
-#define NODEID        8 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
+char node[] = "17";
+#define NODEID        17 // same sa above - must be unique for each node on same network (range up to 254, 255 is used for broadcast)
 #define GATEWAYID     1
 #define NETWORKID     101
 #define FREQUENCY     RF69_915MHZ //Match this with the version of your Moteino! (others: RF69_433MHZ, RF69_868MHZ)
@@ -169,7 +169,7 @@ void sleep()
   //PCICR |= (1<<PCIE2);
   //PCMSK2 |= (1<<PCINT20);
   sleep_enable();  
-  sleep_bod_disable();
+  //sleep_bod_disable();
   sei();       
   sleep_cpu();   
     
