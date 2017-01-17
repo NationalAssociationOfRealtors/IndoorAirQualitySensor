@@ -245,10 +245,28 @@ void readSensors()
   float temperature = bme.readPressure();
 
 
-  // CCS811 VOC/CO2 sensor
-  //byte b;
-  delay(1);
+  // CCS811 VOC/CO2 sensoR
+  //compensate for T & RH first before getting readings
+  digitalWrite(4, LOW);
 
+  int _temp, _rh;
+  if(temp>0)
+    _temp = (int)temp + 0.5;  // this will round off the floating point to the nearest integer value
+  else if(temp<0)
+    _temp = (int)temp - 0.5;
+  _temp = _temp + 25;  // temperature high byte is stored as T+25°C so the value of byte is positive
+  _rh = (int)rh + 0.5;  // this will round off the floating point to the nearest integer value
+
+  Wire.beginTransmission(0x5B);
+  Wire.write(0x05);
+  Wire.write(_rh);           // 7 bit humidity value
+  Wire.write(0);            // most significant fractional bit. Using 0 here - gives us accuracy of +/-1%. Current firmware (2016) only supports fractional increments of 0.5
+  Wire.write(_temp);
+  Wire.write(0);
+  Wire.endTransmission();
+
+  digitalWrite(4, HIGH);
+  
   // ALG_RESULT_DATA
   digitalWrite(4, LOW);
   int buffer[4];
