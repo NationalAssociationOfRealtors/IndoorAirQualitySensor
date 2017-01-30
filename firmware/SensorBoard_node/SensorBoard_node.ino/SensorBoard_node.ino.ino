@@ -44,7 +44,7 @@ int vred_value = 0;
 // define TSL2561 global variables
 long lux;
 float bar;
-int sound;
+float sound;
 float co;
 float no2;
 
@@ -173,7 +173,16 @@ void readSensors()
   
 
   // ADMP401 mic for sound level
-  sound = analogRead(A0);  // read sound levels
+  float sumADC=0.0;
+  for(int i=0;i<5;i++)
+  {
+     sumADC = sumADC + analogRead(A0); // take avg of 5 readings
+  }
+  float averageADC = sumADC/5.0;
+  float volts = (averageADC/1023.0 * 3.3);
+  sound = (20 * log10(volts/0.007943)) - 42 + 94 - 60;  // VRMS = 0.007943; -42dB is sensitivity of ADMP401 mic; 1 Pa = 94 dB SPL RMS; 60dB is gain of amplifier
+  // the above is uncalibrated sound level - needs to be calibrated with reference to an accurate sound level meter in varying SPLs, frequencies and environments.
+    
 
 
   // MPL3115A2 air pressure sensor
@@ -236,7 +245,7 @@ void readSensors()
   dtostrf(bar, 3, 2, _g);
   dtostrf(lux, 1, 0, _l);
   dtostrf(no2, 1, 0, _n);
-  dtostrf(sound, 1, 0, _s);
+  dtostrf(sound, 1, 1, _s);
   dtostrf(tvoc, 1, 0, _v);
   delay(50);
   
