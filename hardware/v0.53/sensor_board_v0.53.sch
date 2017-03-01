@@ -11214,15 +11214,13 @@ Temp:</text>
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K">
-<attribute name="MPN" value="RC0805FR-071K5L
-"/>
+<attribute name="MPN" value="RC0805FR-071K5L "/>
 </part>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
 <attribute name="MPN" value="RC0805FR-0710KL"/>
 </part>
 <part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100K">
-<attribute name="MPN" value="RC0805FR-07100KL
-"/>
+<attribute name="MPN" value="RC0805FR-07100KL "/>
 </part>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -11245,12 +11243,10 @@ Temp:</text>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47">
-<attribute name="MPN" value="RC0805FR-0747RL
-"/>
+<attribute name="MPN" value="RC0805FR-0747RL "/>
 </part>
 <part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47">
-<attribute name="MPN" value="RC0805FR-0747RL
-"/>
+<attribute name="MPN" value="RC0805FR-0747RL "/>
 </part>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="SHOTTKY">
 <attribute name="MF" value=""/>
@@ -11258,12 +11254,10 @@ Temp:</text>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27">
-<attribute name="MPN" value="RC0805FR-0727RL
-"/>
+<attribute name="MPN" value="RC0805FR-0727RL "/>
 </part>
 <part name="R21" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27">
-<attribute name="MPN" value="RC0805FR-0727RL
-"/>
+<attribute name="MPN" value="RC0805FR-0727RL "/>
 </part>
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="MPN" value="CC0805KRX7R9BB104"/>
@@ -11302,8 +11296,7 @@ Temp:</text>
 <part name="U$2" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$3" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U10" library="TSL2591" deviceset="LIGHT_TSL2591" device="" value="TSL2591">
-<attribute name="MPN" value="TSL25911FN
-"/>
+<attribute name="MPN" value="TSL25911FN "/>
 </part>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="MPN" value="CC0805KRX7R9BB104"/>
@@ -11311,8 +11304,7 @@ Temp:</text>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="470">
-<attribute name="MPN" value="RC0805FR-07470RL
-"/>
+<attribute name="MPN" value="RC0805FR-07470RL "/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="adafruit" deviceset="C-US" device="C0603K" value="1uF">
@@ -11326,7 +11318,9 @@ Temp:</text>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="U2" library="Adafruit SHT31" deviceset="SHT3X" device=""/>
+<part name="U2" library="Adafruit SHT31" deviceset="SHT3X" device="">
+<attribute name="MPN" value="SHT35-DIS-B"/>
+</part>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="MPN" value="CC0805KRX7R9BB104"/>
 </part>
@@ -11539,7 +11533,9 @@ Serial</text>
 <instance part="J1" gate="G$1" x="-40.64" y="-12.7"/>
 <instance part="J4" gate="G$1" x="-10.16" y="-12.7"/>
 <instance part="J5" gate="G$1" x="20.32" y="-12.7"/>
-<instance part="U2" gate="G$1" x="246.38" y="7.62"/>
+<instance part="U2" gate="G$1" x="246.38" y="7.62">
+<attribute name="MPN" x="246.38" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C16" gate="G$1" x="274.32" y="5.08">
 <attribute name="MPN" x="274.32" y="5.08" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
