@@ -11143,9 +11143,7 @@ Please use FRAME-LEDGER/FRAME-LETTER for schematics now.</description>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
-<attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
 <attribute name="MF" value=""/>
@@ -11365,9 +11363,7 @@ Serial</text>
 <attribute name="MPN" x="274.32" y="109.22" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="284.48" y="109.22" rot="R90">
-<attribute name="OC_NEWARK" x="284.48" y="109.22" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MF" x="284.48" y="109.22" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MPN" x="284.48" y="109.22" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="284.48" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="266.7" y="-5.08">
 <attribute name="OC_NEWARK" x="266.7" y="-5.08" size="1.778" layer="96" rot="R270" display="off"/>
