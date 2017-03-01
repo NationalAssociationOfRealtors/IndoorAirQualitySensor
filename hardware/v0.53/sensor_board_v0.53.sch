@@ -11151,7 +11151,7 @@ Please use FRAME-LEDGER/FRAME-LETTER for schematics now.</description>
 </part>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="CSTCE16M0V53-R0"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -11221,12 +11221,12 @@ Please use FRAME-LEDGER/FRAME-LETTER for schematics now.</description>
 </part>
 <part name="RX" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="LG R971-KN-1"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="TX" library="adafruit" deviceset="LED" device="CHIPLED_0805">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="LG R971-KN-1"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="47">
@@ -11239,7 +11239,7 @@ Please use FRAME-LEDGER/FRAME-LETTER for schematics now.</description>
 </part>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="SHOTTKY">
 <attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
+<attribute name="MPN" value="SD0805S040S0R5"/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="27">
