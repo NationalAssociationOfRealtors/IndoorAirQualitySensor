@@ -11718,11 +11718,11 @@ Temp:</text>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MPN" value="RC0805FR-0710KL"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K">
+<attribute name="MPN" value="RC0805FR-071KL"/>
 </part>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
-<attribute name="MPN" value="RC0805FR-0710KL"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K">
+<attribute name="MPN" value="RC0805FR-071KL"/>
 </part>
 </parts>
 <sheets>

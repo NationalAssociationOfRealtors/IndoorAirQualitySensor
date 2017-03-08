@@ -2334,12 +2334,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.9878" y="41.4528" size="0.6096" layer="121" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="7.1882" y="30.3784" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R4" library="SparkFun-Passives" package="0805" value="10K" x="12.0904" y="45.212" smashed="yes">
-<attribute name="MPN" value="RC0805FR-0710KL" x="12.0904" y="45.212" size="1.778" layer="27" display="off"/>
+<element name="R4" library="SparkFun-Passives" package="0805" value="1K" x="12.0904" y="45.212" smashed="yes">
+<attribute name="MPN" value="RC0805FR-071KL" x="12.0904" y="45.212" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.6332" y="46.1391" size="0.6096" layer="121" font="vector"/>
 </element>
-<element name="R14" library="SparkFun-Passives" package="0805" value="10K" x="23.4696" y="35.814" smashed="yes" rot="R180">
-<attribute name="MPN" value="RC0805FR-0710KL" x="23.4696" y="35.814" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R14" library="SparkFun-Passives" package="0805" value="1K" x="23.4696" y="35.814" smashed="yes" rot="R180">
+<attribute name="MPN" value="RC0805FR-071KL" x="23.4696" y="35.814" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="24.7396" y="36.6903" size="0.6096" layer="121" font="vector" align="bottom-center"/>
 </element>
 </elements>
