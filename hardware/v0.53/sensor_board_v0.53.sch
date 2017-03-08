@@ -11718,6 +11718,12 @@ Temp:</text>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J6" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="PTH"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="MPN" value="RC0805FR-0710KL"/>
+</part>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K">
+<attribute name="MPN" value="RC0805FR-0710KL"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -11934,6 +11940,12 @@ Serial</text>
 <instance part="GND13" gate="1" x="226.06" y="-2.54"/>
 <instance part="J6" gate="G$1" x="-20.32" y="109.22"/>
 <instance part="J2" gate="G$1" x="175.26" y="-27.94"/>
+<instance part="R4" gate="G$1" x="50.8" y="-60.96" rot="R180">
+<attribute name="MPN" x="50.8" y="-60.96" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="43.18" y="-63.5" rot="R180">
+<attribute name="MPN" x="43.18" y="-63.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12508,14 +12520,14 @@ Serial</text>
 <label x="269.24" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="43.18" y="-60.96" size="1.778" layer="95" xref="yes"/>
-<pinref part="U5" gate="U$1" pin="TXD"/>
-<wire x1="43.18" y1="-60.96" x2="35.56" y2="-60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="180.34" y1="-22.86" x2="185.42" y2="-22.86" width="0.1524" layer="91"/>
 <label x="185.42" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="-60.96" x2="63.5" y2="-60.96" width="0.1524" layer="91"/>
+<label x="63.5" y="-60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -12525,14 +12537,14 @@ Serial</text>
 <label x="269.24" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="38.1" y="-63.5" size="1.778" layer="95" xref="yes"/>
-<pinref part="U5" gate="U$1" pin="RXD"/>
-<wire x1="38.1" y1="-63.5" x2="35.56" y2="-63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="180.34" y1="-25.4" x2="185.42" y2="-25.4" width="0.1524" layer="91"/>
 <label x="185.42" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-63.5" x2="55.88" y2="-63.5" width="0.1524" layer="91"/>
+<label x="55.88" y="-63.5" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -12770,6 +12782,20 @@ Serial</text>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
 <label x="30.48" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U5" gate="U$1" pin="RXD"/>
+<wire x1="35.56" y1="-63.5" x2="38.1" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U5" gate="U$1" pin="TXD"/>
+<wire x1="35.56" y1="-60.96" x2="45.72" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
