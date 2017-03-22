@@ -9324,7 +9324,7 @@ Temp:</text>
 <attribute name="MPN" value="CC0805ZRY5V8BB105"/>
 </part>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF">
-<attribute name="MPN" value="CC0805ZRY5V8BB105"/>
+<attribute name="MPN" value="CC0805KRX7R9BB104"/>
 </part>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
@@ -9458,7 +9458,7 @@ Temp:</text>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="J5" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="U2" library="Adafruit SHT31" deviceset="SHT3X" device="">
+<part name="U2" library="Adafruit SHT31" deviceset="SHT3X" device="" value="SHT35">
 <attribute name="MPN" value="SHT35-DIS-B"/>
 </part>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF">
@@ -9476,7 +9476,7 @@ Temp:</text>
 <attribute name="MPN" value="RC0805FR-071KL"/>
 </part>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF">
-<attribute name="MPN" value="CC0805ZRY5V8BB105"/>
+<attribute name="MPN" value="CC0805KKX5R6BB106"/>
 </part>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF">
 <attribute name="MPN" value="CC0805ZRY5V8BB105"/>
@@ -9508,6 +9508,7 @@ Temp:</text>
 <text x="15.24" y="-2.54" size="3.81" layer="94">Software
 Serial</text>
 <text x="170.18" y="-15.24" size="3.81" layer="94">PM2.5 sensor</text>
+<text x="251.46" y="-7.62" size="1.778" layer="97">0x44</text>
 </plain>
 <instances>
 <instance part="U1" gate="U$1" x="238.76" y="81.28">
@@ -10113,13 +10114,6 @@ Serial</text>
 <label x="264.16" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D5" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PD5(T1)"/>
-<wire x1="261.62" y1="76.2" x2="269.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="269.24" y="76.2" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PB7(XTAL2/TOSC2)"/>
@@ -10239,13 +10233,6 @@ Serial</text>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="-10.16" y1="109.22" x2="-2.54" y2="109.22" width="0.1524" layer="91"/>
 <label x="-2.54" y="109.22" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="A7" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="ADC7"/>
-<wire x1="261.62" y1="93.98" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
-<label x="269.24" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -10569,6 +10556,24 @@ Serial</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,127,99.06,U3,V+,VCC,,,"/>
+<approved hash="104,1,127,83.82,U3,V-,GND,,,"/>
+<approved hash="104,1,139.7,35.56,U9,VDD,VCC,,,"/>
+<approved hash="104,1,170.18,35.56,U9,VDDIO,VCC,,,"/>
+<approved hash="202,1,139.7,30.48,U9,CSB,,,,"/>
+<approved hash="104,1,63.5,38.1,U10,VDD,VCC,,,"/>
+<approved hash="104,1,101.6,2.54,LED1,VDD,VCC,,,"/>
+<approved hash="104,1,259.08,10.16,U2,VDD,VCC,,,"/>
+<approved hash="104,1,233.68,2.54,U2,VSS,GND,,,"/>
+<approved hash="113,1,54.61,-86.6817,RX,,,,,"/>
+<approved hash="113,1,46.99,-89.2217,TX,,,,,"/>
+<approved hash="113,1,168.779,-68.3429,JP2,,,,,"/>
+<approved hash="113,1,-36.2373,-9.96527,J1,,,,,"/>
+<approved hash="113,1,-5.75733,-9.96527,J4,,,,,"/>
+<approved hash="113,1,24.7227,-9.96527,J5,,,,,"/>
+<approved hash="113,1,177.123,-25.2053,J2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -2131,7 +2131,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="7.7978" y="30.8483" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="4.2926" y="22.1234" smashed="yes" rot="R180">
-<attribute name="MPN" value="CC0805ZRY5V8BB105" x="4.2926" y="22.1234" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0805KRX7R9BB104" x="4.2926" y="22.1234" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="2.4003" y="21.6154" size="0.6096" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="R13" library="SparkFun-Passives" package="0805" value="10K" x="8.3058" y="32.5374" smashed="yes">
@@ -2297,7 +2297,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="51.0032" y="24.511" size="0.6096" layer="121" font="vector" rot="R90"/>
 <attribute name="VALUE" x="51.308" y="21.7678" size="1.27" layer="27"/>
 </element>
-<element name="U2" library="Adafruit SHT31" package="SHT3X" value="" x="54.2544" y="43.7896" smashed="yes">
+<element name="U2" library="Adafruit SHT31" package="SHT3X" value="SHT35" x="54.2544" y="43.7896" smashed="yes">
 <attribute name="MPN" value="SHT35-DIS-B" x="54.2544" y="43.7896" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.2754" y="45.5012" size="0.6096" layer="121" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="53.0164" y="41.8186" size="0.4064" layer="27" ratio="10"/>
@@ -2323,7 +2323,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="24.7396" y="36.6903" size="0.6096" layer="121" font="vector" align="bottom-center"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" package="0805" value="10uF" x="4.2926" y="24.2316" smashed="yes" rot="R180">
-<attribute name="MPN" value="CC0805ZRY5V8BB105" x="4.2926" y="24.2316" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CC0805KKX5R6BB106" x="4.2926" y="24.2316" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="1.7907" y="24.2062" size="0.6096" layer="121" font="vector" rot="R270" align="bottom-center"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0805" value="1uF" x="4.2926" y="20.0152" smashed="yes" rot="R180">
@@ -2738,9 +2738,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="55.1688" y1="28.9052" x2="53.5432" y2="27.2796" width="0.1778" layer="16"/>
 <wire x1="53.5432" y1="27.2796" x2="44.2468" y2="27.2796" width="0.1778" layer="16"/>
 </signal>
-<signal name="D5">
-<contactref element="U1" pad="9"/>
-</signal>
 <signal name="N$4">
 <contactref element="U1" pad="8"/>
 <contactref element="Y1" pad="3"/>
@@ -2883,9 +2880,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.1064" y1="37.6936" x2="13.1064" y2="35.2552" width="0.1778" layer="16"/>
 <wire x1="13.1064" y1="35.2552" x2="12.0904" y2="34.2392" width="0.1778" layer="16"/>
 <wire x1="12.0904" y1="34.2392" x2="6.35" y2="34.2392" width="0.1778" layer="16"/>
-</signal>
-<signal name="A7">
-<contactref element="U1" pad="22"/>
 </signal>
 <signal name="A0">
 <contactref element="U1" pad="23"/>
