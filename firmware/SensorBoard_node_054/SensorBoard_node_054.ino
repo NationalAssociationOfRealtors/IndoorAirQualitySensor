@@ -117,6 +117,7 @@ void loop()
   //fadeLED();
   //colorWipe(strip.Color(0, 255, 0), 10); // Green
   //strip.show();
+  
   for (int i = 0; i <= 255; i++)
   {
       colorWipe(strip.Color(0,i,0), 1);
