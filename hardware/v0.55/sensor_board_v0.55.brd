@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1521,16 +1521,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="6" y1="3" x2="6" y2="9.81" width="0.127" layer="21"/>
 <wire x1="6" y1="9.81" x2="3" y2="9.81" width="0.127" layer="21"/>
 <wire x1="3" y1="9.81" x2="3" y2="3" width="0.127" layer="21"/>
-<pad name="1" x="3.865" y="3.865" drill="0.45" diameter="0.9"/>
-<pad name="3" x="3.865" y="5.135" drill="0.45" diameter="0.9"/>
-<pad name="5" x="3.865" y="6.405" drill="0.45" diameter="0.9"/>
-<pad name="7" x="3.865" y="7.675" drill="0.45" diameter="0.9"/>
-<pad name="9" x="3.865" y="8.945" drill="0.45" diameter="0.9"/>
-<pad name="2" x="5.135" y="3.865" drill="0.45" diameter="0.9"/>
-<pad name="4" x="5.135" y="5.135" drill="0.45" diameter="0.9"/>
-<pad name="6" x="5.135" y="6.405" drill="0.45" diameter="0.9"/>
-<pad name="8" x="5.135" y="7.675" drill="0.45" diameter="0.9"/>
-<pad name="10" x="5.135" y="8.945" drill="0.45" diameter="0.9"/>
+<pad name="1" x="3.865" y="3.865" drill="0.55" diameter="0.95"/>
+<pad name="3" x="3.865" y="5.135" drill="0.55" diameter="0.95"/>
+<pad name="5" x="3.865" y="6.405" drill="0.55" diameter="0.95"/>
+<pad name="7" x="3.865" y="7.675" drill="0.55" diameter="0.95"/>
+<pad name="9" x="3.865" y="8.945" drill="0.55" diameter="0.95"/>
+<pad name="2" x="5.135" y="3.865" drill="0.55" diameter="0.95"/>
+<pad name="4" x="5.135" y="5.135" drill="0.55" diameter="0.95"/>
+<pad name="6" x="5.135" y="6.405" drill="0.55" diameter="0.95"/>
+<pad name="8" x="5.135" y="7.675" drill="0.55" diameter="0.95"/>
+<pad name="10" x="5.135" y="8.945" drill="0.55" diameter="0.95"/>
 <wire x1="47" y1="0" x2="47" y2="37" width="0.127" layer="48"/>
 <wire x1="47" y1="37" x2="0" y2="37" width="0.127" layer="48"/>
 <wire x1="47" y1="0" x2="0" y2="0" width="0.127" layer="48"/>
