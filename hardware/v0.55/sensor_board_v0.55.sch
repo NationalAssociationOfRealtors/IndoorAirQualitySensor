@@ -9372,7 +9372,7 @@ regulations. &lt;/p&gt;
 <text x="-55.88" y="-45.72" size="3.81" layer="94">USB + FTDI</text>
 <text x="246.38" y="-78.74" size="1.778" layer="97">0x5A</text>
 <text x="160.02" y="20.32" size="1.778" layer="97">0x77</text>
-<text x="257.556" y="-102.362" size="2.54" layer="94" font="vector" ratio="10">0.55</text>
+<text x="257.556" y="-102.362" size="2.54" layer="94" font="vector" ratio="10">0.55b</text>
 <text x="192.786" y="-107.442" size="2.54" layer="94" font="vector" ratio="10">github.crtlabs.org</text>
 <text x="73.66" y="30.48" size="1.778" layer="97">0x29</text>
 <text x="71.12" y="2.54" size="3.81" layer="94">RGB LED</text>

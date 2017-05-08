@@ -157,8 +157,8 @@
 <board>
 <plain>
 <text x="36.6268" y="10.9728" size="1.016" layer="122" font="vector" ratio="16" rot="MR0" align="center-left">Touchstone</text>
-<text x="50.546" y="6.7056" size="0.6096" layer="122" font="vector" rot="MR0">Designed by Akram Ali and Dave Conroy</text>
-<text x="36.5506" y="9.525" size="0.6096" layer="122" font="vector" rot="MR0">v0.55 | April 2017</text>
+<text x="50.546" y="6.7056" size="0.6096" layer="122" font="vector" rot="MR0">Designed by Akram Ali</text>
+<text x="36.5506" y="9.525" size="0.6096" layer="122" font="vector" rot="MR0">v0.55b | May 2017</text>
 <text x="36.5506" y="9.144" size="0.8128" layer="122" font="vector" ratio="12" rot="MR180" align="bottom-right">crtlabs.org</text>
 <rectangle x1="43.4086" y1="8.3566" x2="43.815" y2="8.4074" layer="122" rot="R180"/>
 <rectangle x1="43.3578" y1="8.4074" x2="43.9166" y2="8.4582" layer="122" rot="R180"/>
