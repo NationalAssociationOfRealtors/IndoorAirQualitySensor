@@ -1,0 +1,18 @@
+[submodule "libraries/RFM69"]
+	path = libraries/RFM69
+	url = https://github.com/LowPowerLab/RFM69.git
+[submodule "libraries/Adafruit_SHT31"]
+	path = libraries/Adafruit_SHT31
+	url = https://github.com/adafruit/Adafruit_SHT31
+[submodule "libraries/Adafruit_BMP280_Library"]
+	path = libraries/Adafruit_BMP280_Library
+	url = https://github.com/adafruit/Adafruit_BMP280_Library
+[submodule "libraries/Adafruit_Sensor"]
+	path = libraries/Adafruit_Sensor
+	url = https://github.com/adafruit/Adafruit_Sensor
+[submodule "libraries/Adafruit_TSL2591_Library"]
+	path = libraries/Adafruit_TSL2591_Library
+	url = https://github.com/adafruit/Adafruit_TSL2591_Library
+[submodule "libraries/Adafruit_NeoPixel"]
+	path = libraries/Adafruit_NeoPixel
+	url = https://github.com/adafruit/Adafruit_NeoPixel
