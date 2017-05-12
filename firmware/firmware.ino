@@ -214,7 +214,7 @@ void readSensors()
   
   // create datapacket by combining all character arrays into a large character array
   strcat(dataPacket, "i:");
-  strcat(dataPacket, node);
+  strcat(dataPacket, NODEID);
   strcat(dataPacket, ",t:");
   strcat(dataPacket, _t);
   strcat(dataPacket, ",h:");
