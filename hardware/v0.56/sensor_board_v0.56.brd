@@ -55,8 +55,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -869,8 +869,6 @@
 <wire x1="33.9344" y1="0" x2="33.02" y2="0.9144" width="0.1778" layer="20" curve="90"/>
 <wire x1="16.8656" y1="0" x2="17.78" y2="0.9144" width="0.1778" layer="20" curve="-90"/>
 <wire x1="18.6944" y1="0" x2="17.78" y2="0.9144" width="0.1778" layer="20" curve="90"/>
-<dimension x1="0" y1="50.8" x2="0" y2="0" x3="-8.636" y3="25.4" textsize="1.778" layer="49" unit="mil"/>
-<dimension x1="0" y1="50.8" x2="50.8" y2="50.8" x3="25.4" y3="60.7568" textsize="1.778" layer="49" unit="mil"/>
 <text x="3.81" y="37.1856" size="0.6096" layer="121" font="vector" rot="SR270" align="bottom-right">PWR</text>
 <text x="3.8608" y="39.7256" size="0.6096" layer="121" font="vector" rot="SR270" align="bottom-right">SCL</text>
 <text x="3.8608" y="42.3164" size="0.6096" layer="121" font="vector" rot="SR270" align="bottom-right">SDA</text>
