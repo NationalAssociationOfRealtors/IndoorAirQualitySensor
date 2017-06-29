@@ -6561,6 +6561,9 @@ github.com/akstudios</description>
 <part name="R9" library="Adafruit Feather 32u4 Bluefruit LE" deviceset="MICROBUILDER_RESISTOR" device="_0402MP" value="100K"/>
 <part name="U15" library="VLP-450-F" deviceset="VLP-450-F" device=""/>
 <part name="U16" library="VLP-450-F" deviceset="VLP-450-F" device=""/>
+<part name="C5" library="Adafruit Feather 32u4 Bluefruit LE" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0402MP" value="0.1uF"/>
+<part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6752,6 +6755,9 @@ Relative Humidity</text>
 <instance part="R9" gate="G$1" x="63.5" y="20.32" rot="R270"/>
 <instance part="U15" gate="G$1" x="226.06" y="-73.66"/>
 <instance part="U16" gate="G$1" x="226.06" y="-83.82"/>
+<instance part="C5" gate="G$1" x="38.1" y="-71.12" rot="R180"/>
+<instance part="SUPPLY17" gate="G$1" x="38.1" y="-66.04"/>
+<instance part="GND13" gate="1" x="38.1" y="-81.28"/>
 </instances>
 <busses>
 </busses>
@@ -6947,6 +6953,11 @@ Relative Humidity</text>
 <wire x1="104.14" y1="-5.08" x2="83.82" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="83.82" y="-5.08"/>
 </segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-78.74" x2="38.1" y2="-76.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -7094,6 +7105,11 @@ Relative Humidity</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
+<wire x1="38.1" y1="-68.58" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
