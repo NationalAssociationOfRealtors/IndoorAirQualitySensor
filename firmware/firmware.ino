@@ -128,7 +128,7 @@ void sleep()
   cli();          // stop interrupts
   MCUSR = 0;
   WDTCSR  = (1<<WDCE | 1<<WDE);     // watchdog change enable
-  WDTCSR  = 1<<WDIE | (1<<WDP3) | (0<<WDP2) | (0<<WDP1) | (0<<WDP0); // set  prescaler to 4 second
+  WDTCSR  = 1<<WDIE | (1<<WDP3) | (0<<WDP2) | (0<<WDP1) | (1<<WDP0); // set  prescaler to 8 second
   sei();  // enable global interrupts
 
   byte _ADCSRA = ADCSRA;  // save ADC state

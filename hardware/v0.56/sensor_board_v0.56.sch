@@ -6564,6 +6564,8 @@ github.com/akstudios</description>
 <part name="C5" library="Adafruit Feather 32u4 Bluefruit LE" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0402MP" value="0.1uF"/>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R10" library="Adafruit Feather 32u4 Bluefruit LE" deviceset="MICROBUILDER_RESISTOR" device="_0402MP" value="10K"/>
+<part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6583,7 +6585,7 @@ Relative Humidity</text>
 <text x="132.08" y="-25.4" size="2.54" layer="94" font="vector">USB + FTDI</text>
 <text x="88.9" y="55.88" size="1.778" layer="97">0x5A</text>
 <text x="220.98" y="104.14" size="1.778" layer="97">0x77</text>
-<text x="257.556" y="-102.362" size="2.54" layer="94" font="vector" ratio="10">0.56</text>
+<text x="257.556" y="-102.362" size="2.54" layer="94" font="vector" ratio="10">0.56b</text>
 <text x="248.666" y="-87.122" size="2.54" layer="94" font="vector" ratio="10">github.crtlabs.org</text>
 <text x="157.48" y="101.6" size="1.778" layer="97">0x29</text>
 <text x="139.7" y="78.74" size="2.54" layer="94" font="vector">RGB LED</text>
@@ -6758,6 +6760,8 @@ Relative Humidity</text>
 <instance part="C5" gate="G$1" x="38.1" y="-71.12" rot="R180"/>
 <instance part="SUPPLY17" gate="G$1" x="38.1" y="-66.04"/>
 <instance part="GND13" gate="1" x="38.1" y="-81.28"/>
+<instance part="R10" gate="G$1" x="101.6" y="99.06" rot="R90"/>
+<instance part="SUPPLY18" gate="G$1" x="111.76" y="96.52"/>
 </instances>
 <busses>
 </busses>
@@ -7110,6 +7114,12 @@ Relative Humidity</text>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
 <wire x1="38.1" y1="-68.58" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="93.98" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -7650,9 +7660,12 @@ Relative Humidity</text>
 <label x="20.32" y="-91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U12" gate="G$1" pin="PWM"/>
-<wire x1="292.1" y1="116.84" x2="297.18" y2="116.84" width="0.1524" layer="91"/>
-<label x="294.64" y="116.84" size="1.778" layer="95"/>
+<pinref part="U7" gate="G$1" pin="SET"/>
+<label x="104.14" y="104.14" size="1.778" layer="95"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="104.14" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
+<junction x="101.6" y="104.14"/>
 </segment>
 </net>
 <net name="N$1" class="0">
