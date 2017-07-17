@@ -1,4 +1,4 @@
-// v0.56 - 7/11/2017
+// v0.56 - 7/13/2017
 // Developed by Akram Ali
 
 // www.crtlabs.org
@@ -254,7 +254,6 @@ void readSensors()
 
   // CCS811 VOC readings
   ccs811_sensor.begin(uint8_t(ADDR), uint8_t(WAKE_PIN));
-  delay(1);
   ccs811_sensor.compensate(temp, rh);  // environmental compensation for current temperature and humidity
   ccs811_sensor.getData();
   tvoc = ccs811_sensor.readTVOC();

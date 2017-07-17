@@ -6388,14 +6388,18 @@ github.com/akstudios</description>
 <library name="VLP-450-F">
 <packages>
 <package name="VLP-450-F">
-<circle x="0" y="0" radius="0.3048" width="0.1016" layer="20"/>
+<circle x="0" y="0" radius="0.315" width="0.1016" layer="20"/>
 <wire x1="0.3048" y1="0.3048" x2="0.3048" y2="3.8048" width="0.1016" layer="21"/>
 <wire x1="0.3048" y1="3.8048" x2="3.8048" y2="3.8048" width="0.1016" layer="21"/>
 <wire x1="3.8048" y1="0.3048" x2="3.8048" y2="3.8048" width="0.1016" layer="21"/>
 <wire x1="0.3048" y1="0.3048" x2="3.8048" y2="0.3048" width="0.1016" layer="21"/>
-<circle x="4.1" y="4.1" radius="0.3048" width="0.1016" layer="20"/>
-<text x="0.762" y="4.318" size="0.6096" layer="21" font="vector">&gt;NAME</text>
-<text x="0.508" y="-1.016" size="0.6096" layer="21" font="vector">&gt;VALUE</text>
+<circle x="4.1" y="4.1" radius="0.315" width="0.1016" layer="20"/>
+<text x="-0.338" y="4.818" size="0.6096" layer="21" font="vector">&gt;NAME</text>
+<text x="1.308" y="-1.316" size="0.6096" layer="21" font="vector">&gt;VALUE</text>
+<wire x1="-0.4" y1="0.4" x2="-0.4" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="4.5" x2="3.7" y2="4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="3.7" x2="4.5" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-0.4" x2="0.4" y2="-0.4" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
