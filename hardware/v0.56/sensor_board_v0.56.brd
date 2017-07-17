@@ -2025,7 +2025,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$3" library="adafruit" package="FIDUCIAL_1MM" value="FIDUCIAL" x="48.26" y="38.1"/>
 <element name="U10" library="TSL2591" package="DFN6_TAOS" value="TSL2591" x="25.4" y="2.6924" smashed="yes" rot="R180">
 <attribute name="MPN" value="TSL25911FN " x="25.4" y="2.6924" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.638" y="4.7736" size="0.6096" layer="121" font="vector"/>
+<attribute name="NAME" x="24.638" y="5.434" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="1X02" value="" x="2.032" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.032" y="45.6184" size="0.6096" layer="121" font="vector" rot="R180" align="bottom-center"/>
@@ -2143,7 +2143,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="46.7868" y="21.2852" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="U1" library="NeoPixel Nano 2427" package="SK6805-2427" value="NEOPIXEL_NANO_2427" x="24.1046" y="24.1046" smashed="yes">
-<attribute name="NAME" x="28.1686" y="24.9174" size="0.6096" layer="121" font="vector" rot="R90"/>
+<attribute name="NAME" x="28.829" y="24.8666" size="0.6096" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="C18" library="Adafruit Feather 32u4 Bluefruit LE" package="MICROBUILDER__0402MP" value="1uF" x="24.9936" y="21.6662" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.8318" y="20.9867" size="0.6096" layer="121" font="vector" rot="R180"/>
@@ -2179,10 +2179,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="41.783" y="0.8573" size="0.6096" layer="121" font="vector"/>
 </element>
 <element name="U15" library="VLP-450-F" package="VLP-450-F" value="VLP-450-F" x="23.368" y="23.2664" smashed="yes">
-<attribute name="NAME" x="23.2664" y="24.5872" size="0.6096" layer="121" font="vector" rot="R90"/>
+<attribute name="NAME" x="22.733" y="24.5872" size="0.6096" layer="121" font="vector" rot="R90"/>
 </element>
 <element name="U16" library="VLP-450-F" package="VLP-450-F" value="VLP-450-F" x="23.3172" y="4.7752" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.4828" y="3.81" size="0.6096" layer="121" font="vector" rot="R270"/>
+<attribute name="NAME" x="28.194" y="3.7846" size="0.6096" layer="121" font="vector" rot="R270"/>
 </element>
 <element name="C5" library="Adafruit Feather 32u4 Bluefruit LE" package="MICROBUILDER__0402MP" value="0.1uF" x="18.9484" y="35.052" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.5517" y="35.6362" size="0.6096" layer="121" font="vector" rot="R270"/>
@@ -2994,15 +2994,13 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="27.3304" y="43.942"/>
 <vertex x="26.5684" y="43.942"/>
 </polygon>
-<wire x1="17.4752" y1="47.9044" x2="24.892" y2="47.9044" width="0.254" layer="16"/>
 <wire x1="26.9748" y1="45.0088" x2="26.9748" y2="45.8216" width="0.254" layer="16"/>
 <wire x1="26.9748" y1="45.8216" x2="24.892" y2="47.9044" width="0.254" layer="16"/>
 <wire x1="15.3232" y1="45.021" x2="15.3232" y2="46.2464" width="0.254" layer="1"/>
 <wire x1="15.3232" y1="46.2464" x2="15.3162" y2="46.2534" width="0.254" layer="1"/>
-<wire x1="16.256" y1="47.9044" x2="19.5326" y2="47.9044" width="0.254" layer="16"/>
-<wire x1="15.3162" y1="46.2534" x2="15.3162" y2="46.9646" width="0.254" layer="16"/>
-<wire x1="15.3162" y1="46.9646" x2="16.256" y2="47.9044" width="0.254" layer="16"/>
-<wire x1="17.4752" y1="47.9044" x2="16.256" y2="47.9044" width="0" layer="19" extent="16-16"/>
+<wire x1="15.3162" y1="46.9646" x2="15.3162" y2="46.2534" width="0.254" layer="16"/>
+<wire x1="24.892" y1="47.9044" x2="16.256" y2="47.9044" width="0.254" layer="16"/>
+<wire x1="16.256" y1="47.9044" x2="15.3162" y2="46.9646" width="0.254" layer="16"/>
 </signal>
 <signal name="N$32">
 <contactref element="J3" pad="D-"/>
@@ -3222,18 +3220,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="42.4478" y1="21.7094" x2="45.2196" y2="21.7094" width="1.016" layer="1"/>
 <wire x1="45.2196" y1="21.7094" x2="47.625" y2="19.304" width="1.016" layer="1" curve="-90"/>
 </signal>
-<signal name="N$8">
-<contactref element="U$4" pad="P$3"/>
-</signal>
-<signal name="N$12">
-<contactref element="U$4" pad="P$4"/>
-</signal>
-<signal name="N$14">
-<contactref element="U$5" pad="P$1"/>
-</signal>
-<signal name="N$19">
-<contactref element="U$5" pad="P$4"/>
-</signal>
 </signals>
 <errors>
 <approved hash="6,1,3654321226122254"/>
@@ -3259,6 +3245,10 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="1,20,09ca87b887f9098b"/>
 <approved hash="1,20,56fa088808f55687"/>
 <approved hash="1,20,097abb08bb170965"/>
+<approved hash="1,20,6f6a1918191f6f6d"/>
+<approved hash="1,20,667a08080be8659a"/>
+<approved hash="1,20,7a7a08080709757b"/>
+<approved hash="6,1,3c76207c187c0476"/>
 <approved hash="3,1,eb709748968feab7"/>
 <approved hash="1,20,6a7a080809ea6b98"/>
 <approved hash="1,20,6e7a180819096f7b"/>
@@ -3320,10 +3310,7 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="1,20,667a0808093b6749"/>
 <approved hash="1,20,6bfa098809386b4a"/>
 <approved hash="1,20,6a8a18f81739654b"/>
-<approved hash="1,20,6f6a1918191f6f6d"/>
 <approved hash="3,1,e7b82e4a2f95e667"/>
-<approved hash="1,20,667a08080be8659a"/>
-<approved hash="1,20,7a7a08080709757b"/>
 <approved hash="1,20,5a0a087809395b4b"/>
 <approved hash="1,20,6f8a19f8193d6f4f"/>
 <approved hash="1,20,4a0a787879394b4b"/>
@@ -3338,8 +3325,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="1,20,4e0a7878793f4f4d"/>
 <approved hash="19,1,58d334ab3574590c"/>
 <approved hash="6,1,1e29b641422680be"/>
-<approved hash="6,1,83ecad2d9c150b2c"/>
 <approved hash="6,1,992a81f789372812"/>
+<approved hash="6,1,83ecad2d9c150b2c"/>
 <approved hash="6,1,af11dea939c27c19"/>
 <approved hash="6,1,e17be0b859d09f28"/>
 <approved hash="6,1,e17be0b859d09f28"/>
@@ -3349,7 +3336,7 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="4,1,22c5f54a1adcc1d2"/>
 <approved hash="4,1,d8eafbcf882e4cbc"/>
 <approved hash="6,1,ba0b847f807fbe0b"/>
-<approved hash="6,1,3c76207c187c0476"/>
+<approved hash="6,1,25f725fa20fa20f7"/>
 <approved hash="6,1,591a512275227d1a"/>
 </errors>
 </board>
