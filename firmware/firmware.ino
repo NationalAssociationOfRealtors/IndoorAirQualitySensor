@@ -1,4 +1,4 @@
-// v0.56 - 7/13/2017
+// v0.56 - 7/20/2017
 // Developed by Akram Ali
 
 // www.crtlabs.org
@@ -83,6 +83,9 @@ void setup()
 
   Serial.begin(115200);
   Serial.println("Setup");
+
+  ccs811_sensor.begin(uint8_t(ADDR), uint8_t(WAKE_PIN));  // initialize CCS811 sensor
+  
   mySerial.begin(9600);   // initialize MHz-19 in UART mode
   mySerial2.begin(9600);   // initialize PMS7003 in UART mode
 
@@ -253,7 +256,6 @@ void readSensors()
 
 
   // CCS811 VOC readings
-  ccs811_sensor.begin(uint8_t(ADDR), uint8_t(WAKE_PIN));
   ccs811_sensor.compensate(temp, rh);  // environmental compensation for current temperature and humidity
   ccs811_sensor.getData();
   tvoc = ccs811_sensor.readTVOC();
